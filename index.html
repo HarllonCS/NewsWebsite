@@ -12,42 +12,46 @@
 <body>
     <header> <!-- header -->
         <nav class="navbar navbar-expand-lg"> <!-- Navigation menu -->
-            <div class="container-fluid">
+            <div class="container-fluid mx-lg-5 py-lg-3">
                 <!-- Title of the site -->
-                <a href="./index.html" class="navbar-brand fs-3 text-capitalize">news website</a>
+                <a id="title" href="./index.html" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
                                 
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
+                <button type="button" id="responsive-btn" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
                     <span class="navbar-toggler-icon"></span>
                 </button> <!-- /end Responsive button -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
-                    <ul class="navbar-nav ms-auto fs-5">
+                    <ul class="navbar-nav ms-auto text-capitalize">
                         <li class="nav-item">
-                            <a href="./index.html" class="nav-link active" aria-current="page">Home</a>
+                            <a href="./index.html" class="nav-link text-white active" aria-current="page">Home</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">option 2</a>
+                        <li class="nav-item ms-lg-3">
+                            <a href="#" class="nav-link text-white">option 2</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">option 3</a>
+                        <li class="nav-item ms-lg-3">
+                            <a href="#" class="nav-link text-white">option 3</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">option 4</a>
+                        <li class="nav-item ms-lg-3">
+                            <a href="#" class="nav-link text-white">option 4</a>
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
             </div>
-        </nav> <!-- /end navigation menu -->
+        </nav> <!-- /end Navigation menu -->
 
         <section>
-            <h1 class="text-uppercase text-center mx-auto w-50 my-lg-5">Put your e-mail to receive notices</h1>
+            <!-- Text for user -->
+            <h1 class="text-uppercase text-center mx-auto my-lg-5">Put your e-mail to receive the news</h1>
 
             <form method="get">
-                <input type="email" class="form-control w-25 mx-auto" placeholder="exemple@email.com" required>
-                <button type="submit" class="btn fs-5 text-uppercase mx-auto d-block mt-5 btn-warning">Send e-mail</button>
+                <!-- Email input -->
+                <input type="email" class="form-control mx-auto text-center" placeholder="exemple@email.com" required> <!-- /end Email input -->
+                <!-- Form button -->
+                <button type="submit" id="form-btn" class="btn text-uppercase fw-bold text-white mx-auto d-block mt-5 rounded-pill btn-warning">Send e-mail</button>
+                <!-- /end Form button -->
             </form>
         </section>
     </header> <!-- /end header -->

@@ -1,0 +1,39 @@
+header {
+    background-color: #f6ecc8;
+    padding-bottom: 1vw;
+}
+
+nav {background-color: #fb7d6f;}
+
+#responsive-btn {background-color: #fc4450;}
+
+#title {font-size: 1.8vw;}
+
+ul {font-size: 1.1vw;}
+
+li a {padding-bottom: 0;}
+
+li a:hover {border-bottom: 1px solid white;}
+
+.active {
+    border-bottom: 2px solid white;
+    cursor: auto;
+}
+
+.active:hover {border-width: 2px;}
+
+h1 {
+    font-size: 2.5vw;
+    width: 30%;
+}
+
+input[type='email'] {
+    font-size: 1.2vw;
+    padding: .5vw 0;
+    width: 25vw;
+}
+
+#form-btn {
+    font-size: 1.2vw;
+    padding: .4vw 2.8vw;
+}
