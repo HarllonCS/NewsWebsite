@@ -1,16 +1,3 @@
-header {
-    background-color: #f6ecc8;
-    padding-bottom: 1vw;
-}
-
-nav {background-color: #fb7d6f;}
-
-#responsive-btn {background-color: #fc4450;}
-
-#title {font-size: 1.8vw;}
-
-ul {font-size: 1.1vw;}
-
 li a {padding-bottom: 0;}
 
 li a:hover {border-bottom: 1px solid white;}
@@ -41,6 +28,10 @@ input[type='email'] {
 main .row {margin: 4vw 0;}
 
 main .card {padding: .5vw;}
+
+.card a {text-decoration: none;}
+
+.card a:hover {text-decoration: underline;}
 
 .col-6 {width: 760px;}
 
