@@ -24,7 +24,7 @@ li a:hover {border-bottom: 1px solid white;}
 
 h1 {
     font-size: 2.5vw;
-    width: 30%;
+    width: 35vw;
 }
 
 input[type='email'] {
@@ -37,3 +37,7 @@ input[type='email'] {
     font-size: 1.2vw;
     padding: .4vw 2.8vw;
 }
+
+.card {width: 380px;}
+
+.card-img-top {padding: .6vw;}
