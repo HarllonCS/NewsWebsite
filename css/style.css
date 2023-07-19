@@ -38,6 +38,8 @@ input[type='email'] {
     padding: .4vw 2.8vw;
 }
 
-.card {width: 380px;}
+main .row {margin: 4vw 0;}
 
-.card-img-top {padding: .6vw;}
+main .card {padding: .5vw;}
+
+.col-middle {margin: 0 3vw;}
