@@ -7,7 +7,10 @@
     <title>News Website | Home</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header> <!-- header -->
@@ -57,7 +60,7 @@
     </header> <!-- /end header -->
 
     <main role="main" class="container mt-5"> <!-- Main content -->
-        <div class="row"> <!-- Cards -->
+        <div class="row" data-aos="fade-up" data-aos-duration="1000"> <!-- Cards -->
             <div class="card col-2">
                 <img src="https://picsum.photos/1/?random=1" class="card-img-top rounded" alt="Image 1">
 
@@ -96,8 +99,8 @@
         </div>
         
         <div class="row">
-            <div class="card col-6">
-                <img src="https://picsum.photos/1/?random=4" class="card-img-top" style="height: 10vw;" alt="Image 4">
+            <div class="card col-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <img src="https://picsum.photos/1/?random=4" class="card-img-top rounded" style="height: 10vw;" alt="Image 4">
 
                 <div class="card-body">
                     <h5 class="card-title">News 5</h5>
@@ -108,8 +111,8 @@
                 </div>
             </div>
 
-            <div class="card col-2 col-middle">
-                <img src="https://picsum.photos/1/?random=5" class="card-img-top" alt="Image 5">
+            <div class="card col-2 col-middle" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1200">
+                <img src="https://picsum.photos/1/?random=5" class="card-img-top rounded" alt="Image 5">
 
                 <div class="card-body">
                     <h5 class="card-title">News 5</h5>
@@ -120,8 +123,8 @@
                 </div>
             </div>
 
-            <div class="card col-2">
-                <img src="https://picsum.photos/1/?random=6" class="card-img-top" alt="Image 6">
+            <div class="card col-2" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1400">
+                <img src="https://picsum.photos/1/?random=6" class="card-img-top rounded" alt="Image 6">
 
                 <div class="card-body">
                     <h5 class="card-title">News 6</h5>
@@ -134,8 +137,8 @@
         </div>
 
         <div class="row">
-            <div class="card col-2">
-                <img src="https://picsum.photos/1/?random=7" class="card-img-top" alt="Image 7">
+            <div class="card col-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <img src="https://picsum.photos/1/?random=7" class="card-img-top rounded" alt="Image 7">
 
                 <div class="card-body">
                     <h5 class="card-title">News 7</h5>
@@ -146,8 +149,8 @@
                 </div>
             </div>
 
-            <div class="card col-2 col-middle">
-                <img src="https://picsum.photos/1/?random=8" class="card-img-top" alt="Image 8">
+            <div class="card col-2 col-middle" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1200">
+                <img src="https://picsum.photos/1/?random=8" class="card-img-top rounded" alt="Image 8">
 
                 <div class="card-body">
                     <h5 class="card-title">News 8</h5>
@@ -158,8 +161,8 @@
                 </div>
             </div>
 
-            <div class="card col-6">
-                <img src="https://picsum.photos/1/?random=9" class="card-img-top" style="height: 10vw;" alt="Image 9">
+            <div class="card col-6" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1400">
+                <img src="https://picsum.photos/1/?random=9" class="card-img-top rounded" style="height: 10vw;" alt="Image 9">
 
                 <div class="card-body">
                     <h5 class="card-title">News 9</h5>
@@ -173,5 +176,6 @@
     </main> <!-- /end Main content -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>AOS.init()</script>
 </body>
 </html>

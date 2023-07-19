@@ -42,4 +42,6 @@ main .row {margin: 4vw 0;}
 
 main .card {padding: .5vw;}
 
-.col-middle {margin: 0 3vw;}
+.col-6 {width: 760px;}
+
+.col-middle {margin: 0 auto;}
