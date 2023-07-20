@@ -1,0 +1,1 @@
+function changeLang(value) {location.assign(`../${value}/index.html`)}
