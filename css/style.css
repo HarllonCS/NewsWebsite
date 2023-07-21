@@ -4,15 +4,6 @@ li a:hover {border-bottom: 1px solid white;}
 
 li select {cursor: pointer;}
 
-/* option {color: black;} */
-
-.active {
-    border-bottom: 2px solid white;
-    cursor: auto;
-}
-
-.active:hover {border-width: 2px;}
-
 h1 {
     font-size: 2.5vw;
     width: 35vw;

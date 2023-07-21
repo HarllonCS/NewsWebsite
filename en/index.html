@@ -26,7 +26,7 @@
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
                     <ul class="navbar-nav ms-auto text-capitalize" style="font-size: 1.1vw;">
                         <li class="nav-item ms-lg-3">
-                            <select class="form-select bg-transparent text-white fw-bold border-0" onchange="changeLang(this.value)">
+                            <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
                                 <option class="text-black" value="pt-br">Português (Brasil)</option>
                                 <option class="text-black" value="en" selected>English</option>
                                 <option class="text-black" value="es">Español</option>
@@ -42,11 +42,11 @@
         </nav> <!-- /end Navigation menu -->
     </header> <!-- /end header -->
 
-    <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="saticBackdropLabel" aria-hidden="true">
+    <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 id="staticBackdropLabel" class="modal-title fs-4 text-uppercase text-center fw-bold">Login</h1>
+                    <h1 id="loginLabel" class="modal-title fs-4 text-uppercase text-center fw-bold">Login</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
 
@@ -54,15 +54,15 @@
                     <form action="" method="get">
                         <div class="mb-3">
                             <label for="email" class="form-label">E-mail</label>
-                            <input type="email" id="email" class="form-control">
+                            <input type="email" id="email" class="form-control" required>
                         </div>
 
                         <div class="mb-5">
                             <label for="pass" class="form-label">Password</label>
-                            <input type="password" id="pass" class="form-control">
+                            <input type="password" id="pass" class="form-control" required minlength="6">
                         </div>
 
-                        <button type="submit" class="btn btn-success w-100 fs-4">Sign in</button>
+                        <button type="submit" class="btn btn-success w-100 fs-5 text-uppercase">Sign in</button>
                     </form>
                 </div>
             </div>
@@ -93,7 +93,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto dicta commodi. Excepturi nam doloremque cupiditate sed? Unde quaerat consequatur ratione id eius quod, exercitationem voluptatem quasi, officiis itaque harum?</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illo mollitia porro, tenetur ipsum itaque ratione eius eos cupiditate. Temporibus quidem totam esse cum quis aspernatur, consequatur ad quaerat magni?</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores totam debitis dolorem itaque voluptas ad, eaque deserunt dolor aliquam, deleniti omnis perspiciatis voluptatum veniam corrupti vitae maiores tenetur corporis.</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim possimus aliquam consequuntur, quisquam error exercitationem quia, commodi alias eveniet harum vero! Odit atque incidunt ratione libero assumenda porro, natus sint?</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
 
@@ -143,7 +143,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem illum laboriosam minima modi amet repudiandae, reiciendis ipsam deserunt debitis nam architecto exercitationem fugit, molestias, praesentium laudantium excepturi deleniti error tenetur.</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
 
@@ -155,7 +155,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem illum laboriosam minima modi amet repudiandae, reiciendis ipsam deserunt debitis nam architecto exercitationem fugit, molestias, praesentium laudantium excepturi deleniti error tenetur.</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, sapiente et nihil illo cumque recusandae sunt! Nobis eveniet, nesciunt distinctio est exercitationem voluptatum labore vitae maxime provident ratione amet dolorem?</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
 
@@ -181,7 +181,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptas odit vel dignissimos a praesentium reprehenderit impedit? Ullam, molestias? Laborum, tempora ea sed vel quibusdam est magni facilis repellat doloribus!</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
 
@@ -193,7 +193,7 @@
 
                         <p class="card-text text-truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, aut quam esse, nihil nemo labore eos delectus fugit, nostrum facilis illo! Atque quia numquam sequi consectetur, porro earum doloribus at.</p>
 
-                        <a href="#" class="card-link">Read more...</a>
+                        <a href="./news.html" class="card-link">Read more...</a>
                     </div>
                 </div>
             </div>
