@@ -39,47 +39,132 @@
         </nav> <!-- /end Navigation menu -->
     </header> <!-- /end header -->
 
+    <!-- Login screen -->
     <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header"> <!-- Login header -->
                     <h1 id="loginLabel" class="modal-title fs-4 text-uppercase text-center fw-bold">Login</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> <!-- /end Login header -->
 
-                <div class="modal-body">
+                <div class="modal-body"> <!-- Login body -->
                     <form action="" method="get">
-                        <div class="mb-3">
+                        <div class="mb-3"> <!-- User email -->
                             <label for="email" class="form-label">E-mail</label>
                             <input type="email" id="email" class="form-control" required>
-                        </div>
+                        </div> <!-- /end User email -->
 
-                        <div class="mb-5">
+                        <div class="mb-5"> <!-- User password -->
                             <label for="pass" class="form-label">Password</label>
                             <input type="password" id="pass" class="form-control" required minlength="6">
-                        </div>
+                        </div> <!-- /end User password -->
 
+                        <!-- Login Button -->
                         <button type="submit" class="btn btn-success w-100 fs-5 text-uppercase">Sign in</button>
+                        <!-- /end Login Button -->
                     </form>
-                </div>
+                </div> <!-- /end Login body -->
             </div>
         </div>
-    </div>
+    </div> <!-- /end Login screen -->
 
-    <main role="main" class="border border-danger row container mt-5 mx-auto">
-        <article class="col-10" style="padding-left: 0;">
-            <img src="https://picsum.photos/1" style="width: 50%;" alt="">
+    <!-- Main content -->
+    <main role="main" id="newsText" class="border rounded row my-5 mx-auto p-3 justify-content-between" style="width: 80vw;">
+        <!-- News content -->
+        <article class="col-10 border-end" style="padding: 0 1.5vw 0 0;">
+            <figure class="figure w-100">
+                <img src="https://picsum.photos/1?random=1" class="figure-img img-fluid w-100 rounded" style="height: 25vw;">
+
+                <figcaption class="figure-caption ms-2">Figure 1</figcaption>
+            </figure>
             
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eius, a esse excepturi consequuntur soluta quidem cumque aliquid, corrupti est reprehenderit ducimus nesciunt alias animi inventore, impedit recusandae atque mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque corporis libero cum expedita laudantium sint id quae esse molestias saepe voluptatum eligendi suscipit, doloribus labore nemo provident? Dicta, sed! Voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum facilis veritatis velit. Eligendi, reprehenderit eveniet fugit dolores fuga nulla. Dolore delectus reprehenderit a sequi dignissimos labore provident corrupti iste.
-            </p>
+            <div class="mt-3 px-2">
+                <h1 class="h1">Title 1</h1>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum dolores dicta nemo rem omnis ea, delectus itaque quia hic rerum. Vero quae provident itaque nemo voluptatibus at incidunt ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur, minus nulla aspernatur possimus architecto cumque pariatur voluptate unde quae at sit ad quaerat delectus, labore molestiae ullam consectetur laborum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos sed repudiandae voluptatum itaque hic, quas neque facere nisi quibusdam voluptate esse quasi omnis. Quod dolorem magni hic? Vel, ea repellat.
-            </p>
-        </article>
-        <aside class="col-2"></aside>
-    </main>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eius, a esse excepturi consequuntur soluta quidem cumque aliquid, corrupti est reprehenderit ducimus nesciunt alias animi inventore, impedit recusandae atque mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque corporis libero cum expedita laudantium sint id quae esse molestias saepe voluptatum eligendi suscipit, doloribus labore nemo provident? Dicta, sed! Voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum facilis veritatis velit. Eligendi, reprehenderit eveniet fugit dolores fuga nulla. Dolore delectus reprehenderit a sequi dignissimos labore provident corrupti iste.
+                </p>
+
+                <h2 class="h2">Title 2</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum dolores dicta nemo rem omnis ea, delectus itaque quia hic rerum. Vero quae provident itaque nemo voluptatibus at incidunt ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur, minus nulla aspernatur possimus architecto cumque pariatur voluptate unde quae at sit ad quaerat delectus, labore molestiae ullam consectetur laborum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos sed repudiandae voluptatum itaque hic, quas neque facere nisi quibusdam voluptate esse quasi omnis. Quod dolorem magni hic? Vel, ea repellat.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat nihil pariatur voluptatem ratione at iure sint temporibus iusto tempora fuga sequi nam unde, repellat autem nostrum vel possimus non error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at culpa tempora dolore adipisci, natus quasi error aperiam sapiente reiciendis! Quos nesciunt dignissimos, consequatur autem veniam possimus accusantium optio aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fuga repellat voluptatibus! Eveniet ut voluptas autem porro vel aut tempore dignissimos, ex recusandae corporis fugiat aliquid accusamus beatae velit enim.
+                </p>
+
+                <h2 class="h2">Title 3</h2>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut porro exercitationem, id magnam nobis ab? Excepturi ipsam porro sunt expedita dolorem? In nobis magni, mollitia molestiae magnam optio unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus delectus eos in velit aliquid rem non iusto sint, fugiat alias est natus, error iste, necessitatibus consequuntur quis doloribus iure quo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat beatae libero dolore nam a cumque at doloribus quas nobis commodi praesentium voluptatum ex, quisquam rerum accusamus repudiandae nisi perspiciatis ut!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, numquam? Totam non atque iusto voluptatum aliquid adipisci soluta illo, ut similique, sequi, accusantium ipsa quibusdam maiores qui harum dignissimos omnis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id alias corrupti esse eaque possimus voluptatum eveniet blanditiis, error, porro consectetur placeat. Perferendis nesciunt in quas eos, rem officiis impedit laboriosam!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus exercitationem fugit ullam consectetur, quos fuga eos facere ab mollitia consequatur culpa architecto, possimus rem, corporis nam totam. Provident, neque omnis.
+                </p>
+            </div>
+        </article> <!-- /end News content -->
+
+        <!-- Related news -->
+        <aside class="col-2" style="padding: 0 0 0 1.5vw;">
+            <p class="text-capitalize fw-bold fs-5 text-center">related news</p>
+
+            <a href="./news.html" class="row border">
+                <figure class="figure col-4 p-0 mb-0">
+                    <img src="https://picsum.photos/1?random=2" class="figure-img w-100 m-0 rounded-circle">
+                </figure>
+                
+                <p class="col-8 mt-2 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </a>
+
+            <a href="./news.html" class="row border">
+                <figure class="figure col-4 p-0 mb-0">
+                    <img src="https://picsum.photos/1?random=3" class="figure-img w-100 m-0 rounded-circle">
+                </figure>
+                
+                <p class="col-8 mt-2 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto</p>
+            </a>
+
+            <a href="./news.html" class="row border">
+                <figure class="figure col-4 p-0 mb-0">
+                    <img src="https://picsum.photos/1?random=4" class="figure-img w-100 m-0 rounded-circle">
+                </figure>
+                
+                <p class="col-8 mt-2 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </a>
+
+            <a href="./news.html" class="row border">
+                <figure class="figure col-4 p-0 mb-0">
+                    <img src="https://picsum.photos/1?random=5" class="figure-img w-100 m-0 rounded-circle">
+                </figure>
+                
+                <p class="col-8 mt-2 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </a>
+
+            <a href="./news.html" class="row border">
+                <figure class="figure col-4 p-0 mb-0">
+                    <img src="https://picsum.photos/1?random=6" class="figure-img w-100 m-0 rounded-circle">
+                </figure>
+                
+                <p class="col-8 mt-2 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </a>
+
+            <a href="./news.html" class="row border">
+                <figure class="figure col-4 p-0 mb-0">
+                    <img src="https://picsum.photos/1?random=7" class="figure-img w-100 m-0 rounded-circle">
+                </figure>
+                
+                <p class="col-8 mt-2 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </a>
+        </aside> <!-- /end related news -->
+    </main> <!-- /end Main content -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="../js/script.js"></script>

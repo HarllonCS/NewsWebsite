@@ -23,5 +23,8 @@ The email field and submit button are available to the user.
 ## Main Section
 The most relevant news will appear right away on the Landing Page under the header (aos.js animations will be triggered when scrolling).
 
-## Login and Register
+## Login 
+The user can log in by clicking on the button in the upper right corner. There, a screen with email and password fields will appear in the middle of the screen.
+
+## Register
 (In progress...)
