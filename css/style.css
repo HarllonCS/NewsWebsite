@@ -5,6 +5,7 @@ li select {cursor: pointer;}
 h1 {
     font-size: 2.5vw;
     width: 35vw;
+    line-height: 4vw;
 }
 
 /* email field in index */
