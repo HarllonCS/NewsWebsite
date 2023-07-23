@@ -1,157 +1,52 @@
-* {
-    margin: 0;
-    padding: 0;
+/* header li */
+li select {cursor: pointer;}
+
+/* Big text in index page */
+h1 {
+    font-size: 2.5vw;
+    width: 35vw;
 }
 
-/* Body */
-body {
-    background-color: #f6ecc8;
-    font-family: Arial, sans-serif;
+/* email field in index */
+section input[type='email'] {
+    font-size: 1.2vw;
+    padding: .5vw 0;
+    width: 25vw;
 }
 
-/* All links */
-a {text-decoration: none;}
-
-/* Set the color of the background and font */
-header,
-header button,
-footer {
-    background-color: #fb7d6f;
-    color: #f5f5f5;
-}
-
-/* Set display to "block" */
-.card img,
-aside a {display: block;}
-
-/* Container */
-#container-index {
-    background-color: #f5f5f5;
-    width: 75%;
-    margin: 10px auto 0 auto;
-    border: 3px solid #fb7d6f;
-}
-
-/* Header */
-#container-index header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 20px;
-}
-
-#container-index header a {color: #f5f5f5;}
-
-/* Logo */
-#container-index header a.logo {
-    font-size: 40px;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-/* Menu options */
-header li {
-    display: inline-block;
-    text-transform: capitalize;
-    font-size: 18px;
-    margin-top: 2.5%;
-}
-
-header li.ativo,
-header li.list-item:hover {
-    border-bottom: 1px solid #f5f5f5;
-    padding-bottom: 2px;
-}
-
-header li.list-item {margin-left: 20px;}
-
-/* Login button */
-header button {
-    margin-left: 30px;
-    font-size: 18px;
-    padding: 7px 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: #fc4450;
-    transition: background-color .4s;
-}
-
-header button:hover {background-color: #ec3f4b;}
-
-section,
-aside {margin: 25px 0;}
-
-/* Main section */
-section {
-    border-right: 1px solid #fc4450;
-    width: 65%;
-    float: left;
-}
-
-.column {
-    display: flex;
-    justify-content: space-between;
+/* button "send e-mail" */
+#index-btn {
+    font-size: 1.2vw;
+    padding: .4vw 2.8vw;
 }
 
 /* Cards */
-.card {
-    width: 48%;
-    margin: 0 5px 20px 5px;
+#newsCards .row {margin: 4vw 0;}
+
+.card {padding: .5vw;}
+
+.card a, aside a {text-decoration: none;}
+
+.card a:hover {text-decoration: underline;}
+
+.col-6 {width: 48vw;}
+
+/* NEW PAGE */
+/* Main content */
+#newsText {box-shadow: 0 5px 15px 4px #00000059;}
+
+/* Aside content */
+aside .row {
+    margin: 0 0 1.3vw 0;
+    padding: .5vw 0 .4vw .6vw;
+    border-radius: .5vw;
+    box-shadow: 0 5px 10px #0000002f;
+    transition: .3s;
 }
 
-.card img {
-    margin: 0 auto;
-    border: 1px solid #c4c4c4;
-    padding: 6px;
-    width: 70%;
-}
+aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
 
-.card h3 {
-    text-align: center;
-    font-size: 20px;
-    margin: 12px 0;
-}
-
-.card p {
-    margin-bottom: 15px;
-    font-size: 16px;
-    padding: 0 5px;
-}
-
-.card a {
-    padding-left: 5px;
-    font-size: 15px;
-    color: #fc4450;
-}
-
-.card a:hover {
-    color: #fb7d6f;
-    text-decoration: underline;
-}
-
-/* Side section */
-aside {
-    width: 30%;
-    float: right;
-}
-
-aside a {
+aside a p {
+    font-size: .65vw;
     color: black;
-    font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 20px;
-    transition: .4s;
-}
-
-aside a:hover {color: #fc4450;}
-
-/* Footer */
-footer {
-    clear: both;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 15px 0;
 }
