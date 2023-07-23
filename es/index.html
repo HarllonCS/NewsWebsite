@@ -14,18 +14,18 @@
 </head>
 <body>
     <header class="sticky-top"> <!-- header -->
-        <nav class="navbar navbar-expand-lg px-5" style="background-color: #fb7d6f;"> <!-- Navigation menu -->
-            <div class="container-fluid mx-lg-5">
+        <nav class="navbar navbar-expand-lg px-5"> <!-- Navigation menu -->
+            <div class="container-fluid">
                 <!-- Title of the site -->
-                <a href="./index.html" style="font-size: 1.8vw;" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
+                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
                                 
-                <button type="button" style="background-color: #fc4450;" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
                     <span class="navbar-toggler-icon"></span>
                 </button> <!-- /end Responsive button -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
-                    <ul class="navbar-nav ms-auto text-capitalize" style="font-size: 1.1vw;">
-                        <li class="nav-item ms-lg-3">
+                    <ul class="navbar-nav ms-auto text-capitalize">
+                        <li class="nav-item">
                             <select class="form-select bg-transparent text-white fw-bold border-0" onchange="changeLang(this.value, './index')">
                                 <option class="text-black" value="pt-br">Português (Brasil)</option>
                                 <option class="text-black" value="en">English</option>
@@ -33,7 +33,7 @@
                             </select>
                         </li>
 
-                        <li class="nav-item ms-lg-3">
+                        <li class="nav-item ms-5">
                             <button class="btn btn-danger fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
                         </li>
                     </ul>
@@ -73,10 +73,9 @@
     </div> <!-- /end Login screen -->
 
     <main role="main" id="newsCards"> <!-- Main content -->
-        <!-- Banner -->
-        <section class="py-4" style="background-color: #f6ecc8;">
+        <section id="secForm" class="py-4">
             <!-- Text for user -->
-            <h1 class="text-uppercase text-center mx-auto">Recibe las noticias y mantente al día</h1>
+            <h1 class="text-uppercase text-center mx-auto fw-bold">Recibe las noticias y mantente al día</h1>
     
             <form method="get">
                 <!-- Email input -->
@@ -85,9 +84,9 @@
                 <button type="submit" id="index-btn" class="btn text-uppercase fw-bold text-white mx-auto d-block mt-5 rounded-pill btn-warning">Enviar E-mail</button>
                 <!-- /end Form button -->
             </form>
-        </section> <!-- /end Banner -->
+        </section>
 
-        <section class="container"> <!-- Cards -->
+        <section id="secNews" class="container"> <!-- Cards -->
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card col-2">
                     <img src="https://picsum.photos/1/?random=1" class="card-img-top rounded" alt="Image 1">

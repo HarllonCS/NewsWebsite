@@ -12,19 +12,19 @@ OBS.: As I save projects on GitHub, I also update the list.
 The idea of this site is to present news of events that circulate in the world. The user will be able to insert his e-mail if he wants this news to be delivered to his inbox.
 
 ## Header
-The header consists of the navigation menu and the email form.
+In addition to having the site's navigation options, the menu has a *select* feature that changes the language of the page and a *Login* button.
 
-### Navigation Menu
-In addition to having the site's navigation options, the menu has a "select" that changes the language of the page.
-
-### E-mail Form
-The email field and submit button are available to the user.
+### Login 
+The user can login by clicking on the button in the upper right corner. There, a screen with email and password fields will appear in the middle of the screen.
 
 ## Main Section
-The most relevant news will appear right away on the Landing Page under the header (aos.js animations will be triggered when scrolling).
+The main section consists of Email Form and News Section.
 
-## Login 
-The user can log in by clicking on the button in the upper right corner. There, a screen with email and password fields will appear in the middle of the screen.
+### Email Form
+The email field and submit button are available to the user.
+
+### News Section
+The most relevant news will appear right away on the Landing Page under the header ([aos.js](https://michalsnik.github.io/aos/) animations will be triggered when scrolling).
 
 ## Register
 (In progress...)

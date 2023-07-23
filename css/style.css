@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+nav {background-color: #fb7d6f;}
+
 /* header li */
 li select {cursor: pointer;}
+
+.navbar-brand {
+    font-family: 'Newsreader', serif;
+    font-size: 2vw;
+}
+
+.navbar-toggler {background-color: #fc4450;}
+
+#secForm {background-color: #f6ecc8;}
 
 /* Big text in index page */
 h1 {
     font-size: 2.5vw;
     width: 35vw;
     line-height: 4vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* email field in index */
@@ -34,9 +49,17 @@ section input[type='email'] {
 
 /* NEW PAGE */
 /* Main content */
-#newsText {box-shadow: 0 5px 15px 4px #00000059;}
+#newsText {
+    box-shadow: 0 5px 15px 4px #00000059;
+    width: 80vw;
+}
+
+/* Article */
+article {padding: 0 0 0 1.5vw;}
 
 /* Aside content */
+aside {padding: 0 1.5vw 0 0;}
+
 aside .row {
     margin: 0 0 1.3vw 0;
     padding: .5vw 0 .4vw .6vw;
