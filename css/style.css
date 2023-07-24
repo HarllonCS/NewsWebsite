@@ -41,11 +41,13 @@ section input[type='email'] {
 
 .card {padding: .5vw;}
 
+.card img {height: 12vw;}
+
 .card a, aside a {text-decoration: none;}
 
 .card a:hover {text-decoration: underline;}
 
-.col-6 {width: 48vw;}
+.col-6 {width: 42vw;}
 
 /* NEW PAGE */
 /* Main content */
@@ -65,7 +67,7 @@ aside .row {
     padding: .5vw 0 .4vw .6vw;
     border-radius: .5vw;
     box-shadow: 0 5px 10px #0000002f;
-    transition: .3s;
+    transition: all .3s;
 }
 
 aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
