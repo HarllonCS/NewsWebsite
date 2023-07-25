@@ -24,7 +24,7 @@ h1 {
 }
 
 /* email field in index */
-section input[type='email'] {
+#secForm input[type='email'] {
     font-size: 1.2vw;
     padding: .5vw 0;
     width: 25vw;
@@ -37,17 +37,22 @@ section input[type='email'] {
 }
 
 /* Cards */
-#newsCards .row {margin: 4vw 0;}
+#secNews {
+    width: 60vw;
+    margin-top: 4vw;
+}
+
+#secNews .row {margin-bottom: 6vw;}
 
 .card {padding: .5vw;}
 
-.card img {height: 12vw;}
+.card-width {width: 13vw;}
+
+.card .img-height {height: 12vw;}
 
 .card a, aside a {text-decoration: none;}
 
 .card a:hover {text-decoration: underline;}
-
-.col-6 {width: 42vw;}
 
 /* NEW PAGE */
 /* Main content */
