@@ -1,13 +1,6 @@
 README.md.txt
-color-palette/
 
 *.kra
-*.kra~
 *.png
-*.png~
 
-!esboco_landing-page_main-section.png
-!esboco_landing-page_login_btn.png
-!esboco_landing-page_side-section.png
-!esboco_login.png
-!esboco_cadastro.png
+!color-palette.png
