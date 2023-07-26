@@ -1,9 +1,13 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 nav {background-color: #fb7d6f;}
 
-input[type='search'] {background-color: #df6e62;}
+input[type='search'] {
+    background-color: #df6e62;
+    width: 25vw;
+}
 
 input[type='search']::placeholder {
     color: whitesmoke;
@@ -65,9 +69,9 @@ h1 {
 
 .card {padding: .5vw;}
 
-.card-width {width: 13vw;}
+.card-width {width: 13.5vw;}
 
-.card .img-height {height: 12vw;}
+.card .img-height {height: 12.3vw;}
 
 .card a, aside a {text-decoration: none;}
 
