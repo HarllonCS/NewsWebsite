@@ -10,6 +10,13 @@ input[type='search']::placeholder {
     font-weight: bold;
 }
 
+input[type='search']:focus {
+    box-shadow: 0 0 0 4px #add8e685;
+    border-color: whitesmoke;
+}
+
+input[type='search']:hover {box-shadow: 0 0 0 4px #add8e685;}
+
 /* header li */
 li select {cursor: pointer;}
 
