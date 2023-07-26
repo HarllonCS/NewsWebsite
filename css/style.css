@@ -3,6 +3,13 @@
 
 nav {background-color: #fb7d6f;}
 
+input[type='search'], input[type='search']:focus {background-color: #df6e62;}
+
+input[type='search']::placeholder {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
 /* header li */
 li select {cursor: pointer;}
 
@@ -11,6 +18,7 @@ li select {cursor: pointer;}
     font-size: 2vw;
 }
 
+/* Responsive button */
 .navbar-toggler {background-color: #fc4450;}
 
 #secForm {background-color: #f6ecc8;}

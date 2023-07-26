@@ -24,6 +24,10 @@
                 </button> <!-- /end Responsive button -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
+                    <form role="search" method="get" class="ms-auto"> <!-- Search bar -->
+                        <input type="search" name="search" placeholder="Procurar..." class="form-control border-1">
+                    </form> <!-- /end Search bar -->
+
                     <ul class="navbar-nav ms-auto text-capitalize">
                         <li class="nav-item">
                             <select class="form-select bg-transparent text-white fw-bold border-0" onchange="changeLang(this.value, './index')">

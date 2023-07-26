@@ -24,8 +24,12 @@
                 </button> <!-- /end Responsive button -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
+                    <form role="search" method="get" class="ms-auto"> <!-- Search bar -->
+                        <input type="search" name="search" placeholder="Search..." class="form-control border-1">
+                    </form> <!-- /end Search bar -->
+
                     <ul class="navbar-nav ms-auto text-capitalize">
-                        <li class="nav-item ms-lg-3">
+                        <li class="nav-item">
                             <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
                                 <option class="text-black" value="pt-br">Português (Brasil)</option>
                                 <option class="text-black" value="en" selected>English</option>
@@ -33,7 +37,7 @@
                             </select>
                         </li>
 
-                        <li class="nav-item ms-lg-3">
+                        <li class="nav-item ms-5">
                             <button class="btn btn-danger fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
                         </li>
                     </ul>
