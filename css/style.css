@@ -3,7 +3,7 @@
 
 nav {background-color: #fb7d6f;}
 
-input[type='search'], input[type='search']:focus {background-color: #df6e62;}
+input[type='search'] {background-color: #df6e62;}
 
 input[type='search']::placeholder {
     color: whitesmoke;
@@ -11,11 +11,12 @@ input[type='search']::placeholder {
 }
 
 input[type='search']:focus {
-    box-shadow: 0 0 0 4px #add8e685;
+    background-color: #df6e62;
+    box-shadow: 0 0 0 4px #adcce685;
     border-color: whitesmoke;
 }
 
-input[type='search']:hover {box-shadow: 0 0 0 4px #add8e685;}
+input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
 
 /* header li */
 li select {cursor: pointer;}
@@ -43,7 +44,10 @@ h1 {
     font-size: 1.2vw;
     padding: .5vw 0;
     width: 25vw;
+    border-color: lightgray;
 }
+
+#secForm input[type='email']:hover, #secForm input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 
 /* button "send e-mail" */
 #index-btn {
