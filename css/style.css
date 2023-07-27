@@ -110,7 +110,7 @@ aside a p {
 
 /* For Extra Small (< 576px) devices */
 @media (max-width: 575.98px) {
-    /* Header Navbar */
+    /* HEADER */
     .navbar-brand {font-size: 6vw;}
 
     /* Search Bar */
@@ -130,6 +130,8 @@ aside a p {
         padding-bottom: 2vw;
     }
 
+    /* MAIN CONTENT */
+    /* Banner */
     #secBanner h1 {
         font-size: 6vw;
         width: 75vw;
@@ -146,4 +148,26 @@ aside a p {
         font-size: 4vw;
         padding: 1vw 5vw;
     }
+
+    /* News Section */
+    #secNews {
+        width: 100%;
+        margin-top: 15vw;
+    }
+
+    #secNews .row {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 8vw;
+        height: 100%;
+    }
+
+    .mb0 {margin-bottom: 0;}
+
+    .card-width {width: 100%;}
+
+    .card .img-height {height: 100%;}
 }
