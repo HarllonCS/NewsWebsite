@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Navigation bar */
 nav {background-color: #fb7d6f;}
 
+/* Search bar */
 input[type='search'] {
     background-color: #df6e62;
     width: 25vw;
@@ -34,10 +36,10 @@ li .form-select {cursor: pointer;}
 /* Responsive button */
 .navbar-toggler {background-color: #fc4450;}
 
-#secForm {background-color: #f6ecc8;}
+#secBanner {background-color: #f6ecc8;}
 
 /* Big text in index page */
-h1 {
+#secBanner h1 {
     font-size: 2.5vw;
     width: 35vw;
     line-height: 4vw;
@@ -45,17 +47,17 @@ h1 {
 }
 
 /* email field in index */
-#secForm input[type='email'] {
+#secBanner input[type='email'] {
     font-size: 1.2vw;
-    padding: .5vw 0;
+    /* padding: .5vw 0; */
     width: 25vw;
     border-color: lightgray;
 }
 
-#secForm input[type='email']:hover, #secForm input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
+#secBanner input[type='email']:hover, #secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 
 /* button "send e-mail" */
-#index-btn {
+#secBanner .btn {
     font-size: 1.2vw;
     padding: .4vw 2.8vw;
 }
@@ -106,16 +108,19 @@ aside a p {
     color: black;
 }
 
-/* Small screen devices */
+/* For Extra Small (< 576px) devices */
 @media (max-width: 575.98px) {
+    /* Header Navbar */
     .navbar-brand {font-size: 6vw;}
 
+    /* Search Bar */
     input[type='search'] {
-        font-size: 5vw;
+        font-size: 4vw;
         width: 100%;
         margin-top: 4vw;
     }
 
+    /* Select language */
     li .form-select {padding-left: 1.1vw;}
 
     nav .navbar-nav {
@@ -123,5 +128,22 @@ aside a p {
         flex-direction: row;
         margin-top: 4vw;
         padding-bottom: 2vw;
+    }
+
+    #secBanner h1 {
+        font-size: 6vw;
+        width: 75vw;
+        line-height: 10vw;
+    }
+
+    #secBanner input[type='email'] {
+        font-size: 3.5vw;
+        width: 55vw;
+    }
+
+    #secBanner .btn {
+        margin-top: 4.5vw;
+        font-size: 4vw;
+        padding: 1vw 5vw;
     }
 }
