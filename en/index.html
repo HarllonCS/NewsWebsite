@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="sticky-top"> <!-- header -->
-        <nav class="navbar navbar-expand-lg px-5"> <!-- Navigation menu -->
+        <nav class="navbar navbar-expand-lg px-lg-5"> <!-- Navigation menu -->
             <div class="container-fluid">
                 <!-- Title of the site -->
                 <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
@@ -25,11 +25,11 @@
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
                     <form role="search" method="get" class="ms-auto"> <!-- Search bar -->
-                        <input type="search" name="search" placeholder="Search..." class="form-control border-1 border-white text-light">
+                        <input type="search" name="search" placeholder="Search..." class="form-control border-1 border-white text-light py-lg-2">
                     </form> <!-- /end Search bar -->
 
-                    <ul class="navbar-nav ms-auto text-capitalize">
-                        <li class="nav-item">
+                    <ul class="navbar-nav ms-sm-auto text-capitalize">
+                        <li class="nav-item menu-sel">
                             <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
                                 <option class="text-black" value="pt-br">Português (Brasil)</option>
                                 <option class="text-black" value="en" selected>English</option>
@@ -37,7 +37,7 @@
                             </select>
                         </li>
 
-                        <li class="nav-item ms-5">
+                        <li class="nav-item ms-lg-5">
                             <button class="btn btn-danger fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
                         </li>
                     </ul>

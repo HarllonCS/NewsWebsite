@@ -7,6 +7,7 @@ nav {background-color: #fb7d6f;}
 input[type='search'] {
     background-color: #df6e62;
     width: 25vw;
+    font-size: .9vw;
 }
 
 input[type='search']::placeholder {
@@ -23,7 +24,7 @@ input[type='search']:focus {
 input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
 
 /* header li */
-li select {cursor: pointer;}
+li .form-select {cursor: pointer;}
 
 .navbar-brand {
     font-family: 'Newsreader', serif;
@@ -103,4 +104,24 @@ aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
 aside a p {
     font-size: .65vw;
     color: black;
+}
+
+/* Small screen devices */
+@media (max-width: 575.98px) {
+    .navbar-brand {font-size: 6vw;}
+
+    input[type='search'] {
+        font-size: 5vw;
+        width: 100%;
+        margin-top: 4vw;
+    }
+
+    li .form-select {padding-left: 1.1vw;}
+
+    nav .navbar-nav {
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 4vw;
+        padding-bottom: 2vw;
+    }
 }
