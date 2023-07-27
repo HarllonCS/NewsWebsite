@@ -108,7 +108,7 @@ aside a p {
     color: black;
 }
 
-/* For Extra Small (< 576px) devices */
+/* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
     /* HEADER */
     .navbar-brand {font-size: 6vw;}
@@ -160,10 +160,8 @@ aside a p {
         flex-direction: column;
     }
 
-    .card {
-        margin-bottom: 8vw;
-        height: 100%;
-    }
+    /* News Cards */
+    .card {margin-bottom: 8vw;}
 
     .mb0 {margin-bottom: 0;}
 
@@ -171,3 +169,18 @@ aside a p {
 
     .card .img-height {height: 100%;}
 }
+
+/* For Small (landscape phones, less than 768px) devices */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* For Medium (tablets, less than 992px) devices */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* For Large (desktops, less than 1200px) devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* For Extra Large (large desktops, less than 1400px) devices */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* For devices with >= 1400px size screens */
+@media (min-width: 1400px) {}
