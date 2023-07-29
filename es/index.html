@@ -24,21 +24,21 @@
                 </button> <!-- /end Responsive button -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
-                    <form role="search" method="get" class="ms-auto"> <!-- Search bar -->
-                        <input type="search" name="search" placeholder="Procurar..." class="form-control border-1 border-white text-light py-lg-2">
+                    <form role="search" method="get" class="ms-auto my-sm-3"> <!-- Search bar -->
+                        <input type="search" name="search" placeholder="Procurar..." class="form-control border-1 border-white text-light py-lg-2 fs-sm-1">
                     </form> <!-- /end Search bar -->
 
-                    <ul class="navbar-nav ms-sm-auto text-capitalize">
+                    <ul class="navbar-nav ms-sm-auto text-capitalize flex-sm-row justify-content-sm-between pb-sm-2">
                         <li class="nav-item menu-sel">
-                            <select class="form-select bg-transparent text-white fw-bold border-0" onchange="changeLang(this.value, './index')">
+                            <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
                                 <option class="text-black" value="pt-br">Português (Brasil)</option>
                                 <option class="text-black" value="en">English</option>
-                                <option class="text-black" selected value="es">Español</option>
+                                <option class="text-black" value="es" selected>Español</option>
                             </select>
                         </li>
 
                         <li class="nav-item ms-lg-5">
-                            <button class="btn btn-danger fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <button class="btn btn-danger fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
@@ -80,58 +80,58 @@
             <!-- Text for user -->
             <h1 class="text-uppercase text-center mx-auto fw-bold">Recibe las noticias y mantente al día</h1>
     
-            <form method="get">
+            <form method="get" class="my-lg-4">
                 <!-- Email input -->
-                <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="ejemplo@email.com" required>
-
+                <input type="email" class="form-control mx-auto text-center py-lg-2 my-sm-3" placeholder="ejemplo@email.com" required> <!-- /end Email input -->
                 <!-- Form button -->
-                <button type="submit" id="index-btn" class="btn text-uppercase fw-bold text-white mx-auto d-block mt-lg-5 rounded-pill btn-warning">Enviar Email</button>
+                <button type="submit" class="btn text-uppercase fw-bold text-white mx-auto d-block rounded-pill btn-warning mt-lg-5 px-sm-4 py-sm-1">Enviar Email</button>
+                <!-- /end Form button -->
             </form>
         </section>
 
-        <section id="secNews" class="mx-auto mt-5"> <!-- Cards -->
-            <div class="row justify-content-between"> <!-- First column -->
+        <section id="secNews" class="mx-auto mt-sm-5"> <!-- Cards -->
+            <div class="row justify-content-between mb-sm-0"> <!-- First column -->
                 <!-- News 1 -->
-                <div class="card col-3 card-width" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                    <img src="https://picsum.photos/1/?random=1" class="card-img-top rounded" alt="Image 1">
+                <div class="card col-lg-3 col-sm-6 me-sm-1 card-width" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="https://picsum.photos/1/?random=1" class="card-img-top rounded" alt="Image 1">
 
-                    <div class="card-body">
-                        <h5 class="card-title">News 1</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">News 1</h5>
 
-                        <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto dicta commodi. Excepturi nam doloremque cupiditate sed? Unde quaerat consequatur ratione id eius quod, exercitationem voluptatem quasi, officiis itaque harum?</p>
+                            <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto dicta commodi. Excepturi nam doloremque cupiditate sed? Unde quaerat consequatur ratione id eius quod, exercitationem voluptatem quasi, officiis itaque harum?</p>
 
-                        <a href="./news.html" class="card-link">Lea mas...</a>
-                    </div>
+                            <a href="./news.html" class="card-link">Lea mas...</a>
+                        </div>
                 </div>
 
                 <!-- News 2 -->
-                <div class="card col-3 card-width" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
-                    <img src="https://picsum.photos/1/?random=2" class="card-img-top rounded" alt="Image 2">
+                <div class="card col-lg-3 col-sm-6 card-width" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <img src="https://picsum.photos/1/?random=2" class="card-img-top rounded" alt="Image 2">
 
-                    <div class="card-body">
-                        <h5 class="card-title">News 2</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">News 2</h5>
 
-                        <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illo mollitia porro, tenetur ipsum itaque ratione eius eos cupiditate. Temporibus quidem totam esse cum quis aspernatur, consequatur ad quaerat magni?</p>
+                            <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illo mollitia porro, tenetur ipsum itaque ratione eius eos cupiditate. Temporibus quidem totam esse cum quis aspernatur, consequatur ad quaerat magni?</p>
 
-                        <a href="./news.html" class="card-link">Lea mas...</a>
-                    </div>
+                            <a href="./news.html" class="card-link">Lea mas...</a>
+                        </div>
                 </div>
 
                 <!-- News 3 -->
-                <div class="card col-3 card-width" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
-                    <img src="https://picsum.photos/1/?random=3" class="card-img-top rounded" alt="Image 3">
+                <div class="card col-lg-3 col-sm-6 card-width" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <img src="https://picsum.photos/1/?random=3" class="card-img-top rounded" alt="Image 3">
 
-                    <div class="card-body">
-                        <h5 class="card-title">News 3</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">News 3</h5>
 
-                        <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illo mollitia porro, tenetur ipsum itaque ratione eius eos cupiditate. Temporibus quidem totam esse cum quis aspernatur, consequatur ad quaerat magni?</p>
+                            <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illo mollitia porro, tenetur ipsum itaque ratione eius eos cupiditate. Temporibus quidem totam esse cum quis aspernatur, consequatur ad quaerat magni?</p>
 
-                        <a href="./news.html" class="card-link">Lea mas...</a>
-                    </div>
+                            <a href="./news.html" class="card-link">Lea mas...</a>
+                        </div>
                 </div>
 
                 <!-- News 4 -->
-                <div class="card col-3 card-width" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <div class="card col-lg-3 col-sm-6 card-width" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <img src="https://picsum.photos/1/?random=4" class="card-img-top rounded" alt="Image 4">
 
                     <div class="card-body">
@@ -144,10 +144,10 @@
                 </div>
             </div> <!-- /end First column -->
             
-            <div class="row justify-content-between"> <!-- Second column -->
+            <div class="row justify-content-between mb-sm-0"> <!-- Second column -->
                 <!-- News 5 -->
-                <div class="card col-lg-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                    <img src="https://picsum.photos/1/?random=5" class="card-img-top rounded" alt="Image 5">
+                <div class="card col-lg-6 col-sm-12 mx-sm-auto card-sm" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <img src="https://picsum.photos/1/?random=5" class="card-img-top rounded img-height-sm" alt="Image 5">
 
                     <div class="card-body">
                         <h5 class="card-title">News 5</h5>
@@ -158,7 +158,7 @@
                     </div>
                 </div>
 
-                <div class="row col-lg-6 justify-content-between px0 ps-lg-4">
+                <div class="row col-lg-6 mx-sm-auto mb-sm-0 px-sm-0 justify-content-between px0 ps-lg-4">
                     <!-- News 6 -->
                     <div class="card col-lg-6 card-width" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <img src="https://picsum.photos/1/?random=6" class="card-img-top rounded" alt="Image 6">
@@ -186,8 +186,8 @@
                     </div>
 
                     <!-- News 8 -->
-                    <div class="card mt-lg-4" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
-                        <img src="https://picsum.photos/1/?random=8" class="card-img-top rounded img-height" alt="Image 8">
+                    <div class="card mt-lg-4 mx-sm-auto card-sm" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                        <img src="https://picsum.photos/1/?random=8" class="card-img-top rounded img-height img-height-sm" alt="Image 8">
 
                         <div class="card-body">
                             <h5 class="card-title">News 8</h5>
@@ -200,7 +200,7 @@
                 </div>
             </div> <!-- /end Second column -->
 
-            <div class="row justify-content-between mb-lg-5"> <!-- Third column -->
+            <div class="row justify-content-between mb-sm-0 mb-lg-5"> <!-- Third column -->
                 <!-- News 9 -->
                 <div class="card col-lg-2 card-width" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                     <img src="https://picsum.photos/1/?random=9" class="card-img-top rounded" alt="Image 9">
@@ -228,8 +228,8 @@
                 </div>
 
                 <!-- News 11 -->
-                <div class="card col-lg-2 mb0 card-width" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
-                    <img src="https://picsum.photos/1/?random=11" class="card-img-top rounded" alt="Image 11">
+                <div class="card col-lg-2 mb0 mb-sm-0 mx-sm-auto card-sm card-width" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                    <img src="https://picsum.photos/1/?random=11" class="card-img-top rounded img-height-sm" alt="Image 11">
 
                     <div class="card-body">
                         <h5 class="card-title">News 11</h5>
@@ -239,7 +239,7 @@
                         <a href="./news.html" class="card-link">Lea mas...</a>
                     </div>
                 </div>
-            </div> <!-- Third column -->
+            </div> <!-- /end Third column -->
         </section> <!-- /end Cards -->
     </main> <!-- /end Main content -->
 

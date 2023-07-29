@@ -173,7 +173,50 @@ aside a p {
 }
 
 /* For Small (landscape phones, less than 768px) devices */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* HEADER */
+    .navbar-brand {font-size: 4vw;}
+
+    /* Search Bar */
+    input[type='search'] {
+        font-size: 2.8vw;
+        width: 100%;
+    }
+
+    /* MAIN CONTENT */
+    /* Banner */
+    #secBanner h1 {
+        font-size: 5vw;
+        line-height: 7vw;
+        width: 75vw;
+    }
+
+    #secBanner input[type='email'] {
+        font-size: 2.7vw;
+        width: 55vw;
+    }
+
+    #secBanner .btn {
+        font-size: 3vw;
+    }
+
+    /* News Section */
+    #secNews {width: 90%;}
+    
+    /* Cards */
+    .card {
+        margin-bottom: 4vw;
+        width: 45vw;
+    }
+
+    .card-width {width: 45vw;}
+    
+    .card .img-height {height: 100%;}
+
+    .card-sm {width: 100%;}
+
+    .card-sm .img-height-sm {height: 40vw;}
+}
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {}
