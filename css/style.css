@@ -49,7 +49,6 @@ li .form-select {cursor: pointer;}
 /* email field in index */
 #secBanner input[type='email'] {
     font-size: 1.2vw;
-    /* padding: .5vw 0; */
     width: 25vw;
     border-color: lightgray;
 }
@@ -115,13 +114,14 @@ aside a p {
 
     /* Search Bar */
     input[type='search'] {
-        font-size: 4vw;
+        font-size: 3.5vw;
         width: 100%;
-        margin-top: 4vw;
+        margin-top: 2vw;
     }
 
-    /* Select language */
-    li .form-select {padding-left: 1.1vw;}
+    #searchLarge {display: none;}
+
+    #searchSmall {width: 100%;}
 
     nav .navbar-nav {
         justify-content: space-between;
@@ -161,11 +161,17 @@ aside a p {
     }
 
     /* News Cards */
-    .card {margin-bottom: 8vw;}
+    .card {
+        margin-bottom: 8vw;
+        padding: 1.6vw;
+    }
 
     .mb0 {margin-bottom: 0;}
 
-    .px0 {padding: 0;}
+    .px0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     .card-width {width: 100%;}
 
@@ -175,13 +181,17 @@ aside a p {
 /* For Small (landscape phones, less than 768px) devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* HEADER */
-    .navbar-brand {font-size: 4vw;}
+    .navbar-brand {font-size: 5vw;}
 
     /* Search Bar */
     input[type='search'] {
         font-size: 2.8vw;
         width: 100%;
     }
+
+    #searchLarge {display: none;}
+
+    #searchSmall {width: 100%;}
 
     /* MAIN CONTENT */
     /* Banner */
@@ -219,7 +229,30 @@ aside a p {
 }
 
 /* For Medium (tablets, less than 992px) devices */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* HEADER */
+    .navbar-brand {font-size: 4vw;}
+
+    /* Search Bar */
+    input[type='search'] {
+        font-size: 2vw;
+        width: 100%;
+    }
+
+    /* Banner */
+    #secBanner h1 {
+        font-size: 4vw;
+        width: 60vw;
+        line-height: 6vw;
+    }
+
+    #secBanner input[type='email'] {
+        font-size: 2vw;
+        width: 40vw;
+    }
+
+    #secBanner .btn {font-size: 2vw;}
+}
 
 /* For Large (desktops, less than 1200px) devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {}

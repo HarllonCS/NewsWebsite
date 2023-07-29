@@ -13,8 +13,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-    <header class="sticky-lg-top"> <!-- header -->
-        <nav class="navbar navbar-expand-lg px-lg-5"> <!-- Navigation menu -->
+    <header class="sticky-md-top"> <!-- header -->
+        <nav class="navbar navbar-expand-md px-lg-5"> <!-- Navigation menu -->
             <div class="container-fluid">
                 <!-- Title of the site -->
                 <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
@@ -24,11 +24,11 @@
                 </button> <!-- /end Responsive button -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
-                    <form role="search" method="get" class="ms-auto my-sm-3"> <!-- Search bar -->
-                        <input type="search" name="search" placeholder="Pesquisar..." class="form-control border-1 border-white text-light py-lg-2">
+                    <form role="search" method="get" id="searchLarge" class="ms-md-auto my-sm-3"> <!-- Search bar -->
+                        <input type="search" name="s" placeholder="Pesquisar..." class="form-control border-1 border-white text-light py-lg-2">
                     </form> <!-- /end Search bar -->
 
-                    <ul class="navbar-nav ms-sm-auto text-capitalize flex-sm-row justify-content-sm-between pb-sm-2">
+                    <ul class="navbar-nav ms-sm-auto text-capitalize flex-sm-row justify-content-sm-between pb-sm-2 mt-sm-3">
                         <li class="nav-item menu-sel">
                             <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
                                 <option class="text-black" value="pt-br" selected>Português (Brasil)</option>
@@ -37,11 +37,15 @@
                             </select>
                         </li>
 
-                        <li class="nav-item ms-lg-5">
+                        <li class="nav-item ms-md-2">
                             <button class="btn btn-danger fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
+
+                <form role="search" method="get" id="searchSmall" class="mt-sm-3"> <!-- Search bar -->
+                    <input type="search" name="s" placeholder="Pesquisar..." class="form-control border-1 border-white text-light d-md-none">
+                </form> <!-- /end Search bar -->
             </div>
         </nav> <!-- /end Navigation menu -->
     </header> <!-- /end header -->
