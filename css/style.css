@@ -206,10 +206,10 @@ aside a p {
     /* Cards */
     .card {
         margin-bottom: 4vw;
-        width: 45vw;
+        width: 43.5vw;
     }
 
-    .card-width {width: 45vw;}
+    .card-width {width: 43.5vw;}
     
     .card .img-height {height: 100%;}
 
