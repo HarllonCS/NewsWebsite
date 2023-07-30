@@ -130,7 +130,8 @@ aside a p {
         padding-bottom: 2vw;
     }
 
-    /* MAIN CONTENT */
+    /* LANDING PAGE */
+
     /* Banner */
     #secBanner h1 {
         font-size: 6vw;
@@ -193,7 +194,7 @@ aside a p {
 
     #searchSmall {width: 100%;}
 
-    /* MAIN CONTENT */
+    /* LANDING PAGE */
     /* Banner */
     #secBanner h1 {
         font-size: 5vw;
@@ -206,32 +207,27 @@ aside a p {
         width: 55vw;
     }
 
-    #secBanner .btn {
-        font-size: 3vw;
-    }
+    #secBanner .btn {font-size: 3vw;}
 
     /* News Section */
     #secNews {width: 90%;}
     
     /* Cards */
-    .card {
-        margin-bottom: 4vw;
-        width: 43.5vw;
-    }
+    .card {margin-bottom: 4vw;}
 
     .card-width {width: 43.5vw;}
     
-    .card .img-height {height: 100%;}
+    .card .img-height {height: 40.3vw;}
+
+    .card .img-height-sm {height: 40vw;}
 
     .card-sm {width: 100%;}
-
-    .card-sm .img-height-sm {height: 40vw;}
 }
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* HEADER */
-    .navbar-brand {font-size: 4vw;}
+    .navbar-brand {font-size: 2.8vw;}
 
     /* Search Bar */
     input[type='search'] {
@@ -252,13 +248,70 @@ aside a p {
     }
 
     #secBanner .btn {font-size: 2vw;}
+
+    /* News Section */
+    #secNews {width: 85%;}
+
+    .card {width: 19.5vw;}
+
+    .card .img-height-md {height: 17.6vw;}
+
+    .card-width {width: 20vw;}
+
+    .card-sm {width: 40vw;}
+
+    .card-md {width: 19.5vw;}
+
+    .card-size {width: 40vw;}
 }
 
 /* For Large (desktops, less than 1200px) devices */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* HEADER */
+    .navbar-brand {font-size: 2.8vw;}
 
-/* For Extra Large (large desktops, less than 1400px) devices */
-@media (min-width: 1200px) and (max-width: 1399.98px) {}
+    /* Search Bar */
+    input[type='search'] {font-size: 1.5vw;}
 
-/* For devices with >= 1400px size screens */
-@media (min-width: 1400px) {}
+    /* Banner */
+    #secBanner h1 {
+        font-size: 3.5vw;
+        width: 60vw;
+        line-height: 6vw;
+    }
+
+    #secBanner input[type='email'] {
+        font-size: 1.8vw;
+        width: 40vw;
+    }
+
+    #secBanner .btn {font-size: 1.8vw;}
+
+    /* News Section */
+    #secNews {width: 75vw;}
+
+    .card-width {width: 18vw;}
+}
+
+/* For devices with >= 1200px size screens */
+@media (min-width: 1200px) {
+    /* HEADER */
+    .navbar-brand {font-size: 2vw;}
+
+    /* Search Bar */
+    input[type='search'] {font-size: 1.2vw;}
+
+    /* Banner */
+    #secBanner h1 {
+        font-size: 3.2vw;
+        width: 50vw;
+        line-height: 6vw;
+    }
+
+    #secBanner input[type='email'] {
+        font-size: 1.5vw;
+        width: 30vw;
+    }
+
+    #secBanner .btn {font-size: 1.5vw;}
+}
