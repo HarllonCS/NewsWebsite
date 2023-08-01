@@ -35,9 +35,7 @@ li .form-select {cursor: pointer;}
 #secBanner h1 {font-family: 'Roboto', sans-serif;}
 
 /* email field in index */
-#secBanner input[type='email'] {
-    border-color: lightgray;
-}
+#secBanner input[type='email'] {border-color: lightgray;}
 
 #secBanner input[type='email']:hover, #secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 
@@ -70,7 +68,16 @@ aside a p {
 }
 
 /* For Extra Small (portrait phones, less than 576px) devices */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    #searchLarge {display: none;}
+
+    #searchSmall {margin: 3vw 0}
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
 
 /* For Small (landscape phones, less than 768px) devices */
 @media (min-width: 576px) and (max-width: 767.98px) {}
