@@ -17,22 +17,22 @@
         <nav class="navbar navbar-expand-md"> <!-- Navigation menu -->
             <div class="container-fluid">
                 <!-- Title of the site -->
-                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white fs-4">news website</a>
+                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white fs-2">news website</a>
                                 
                 <button type="button" class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
                     <span class="navbar-toggler-icon"></span>
                 </button> <!-- /end Responsive button -->
 
-                <form role="search" method="get" id="searchSmall" class="w-100"> <!-- Search bar -->
-                    <input type="search" name="s" placeholder="Search..." class="form-control border-1 border-white text-light d-md-none rounded-pill">
-                </form> <!-- /end Search bar -->
+                <form role="search" method="get" id="searchSmall" class="d-md-none">
+                    <input type="search" name="s" placeholder="Search..." class="form-control border-1 border-white text-light rounded-pill">
+                </form>
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
-                    <form role="search" method="get" id="searchLarge"> <!-- Search bar -->
+                    <form role="search" method="get" id="searchLarge" class=" ms-md-auto"> <!-- Search bar -->
                         <input type="search" name="s" placeholder="Search..." class="form-control border-1 border-white text-light rounded-pill">
                     </form> <!-- /end Search bar -->
 
-                    <ul class="navbar-nav text-capitalize">
+                    <ul class="navbar-nav text-capitalize ms-auto flex-sm-row justify-content-sm-between px-sm-4">
                         <li class="nav-item">
                             <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
                                 <option class="text-black" value="pt-br">Português (Brasil)</option>

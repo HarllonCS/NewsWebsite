@@ -5,6 +5,8 @@
 /* Navigation bar */
 nav {background-color: #fb7d6f;}
 
+.navbar-brand {font-family: 'Newsreader', serif;}
+
 /* Search bar */
 input[type='search'] {background-color: #df6e62;}
 
@@ -23,8 +25,6 @@ input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
 
 /* header li */
 li .form-select {cursor: pointer;}
-
-.navbar-brand {font-family: 'Newsreader', serif;}
 
 /* Responsive button */
 .navbar-toggler {background-color: #fc4450;}
@@ -71,16 +71,22 @@ aside a p {
 @media (max-width: 575.98px) {
     #searchLarge {display: none;}
 
-    #searchSmall {margin: 3vw 0}
+    #searchSmall {
+        margin: 3vw 0;
+        width: 100vw;
+    }
 
     .navbar-nav {
         flex-direction: row;
         justify-content: space-between;
+        padding: 0 4vw;
     }
 }
 
 /* For Small (landscape phones, less than 768px) devices */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #searchSmall {width: 100vw;}
+}
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {}
