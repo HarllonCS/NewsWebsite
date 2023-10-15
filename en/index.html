@@ -23,17 +23,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button> <!-- /end Responsive button -->
 
-                <form role="search" method="get" id="searchSmall" class="d-md-none">
+                <form role="search" method="get" id="searchSmall" class="d-md-none"> <!-- Search bar -->
                     <input type="search" name="s" placeholder="Search..." class="form-control border-1 border-white text-light rounded-pill">
-                </form>
+                </form> <!-- /end Search bar -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
-                    <form role="search" method="get" id="searchLarge" class=" ms-md-auto"> <!-- Search bar -->
-                        <input type="search" name="s" placeholder="Search..." class="form-control border-1 border-white text-light rounded-pill">
+                    <form role="search" method="get" id="searchLarge" class="ms-md-auto py-3"> <!-- Search bar -->
+                        <input type="search" name="s" placeholder="Search..." class="form-control border-1 border-white text-light rounded-pill py-2">
                     </form> <!-- /end Search bar -->
 
-                    <ul class="navbar-nav text-capitalize ms-auto flex-sm-row justify-content-sm-between px-sm-4">
-                        <li class="nav-item">
+                    <ul class="navbar-nav text-capitalize ms-auto flex-sm-row justify-content-sm-between">
+                        <li class="nav-item me-md-3">
                             <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
                                 <option class="text-black" value="pt-br">Português (Brasil)</option>
                                 <option class="text-black" value="en" selected>English</option>
@@ -80,15 +80,15 @@
     </div> <!-- /end Login screen -->
 
     <main role="main" id="newsCards"> <!-- Main content -->
-        <section id="secBanner">
+        <section id="secBanner" class="py-sm-4">
             <!-- Text for user -->
-            <h1 class="text-uppercase text-center mx-auto fw-bold">Receive the news and be updated</h1>
+            <h1 class="text-uppercase text-center mx-auto fw-bold">Receive the news and <br> be updated</h1>
     
             <form method="get">
                 <!-- Email input -->
-                <input type="email" class="form-control mx-auto text-center py-lg-2 my-sm-3" placeholder="exemple@email.com" required> <!-- /end Email input -->
+                <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="exemple@email.com" required> <!-- /end Email input -->
                 <!-- Form button -->
-                <button type="submit" class="btn text-uppercase fw-bold text-white mx-auto d-block rounded-pill btn-warning px-sm-4 py-sm-1 mt-md-4">Send email</button>
+                <button type="submit" class="btn text-uppercase fw-bold text-white mx-auto d-block rounded-pill btn-warning px-sm-4 py-sm-1 mt-sm-3">Send email</button>
                 <!-- /end Form button -->
             </form>
         </section>

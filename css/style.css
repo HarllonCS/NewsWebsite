@@ -72,27 +72,80 @@ aside a p {
     #searchLarge {display: none;}
 
     #searchSmall {
-        margin: 3vw 0;
-        width: 100vw;
+        margin: 3vw auto;
+        width: 85vw;
     }
 
     .navbar-nav {
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 4vw;
+        padding: 0 12vw;
     }
+
+    #secBanner {padding: 4vw 0;}
+
+    h1 {line-height: 8vw;}
+
+    #secBanner input {width: 80vw;}
+
+    #secBanner button {margin-top: 4vw;}
 }
 
 /* For Small (landscape phones, less than 768px) devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    #searchSmall {width: 100vw;}
+    #searchSmall {display: none;}
+    
+    #searchLarge {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .navbar-nav {padding: 0 12vw;}
+
+    #secBanner input {width: 60vw;}
 }
 
 /* For Medium (tablets, less than 992px) devices */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #searchLarge {width: 40vw;}
+
+    #secBanner input {width: 50vw;}
+}
 
 /* For Large (desktops, less than 1200px) devices */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #searchLarge {width: 35vw;}
 
-/* For devices with >= 1200px size screens */
-@media (min-width: 1200px) {}
+    #secBanner input {width: 50vw;}
+}
+
+/* For Extra Large devices (>= 1200px) size screens */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #searchLarge {width: 30vw;}
+
+    h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+
+    #secBanner input {
+        width: 35vw;
+        font-size: 1.2vw;
+    }
+
+    #secBanner button {font-size: 1.12vw;}
+}
+
+/* For Extra Extra Large devices (>= 1400px) size screens */
+@media (min-width: 1400px) {
+    #searchLarge {width: 30vw;}
+
+    #secBanner input {
+        width: 35vw;
+        font-size: 1vw;
+    }
+
+    #secBanner button {
+        font-size: 1.12vw;
+    }
+}
