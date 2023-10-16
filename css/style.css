@@ -123,7 +123,7 @@ aside a p {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     #searchLarge {width: 30vw;}
 
-    h1 {
+    #secBanner h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
@@ -139,6 +139,11 @@ aside a p {
 /* For Extra Extra Large devices (>= 1400px) size screens */
 @media (min-width: 1400px) {
     #searchLarge {width: 30vw;}
+
+    #secBanner h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
 
     #secBanner input {
         width: 35vw;

@@ -11,10 +11,22 @@
     <link rel="stylesheet" href="../css/style.css">
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <style>
+        #news {
+            /*width: 55vw;*/
+            margin: 0 auto;
+        }
+        
+        .img {
+            height: 18vw;
+            border: 1px solid red;
+        }
+    </style>
 </head>
 <body>
     <header class="sticky-md-top"> <!-- header -->
-        <nav class="navbar navbar-expand-md"> <!-- Navigation menu -->
+        <nav class="navbar navbar-expand-md px-lg-5"> <!-- Navigation menu -->
             <div class="container-fluid">
                 <!-- Title of the site -->
                 <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white fs-2">news website</a>
@@ -94,6 +106,28 @@
         </section>
 
         <section id="secNews"> <!-- Cards -->
+            <div id="news" class="container my-5 border border-success">
+                <div class="row mb-4">
+                    <div class="img col"></div>
+                    <div class="img col mx-5"></div>
+                    <div class="img col"></div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="img col-3"></div>
+                    <div class="img col-6"></div>
+                    <div class="img col-3"></div>
+                </div>
+
+                <div class="row">
+                    <div class="img col-6 me-4" style="height: 36.4vw;"></div>
+                    <div class="row col-6">
+                        <div class="img col-6"></div>
+                        <div class="img col-6"></div>
+                        <div class="img col mt-2"></div>
+                    </div>
+                </div>
+            </div>
         </section> <!-- /end Cards -->
     </main> <!-- /end Main content -->
 
