@@ -14,14 +14,18 @@
     
     <style>
         #news {
-            /*width: 55vw;*/
+            width: 75vw;
             margin: 0 auto;
         }
-        
+
         .img {
             height: 18vw;
             border: 1px solid red;
         }
+
+        .row {margin-left: 0; margin-right: 0;}
+
+        .news-row-1 {width: 16vw; height: 16vw;}
     </style>
 </head>
 <body>
@@ -106,22 +110,23 @@
         </section>
 
         <section id="secNews"> <!-- Cards -->
-            <div id="news" class="container my-5 border border-success">
-                <div class="row mb-4">
-                    <div class="img col"></div>
-                    <div class="img col mx-5"></div>
-                    <div class="img col"></div>
+            <div id="news" class="my-5 border border-success">
+                <div class="row justify-content-between">
+                    <div class="img col-3 news-row-1"></div>
+                    <div class="img col-3 news-row-1"></div>
+                    <div class="img col-3 news-row-1"></div>
+                    <div class="img col-3 news-row-1"></div>
                 </div>
 
-                <div class="row mb-4">
+                <div class="row mt-4">
                     <div class="img col-3"></div>
                     <div class="img col-6"></div>
                     <div class="img col-3"></div>
                 </div>
 
-                <div class="row">
-                    <div class="img col-6 me-4" style="height: 36.4vw;"></div>
-                    <div class="row col-6">
+                <div class="row mt-4">
+                    <div class="img col-6" style="height: 36.5vw;"></div>
+                    <div class="row col-6 pe-0">
                         <div class="img col-6"></div>
                         <div class="img col-6"></div>
                         <div class="img col mt-2"></div>

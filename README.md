@@ -24,7 +24,7 @@ The **Main Section** consists of **Email Form** and **News Section**.
 The user can put his email in the **Email Form** to receive current news.
 
 ### News Section
-The most relevant news will appear right away on the Landing Page under the **Header** ([aos](https://michalsnik.github.io/aos/) animations will be triggered when scrolling).
+The most relevant news will appear right away on the Landing Page under the Banner ([aos](https://michalsnik.github.io/aos/) animations will be triggered when scrolling).
 
 ## Register
 (In progress...)
