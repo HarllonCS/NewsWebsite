@@ -49,7 +49,8 @@ li .form-select {cursor: pointer;}
     position: relative;
     color: white;
     text-shadow: 1px 1px black;
-    border-radius: 1.2vw;
+    border-radius: 1vw;
+    /* border: 1px solid red; */
 }
 
 .news-text {
@@ -69,7 +70,7 @@ li .form-select {cursor: pointer;}
 #news_8 {background: url('https://picsum.photos/705/600?random=8') no-repeat;}
 #news_9 {background: url('https://picsum.photos/340/286?random=9') no-repeat;}
 #news_10 {background: url('https://picsum.photos/340/286?random=10') no-repeat;}
-#news_11 {background: url('https://picsum.photos/704/286?random=11') no-repeat;}
+#news_11 {background: url('https://picsum.photos/718/286?random=11') no-repeat;}
 
 /* NEW PAGE */
 /* Main content */
