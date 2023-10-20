@@ -39,6 +39,38 @@ li .form-select {cursor: pointer;}
 
 #secBanner input[type='email']:hover, #secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 
+/* News */
+#news {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.news-img {
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px black;
+    border-radius: 1.2vw;
+}
+
+.news-text {
+    position: absolute;
+    bottom: 0;
+}
+
+.news-small {width: 17.8vw;}
+
+#news_1 {background: url('https://picsum.photos/340/286?random=1') no-repeat;}
+#news_2 {background: url('https://picsum.photos/340/286?random=2') no-repeat;}
+#news_3 {background: url('https://picsum.photos/340/286?random=3') no-repeat;}
+#news_4 {background: url('https://picsum.photos/340/286?random=4') no-repeat;}
+#news_5 {background: url('https://picsum.photos/340/286?random=5') no-repeat;}
+#news_6 {background: url('https://picsum.photos/705/286?random=6') no-repeat;}
+#news_7 {background: url('https://picsum.photos/340/286?random=7') no-repeat;}
+#news_8 {background: url('https://picsum.photos/705/600?random=8') no-repeat;}
+#news_9 {background: url('https://picsum.photos/340/286?random=9') no-repeat;}
+#news_10 {background: url('https://picsum.photos/340/286?random=10') no-repeat;}
+#news_11 {background: url('https://picsum.photos/704/286?random=11') no-repeat;}
+
 /* NEW PAGE */
 /* Main content */
 #newsText {
