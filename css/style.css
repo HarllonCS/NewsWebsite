@@ -64,17 +64,17 @@ li .form-select {cursor: pointer;}
     padding: 0 .4vw .2vw .4vw;
 }
 
-#news_1 {background: url('https://picsum.photos/342/288?random=1') no-repeat;}
-#news_2 {background: url('https://picsum.photos/342/288?random=2') no-repeat;}
-#news_3 {background: url('https://picsum.photos/342/288?random=3') no-repeat;}
-#news_4 {background: url('https://picsum.photos/342/288?random=4') no-repeat;}
-#news_5 {background: url('https://picsum.photos/342/288?random=5') no-repeat;}
-#news_6 {background: url('https://picsum.photos/707/288?random=6') no-repeat;}
-#news_7 {background: url('https://picsum.photos/342/288?random=7') no-repeat;}
-#news_8 {background: url('https://picsum.photos/707/600?random=8') no-repeat;}
-#news_9 {background: url('https://picsum.photos/342/286?random=9') no-repeat;}
-#news_10 {background: url('https://picsum.photos/342/286?random=10') no-repeat;}
-#news_11 {background: url('https://picsum.photos/720/286?random=11') no-repeat;}
+#news_1 {background: url('https://picsum.photos/400/288?random=1') no-repeat;}
+#news_2 {background: url('https://picsum.photos/400/288?random=2') no-repeat;}
+#news_3 {background: url('https://picsum.photos/400/288?random=3') no-repeat;}
+#news_4 {background: url('https://picsum.photos/400/288?random=4') no-repeat;}
+#news_5 {background: url('https://picsum.photos/830/288?random=5') no-repeat;}
+#news_6 {background: url('https://picsum.photos/830/288?random=6') no-repeat;}
+#news_7 {background: url('https://picsum.photos/830/288?random=7') no-repeat;}
+#news_8 {background: url('https://picsum.photos/830/600?random=8') no-repeat;}
+#news_9 {background: url('https://picsum.photos/830/286?random=9') no-repeat;}
+#news_10 {background: url('https://picsum.photos/830/286?random=10') no-repeat;}
+#news_11 {background: url('https://picsum.photos/830/286?random=11') no-repeat;}
 
 /* NEW PAGE */
 /* Main content */
@@ -153,7 +153,7 @@ aside a p {
     #news_r1, #news_r2 {height: 55vw;}
 
     #news_8,
-    #news_9,
+    #news_9 {height: 28vw; width: 100%;}
     #news_10,
     #news_11 {height: 28vw;}
 
