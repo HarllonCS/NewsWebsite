@@ -40,37 +40,41 @@ li .form-select {cursor: pointer;}
 #secBanner input[type='email']:hover, #secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 
 /* News */
-#news {
-    width: 75vw;
-    margin: 0 auto;
-}
+#news {margin: 0 auto;}
 
-.news-img {
+.news-link {
     position: relative;
     color: white;
     text-shadow: 1px 1px black;
     border-radius: 1vw;
     /* border: 1px solid red; */
+    box-shadow: 0px 0px 6px 3px #00000052;
+    padding: 0;
 }
 
 .news-text {
     position: absolute;
     bottom: 0;
+    padding: 0 .5vw;
 }
 
-.news-small {width: 17.8vw;}
+.news-text > * {
+    background-color: #00000085;
+    display: inline-block;
+    padding: 0 .4vw .2vw .4vw;
+}
 
-#news_1 {background: url('https://picsum.photos/340/286?random=1') no-repeat;}
-#news_2 {background: url('https://picsum.photos/340/286?random=2') no-repeat;}
-#news_3 {background: url('https://picsum.photos/340/286?random=3') no-repeat;}
-#news_4 {background: url('https://picsum.photos/340/286?random=4') no-repeat;}
-#news_5 {background: url('https://picsum.photos/340/286?random=5') no-repeat;}
-#news_6 {background: url('https://picsum.photos/705/286?random=6') no-repeat;}
-#news_7 {background: url('https://picsum.photos/340/286?random=7') no-repeat;}
-#news_8 {background: url('https://picsum.photos/705/600?random=8') no-repeat;}
-#news_9 {background: url('https://picsum.photos/340/286?random=9') no-repeat;}
-#news_10 {background: url('https://picsum.photos/340/286?random=10') no-repeat;}
-#news_11 {background: url('https://picsum.photos/718/286?random=11') no-repeat;}
+#news_1 {background: url('https://picsum.photos/342/288?random=1') no-repeat;}
+#news_2 {background: url('https://picsum.photos/342/288?random=2') no-repeat;}
+#news_3 {background: url('https://picsum.photos/342/288?random=3') no-repeat;}
+#news_4 {background: url('https://picsum.photos/342/288?random=4') no-repeat;}
+#news_5 {background: url('https://picsum.photos/342/288?random=5') no-repeat;}
+#news_6 {background: url('https://picsum.photos/707/288?random=6') no-repeat;}
+#news_7 {background: url('https://picsum.photos/342/288?random=7') no-repeat;}
+#news_8 {background: url('https://picsum.photos/707/600?random=8') no-repeat;}
+#news_9 {background: url('https://picsum.photos/342/286?random=9') no-repeat;}
+#news_10 {background: url('https://picsum.photos/342/286?random=10') no-repeat;}
+#news_11 {background: url('https://picsum.photos/720/286?random=11') no-repeat;}
 
 /* NEW PAGE */
 /* Main content */
@@ -143,6 +147,20 @@ aside a p {
     #searchLarge {width: 40vw;}
 
     #secBanner input {width: 50vw;}
+
+    #news {width: 80vw;}
+
+    #news_r1, #news_r2 {height: 55vw;}
+
+    #news_8,
+    #news_9,
+    #news_10,
+    #news_11 {height: 28vw;}
+
+    .news-sqr {width: 40vw;}
+
+    .news-rec-md {width: 100%;}
+    .news-sqr-md {width: 40vw;}
 }
 
 /* For Large (desktops, less than 1200px) devices */
@@ -150,6 +168,18 @@ aside a p {
     #searchLarge {width: 35vw;}
 
     #secBanner input {width: 50vw;}
+
+    #news {width: 75vw;}
+
+    #news_r1, #news_r2 {height: 15vw;}
+    #news_r3 {height: 30.5vw;}
+
+    #news_8 {width: 37.5vw;}
+
+    .news-sqr {width: 17.8vw;}
+
+    .news-text h4 {font-size: 1.4vw;}
+    .news-text p {font-size: 1vw;}
 }
 
 /* For Extra Large devices (>= 1200px) size screens */
@@ -167,6 +197,18 @@ aside a p {
     }
 
     #secBanner button {font-size: 1.12vw;}
+
+    #news {width: 75vw;}
+
+    #news_r1, #news_r2 {height: 15vw;}
+    #news_r3 {height: 30.5vw;}
+
+    #news_8 {width: 37.5vw;}
+
+    .news-sqr {width: 17.8vw;}
+
+    .news-text h4 {font-size: 1.4vw;}
+    .news-text p {font-size: 1vw;}
 }
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
@@ -183,7 +225,15 @@ aside a p {
         font-size: 1vw;
     }
 
-    #secBanner button {
-        font-size: 1.12vw;
-    }
+    #secBanner button {font-size: 1.12vw;}
+
+    #news {width: 75vw;}
+
+    #news_r1, #news_r2 {height: 15vw;}
+    #news_r3 {height: 30.5vw;}
+
+    #news_8 {width: 36.8vw;}
+
+    .news-sqr {width: 17.8vw;}
+    .news-text {font-size: .8vw;}
 }
