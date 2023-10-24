@@ -126,6 +126,14 @@ aside a p {
     #secBanner input {width: 80vw;}
 
     #secBanner button {margin-top: 4vw;}
+    
+    #secNews {margin-top: 5.5vw}
+
+    #news {width: 85vw;}
+
+    .news-link {height: 50vw; margin-bottom: 8vw;}
+
+    #news_r3 > .row{margin: 0 auto;}
 }
 
 /* For Small (landscape phones, less than 768px) devices */
