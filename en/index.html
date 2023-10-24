@@ -34,15 +34,15 @@
 
                     <ul class="navbar-nav text-capitalize ms-auto flex-sm-row justify-content-sm-between">
                         <li class="nav-item me-md-3">
-                            <select onchange="changeLang(this.value, './index')" class="form-select bg-transparent text-white fw-bold border-0">
-                                <option class="text-black" value="pt-br">Português (Brasil)</option>
+                            <select onchange="changeLang(this.value, './index')" class="form-select text-white fw-bold">
+                                <option class="text-black" value="pt-br">Português (BR)</option>
                                 <option class="text-black" value="en" selected>English</option>
                                 <option class="text-black" value="es">Español</option>
                             </select>
                         </li>
 
                         <li class="nav-item">
-                            <button id="btn_login" class="btn fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <button class="btn fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
@@ -88,7 +88,7 @@
                 <!-- Email input -->
                 <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="exemple@email.com" required> <!-- /end Email input -->
                 <!-- Form button -->
-                <button type="submit" class="btn text-uppercase fw-bold text-white mx-auto d-block rounded-pill btn-warning px-sm-4 py-sm-1 mt-sm-3">Send email</button>
+                <button type="submit" class="btn text-uppercase fw-bold text-light mx-auto d-block rounded-pill px-sm-4 py-sm-1 mt-sm-3">Send email</button>
                 <!-- /end Form button -->
             </form>
         </section>

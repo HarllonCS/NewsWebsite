@@ -1,6 +1,14 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Newsreader';
+    src: url('../res/fonts/Newsreader-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../res/fonts/Roboto-Regular.ttf');
+}
+
+body {background-color: #F6ECC6;}
 
 /* Navigation bar */
 nav {background-color: #842440;}
@@ -9,59 +17,78 @@ nav {background-color: #842440;}
 
 /* Search bar */
 input[type='search'] {background-color: #18080c52;}
-
 input[type='search']::placeholder {
     color: whitesmoke;
     font-weight: bold;
 }
-
 input[type='search']:focus {
-    background-color: #df6e62;
+    background-color: #18080c52;
     box-shadow: 0 0 0 4px #adcce685;
     border-color: whitesmoke;
 }
-
 input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
 
 /* header li */
-li .form-select {cursor: pointer;}
+li .form-select {
+    cursor: pointer;
+    border-color: #ffffff63;
+    background-color: #7a1e38;
+    transition: all .3s;
+}
+li .form-select:hover {
+    background-color: #6b132c;
+    border: 1px solid #ffffff8e;
+}
+
+li option {background-color: whitesmoke;}
 
 /* Login button */
-#btn_login {
+li .btn {
     background-color: #7a1e38;
     color: whitesmoke;
     border: 1px solid #ffffff63;
 }
-
-#btn_login:hover {
+li .btn:hover {
     background-color: #6b132c;
     color: whitesmoke;
+    border: 1px solid #ffffff8e;
 }
 
 /* Responsive button */
 .navbar-toggler {background-color: #6b132c;}
 
-#secBanner {background-color: #f6ecc8;}
+#secBanner {
+    background: #FB7D6F url('https://picsum.photos/1920/300') no-repeat;
+    border-bottom: 5px solid #842440;
+}
 
 /* Big text in index page */
-#secBanner h1 {font-family: 'Roboto', sans-serif;}
+#secBanner h1 {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+}
 
 /* email field in index */
 #secBanner input[type='email'] {border-color: lightgray;}
+#secBanner input[type='email']:hover,
+#secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 
-#secBanner input[type='email']:hover, #secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
+/* Email button */
+#secBanner button {background-color: #842440;}
+#secBanner button:hover {background-color: #721f37;}
 
 /* News */
 #news {margin: 0 auto;}
 
 .news-link {
     position: relative;
-    color: white;
-    text-shadow: 1px 1px black;
+    color: whitesmoke;
     border-radius: 1vw;
     /* border: 1px solid red; */
     box-shadow: 0px 0px 6px 3px #00000052;
     padding: 0;
+    border: 2px solid #0C0330;
 }
 
 .news-text {
