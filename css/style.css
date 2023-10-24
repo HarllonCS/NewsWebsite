@@ -91,6 +91,18 @@ li .btn:hover {
     border: 2px solid #0C0330;
 }
 
+#news_1 {background: url('https://picsum.photos/670/380?random=1') no-repeat;}
+#news_2 {background: url('https://picsum.photos/670/380?random=2') no-repeat;}
+#news_3 {background: url('https://picsum.photos/670/380?random=3') no-repeat;}
+#news_4 {background: url('https://picsum.photos/670/380?random=4') no-repeat;}
+#news_5 {background: url('https://picsum.photos/830/380?random=5') no-repeat;}
+#news_6 {background: url('https://picsum.photos/830/380?random=6') no-repeat;}
+#news_7 {background: url('https://picsum.photos/830/380?random=7') no-repeat;}
+#news_8 {background: url('https://picsum.photos/830/600?random=8') no-repeat;}
+#news_9 {background: url('https://picsum.photos/830/380?random=9') no-repeat;}
+#news_10 {background: url('https://picsum.photos/830/380?random=10') no-repeat;}
+#news_11 {background: url('https://picsum.photos/830/380?random=11') no-repeat;}
+
 .news-text {
     position: absolute;
     bottom: 0;
@@ -103,17 +115,22 @@ li .btn:hover {
     padding: 0 .4vw .2vw .4vw;
 }
 
-#news_1 {background: url('https://picsum.photos/670/380?random=1') no-repeat;}
-#news_2 {background: url('https://picsum.photos/670/380?random=2') no-repeat;}
-#news_3 {background: url('https://picsum.photos/670/380?random=3') no-repeat;}
-#news_4 {background: url('https://picsum.photos/670/380?random=4') no-repeat;}
-#news_5 {background: url('https://picsum.photos/830/380?random=5') no-repeat;}
-#news_6 {background: url('https://picsum.photos/830/380?random=6') no-repeat;}
-#news_7 {background: url('https://picsum.photos/830/380?random=7') no-repeat;}
-#news_8 {background: url('https://picsum.photos/830/600?random=8') no-repeat;}
-#news_9 {background: url('https://picsum.photos/830/380?random=9') no-repeat;}
-#news_10 {background: url('https://picsum.photos/830/380?random=10') no-repeat;}
-#news_11 {background: url('https://picsum.photos/830/380?random=11') no-repeat;}
+/* Footer */
+footer {
+    background-color: #842440;
+    color: whitesmoke;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 36pt;
+    padding: 1vw 0;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
 /* NEW PAGE */
 /* Main content */
