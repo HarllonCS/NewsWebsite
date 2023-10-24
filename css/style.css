@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Navigation bar */
-nav {background-color: #fb7d6f;}
+nav {background-color: #842440;}
 
 .navbar-brand {font-family: 'Newsreader', serif;}
 
 /* Search bar */
-input[type='search'] {background-color: #df6e62;}
+input[type='search'] {background-color: #18080c52;}
 
 input[type='search']::placeholder {
     color: whitesmoke;
@@ -26,8 +26,20 @@ input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
 /* header li */
 li .form-select {cursor: pointer;}
 
+/* Login button */
+#btn_login {
+    background-color: #7a1e38;
+    color: whitesmoke;
+    border: 1px solid #ffffff63;
+}
+
+#btn_login:hover {
+    background-color: #6b132c;
+    color: whitesmoke;
+}
+
 /* Responsive button */
-.navbar-toggler {background-color: #fc4450;}
+.navbar-toggler {background-color: #6b132c;}
 
 #secBanner {background-color: #f6ecc8;}
 
