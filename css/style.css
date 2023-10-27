@@ -139,7 +139,12 @@ footer p {
 }
 
 /* Article */
-article {padding: 0 0 0 1.5vw;}
+article {
+    padding: 0 0 0 1.5vw;
+    text-align: justify;
+}
+
+article div {width: 49.5vw;}
 
 /* Aside content */
 aside {padding: 0 1.5vw 0 0;}
@@ -154,8 +159,8 @@ aside .row {
 
 aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
 
-aside a p {
-    font-size: .65vw;
+aside p {
+    font-size: 10.9pt;
     color: black;
 }
 
