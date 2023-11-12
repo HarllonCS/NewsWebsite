@@ -159,10 +159,7 @@ aside .row {
 
 aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
 
-aside p {
-    font-size: 10.9pt;
-    color: black;
-}
+aside p {font-size: 10.9pt;}
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
