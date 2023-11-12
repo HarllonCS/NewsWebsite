@@ -10,6 +10,7 @@
 
 body {background-color: #F6ECC6;}
 
+/* Header */
 /* Navigation bar */
 nav {background-color: #842440;}
 
@@ -57,8 +58,10 @@ li .btn:hover {
 /* Responsive button */
 .navbar-toggler {background-color: #6b132c;}
 
+/* INDEX.HTML */
+/* Banner */
 #secBanner {
-    background: #FB7D6F url('https://picsum.photos/1920/300') no-repeat;
+    background: #FB7D6F url('https://picsum.photos/1920/520') no-repeat;
     border-bottom: 5px solid #842440;
 }
 
@@ -131,7 +134,7 @@ footer p {
     font-weight: bold;
 }
 
-/* NEW PAGE */
+/* NEWS.HTML */
 /* Main content */
 #newsText {
     box-shadow: 0 5px 15px 4px #00000059;
@@ -163,6 +166,7 @@ aside p {font-size: 10.9pt;}
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
+    /* Header */
     #searchLarge {display: none;}
 
     #searchSmall {
@@ -176,6 +180,7 @@ aside p {font-size: 10.9pt;}
         padding: 0 12vw;
     }
 
+    /* Banner */
     #secBanner {padding: 4vw 0;}
 
     #secBanner h1 {line-height: 8vw;}
@@ -184,17 +189,19 @@ aside p {font-size: 10.9pt;}
 
     #secBanner button {margin-top: 4vw;}
     
+    /* News cards */
     #secNews {margin-top: 5.5vw}
 
     #news {width: 85vw;}
 
     .news-link {height: 50vw; margin-bottom: 8vw;}
 
-    #news_r3 > .row{margin: 0 auto;}
+    #news_r3 > .row {margin: 0 auto;}
 }
 
 /* For Small (landscape phones, less than 768px) devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Header */    
     #searchSmall {display: none;}
     
     #searchLarge {
@@ -204,8 +211,12 @@ aside p {font-size: 10.9pt;}
 
     .navbar-nav {padding: 0 12vw;}
 
+    /* Banner */
+    #secBanner {padding: 2vw 0;}
+
     #secBanner input {width: 60vw;}
 
+    /* News cards */
     #news {width: 85vw;}
 
     .news-link {height: 50vw; margin-bottom: 8vw;}
@@ -213,18 +224,20 @@ aside p {font-size: 10.9pt;}
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Header */
     #searchLarge {width: 40vw;}
+
+    /* Banner */
+    #secBanner {padding: 2vw 0;}
 
     #secBanner input {width: 50vw;}
 
+    /* News cards */
     #news {width: 80vw;}
 
     #news_r1, #news_r2 {height: 55vw;}
-
-    #news_8,
-    #news_9 {height: 28vw; width: 100%;}
-    #news_10,
-    #news_11 {height: 28vw;}
+    #news_8, #news_9 {height: 28vw; width: 100%;}
+    #news_10, #news_11 {height: 28vw;}
 
     .news-sqr {width: 40vw;}
 
@@ -234,15 +247,19 @@ aside p {font-size: 10.9pt;}
 
 /* For Large (desktops, less than 1200px) devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Header */
     #searchLarge {width: 35vw;}
+
+    /* Banner */
+    #secBanner {padding: 4vw 0;}
 
     #secBanner input {width: 50vw;}
 
+    /* News cards */
     #news {width: 75vw;}
 
     #news_r1, #news_r2 {height: 15vw;}
     #news_r3 {height: 30.5vw;}
-
     #news_8 {width: 37.5vw;}
 
     .news-sqr {width: 17.8vw;}
@@ -253,7 +270,11 @@ aside p {font-size: 10.9pt;}
 
 /* For Extra Large devices (>= 1200px) size screens */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Header */
     #searchLarge {width: 30vw;}
+
+    /* Banner */
+    #secBanner {padding: 4vw 0;}
 
     #secBanner h1 {
         font-size: 2.5vw;
@@ -265,13 +286,13 @@ aside p {font-size: 10.9pt;}
         font-size: 1.2vw;
     }
 
-    #secBanner button {font-size: 1.12vw;}
+    #secBanner button {font-size: 1.2vw;}
 
+    /* News cards */
     #news {width: 75vw;}
 
     #news_r1, #news_r2 {height: 15vw;}
     #news_r3 {height: 30.5vw;}
-
     #news_8 {width: 37.5vw;}
 
     .news-sqr {width: 17.8vw;}
@@ -282,7 +303,11 @@ aside p {font-size: 10.9pt;}
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
 @media (min-width: 1400px) {
+    /* Header */
     #searchLarge {width: 30vw;}
+    
+    /* Banner */
+    #secBanner {padding: 3vw 0;}
 
     #secBanner h1 {
         font-size: 2.5vw;
@@ -294,13 +319,13 @@ aside p {font-size: 10.9pt;}
         font-size: 1vw;
     }
 
-    #secBanner button {font-size: 1.12vw;}
+    #secBanner button {font-size: 1.2vw;}
 
+    /* News cards */
     #news {width: 75vw;}
 
     #news_r1, #news_r2 {height: 15vw;}
     #news_r3 {height: 30.5vw;}
-
     #news_8 {width: 36.8vw;}
 
     .news-sqr {width: 17.8vw;}
