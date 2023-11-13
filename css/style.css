@@ -118,6 +118,31 @@ li .btn:hover {
     padding: 0 .4vw .2vw .4vw;
 }
 
+/* NEWS.HTML */
+/* Main content */
+#newsText {box-shadow: 0 5px 15px 4px #00000059;}
+
+/* Article */
+article {
+    padding: 0 0 0 1.5vw;
+    text-align: justify;
+}
+
+/* Aside content */
+aside {padding: 0 1.5vw 0 0;}
+
+aside .row {
+    /* margin: 0 0 1.3vw 0; */
+    padding: .5vw 0 .4vw .6vw;
+    border-radius: .5vw;
+    box-shadow: 0 5px 10px #0000002f;
+    transition: all .3s;
+}
+
+aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
+
+aside p {font-size: 10.9pt;}
+
 /* Footer */
 footer {
     background-color: #842440;
@@ -133,36 +158,6 @@ footer p {
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
 }
-
-/* NEWS.HTML */
-/* Main content */
-#newsText {
-    box-shadow: 0 5px 15px 4px #00000059;
-    width: 80vw;
-}
-
-/* Article */
-article {
-    padding: 0 0 0 1.5vw;
-    text-align: justify;
-}
-
-article div {width: 49.5vw;}
-
-/* Aside content */
-aside {padding: 0 1.5vw 0 0;}
-
-aside .row {
-    margin: 0 0 1.3vw 0;
-    padding: .5vw 0 .4vw .6vw;
-    border-radius: .5vw;
-    box-shadow: 0 5px 10px #0000002f;
-    transition: all .3s;
-}
-
-aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
-
-aside p {font-size: 10.9pt;}
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
@@ -243,6 +238,18 @@ aside p {font-size: 10.9pt;}
 
     .news-rec-md {width: 100%;}
     .news-sqr-md {width: 40vw;}
+
+    /* NEWS.HTML */
+    #newsText {width: 90vw;}
+
+    article div, 
+    article figure,
+    article img {width: 100%;}
+
+    aside .row {margin: 0 0 4vw 0;}
+    aside a {
+        width: 60vw;
+    }
 }
 
 /* For Large (desktops, less than 1200px) devices */
@@ -266,6 +273,13 @@ aside p {font-size: 10.9pt;}
 
     .news-text h4 {font-size: 1.4vw;}
     .news-text p {font-size: 1vw;}
+
+    /* NEWS.HTML */
+    #newsText {width: 80vw;}
+
+    article div {width: 49.5vw;}
+
+    aside .row {margin: 0 0 1.3vw 0;}
 }
 
 /* For Extra Large devices (>= 1200px) size screens */
@@ -299,6 +313,13 @@ aside p {font-size: 10.9pt;}
 
     .news-text h4 {font-size: 1.4vw;}
     .news-text p {font-size: 1vw;}
+
+    /* NEWS.HTML */
+    #newsText {width: 80vw;}
+
+    article div {width: 49.5vw;}
+
+    aside .row {margin: 0 0 1.3vw 0;}
 }
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
@@ -330,4 +351,11 @@ aside p {font-size: 10.9pt;}
 
     .news-sqr {width: 17.8vw;}
     .news-text {font-size: .8vw;}
+
+    /* NEWS.HTML */
+    #newsText {width: 80vw;}
+
+    article div {width: 49.5vw;}
+
+    aside .row {margin: 0 0 1.3vw 0;}
 }
