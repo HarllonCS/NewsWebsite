@@ -141,8 +141,6 @@ aside .row {
 
 aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
 
-aside p {font-size: 10.9pt;}
-
 /* Footer */
 footer {
     background-color: #842440;
@@ -192,6 +190,20 @@ footer p {
     .news-link {height: 50vw; margin-bottom: 8vw;}
 
     #news_r3 > .row {margin: 0 auto;}
+
+    /* NEWS.HTML */
+    aside a {margin-bottom: 4vw;}
+
+    article div, 
+    article figure,
+    article img {width: 100%;}
+
+    #rel-news_1 {background: url('https://picsum.photos/145?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/145?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/145?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/145?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/145?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/145?random=6') no-repeat;}
 }
 
 /* For Small (landscape phones, less than 768px) devices */
@@ -215,6 +227,18 @@ footer p {
     #news {width: 85vw;}
 
     .news-link {height: 50vw; margin-bottom: 8vw;}
+
+    /* NEWS.HTML */
+    article div, 
+    article figure,
+    article img {width: 100%;}
+
+    #rel-news_1 {background: url('https://picsum.photos/145?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/145?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/145?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/145?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/145?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/145?random=6') no-repeat;}
 }
 
 /* For Medium (tablets, less than 992px) devices */
@@ -247,9 +271,14 @@ footer p {
     article img {width: 100%;}
 
     aside .row {margin: 0 0 4vw 0;}
-    aside a {
-        width: 60vw;
-    }
+    aside a {width: 80vw;}
+
+    #rel-news_1 {background: url('https://picsum.photos/145?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/145?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/145?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/145?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/145?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/145?random=6') no-repeat;}
 }
 
 /* For Large (desktops, less than 1200px) devices */
@@ -277,9 +306,19 @@ footer p {
     /* NEWS.HTML */
     #newsText {width: 80vw;}
 
-    article div {width: 49.5vw;}
+    article div, 
+    article figure,
+    article img {width: 100%;}
 
     aside .row {margin: 0 0 1.3vw 0;}
+    aside a {width: 70vw;}
+
+    #rel-news_1 {background: url('https://picsum.photos/145?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/145?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/145?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/145?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/145?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/145?random=6') no-repeat;}
 }
 
 /* For Extra Large devices (>= 1200px) size screens */
@@ -320,6 +359,17 @@ footer p {
     article div {width: 49.5vw;}
 
     aside .row {margin: 0 0 1.3vw 0;}
+
+    /* Related News */
+    #rel-news_1 {background: url('https://picsum.photos/135?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/135?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/135?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/135?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/135?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/135?random=6') no-repeat;}
+
+    aside h5 {font-size: 11.8pt;}
+    aside p {font-size: 9pt;}
 }
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
@@ -358,4 +408,15 @@ footer p {
     article div {width: 49.5vw;}
 
     aside .row {margin: 0 0 1.3vw 0;}
+
+    /* Related News */
+    #rel-news_1 {background: url('https://picsum.photos/155?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/155?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/155?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/155?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/155?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/155?random=6') no-repeat;}
+    
+    aside h5 {font-size: 14pt;}
+    aside p {font-size: 10.9pt;}
 }
