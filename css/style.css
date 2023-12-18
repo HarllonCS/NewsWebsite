@@ -87,12 +87,12 @@ li .btn:hover {
 .news-link {
     position: relative;
     color: whitesmoke;
-    border-radius: 1vw;
-    /* border: 1px solid red; */
-    box-shadow: 0px 0px 6px 3px #00000052;
-    padding: 0;
+    border-radius: .4vw;
+    /* box-shadow: 0px 0px 6px 3px #00000052; */
     border: 2px solid #0C0330;
+    transition: .3s;
 }
+.news-link:hover {box-shadow: 0px 0px 6px 6px #00000052;}
 
 #news_1 {background: url('https://picsum.photos/670/380?random=1') no-repeat;}
 #news_2 {background: url('https://picsum.photos/670/380?random=2') no-repeat;}
@@ -173,19 +173,23 @@ footer p {
 
     /* Banner */
     #secBanner {padding: 4vw 0;}
-
     #secBanner h1 {line-height: 8vw;}
-
     #secBanner input {width: 80vw;}
-
     #secBanner button {margin-top: 4vw;}
     
     /* News cards */
-    #secNews {margin-top: 5.5vw}
+    #secNews {margin-top: 0}
 
-    #news {width: 85vw;}
-
-    .news-link {height: 50vw; margin-bottom: 8vw;}
+    #news {
+        width: 100%;
+        padding: 2vw 5vw;
+    }
+    .news-link {
+        height: 50vw;
+        margin: 0 auto 8vw auto;
+    }
+    .news-text h4 {font-size: 4.5vw;}
+    .news-text p {font-size: 4vw;}
 
     #news_r3 > .row {margin: 0 auto;}
 
@@ -196,12 +200,13 @@ footer p {
 
     aside .row {margin: 0 auto 4vw auto;}
 
-    #rel-news_1 {background: url('https://picsum.photos/120?random=1') no-repeat;}
+    /* DOESN'T WORK :'( */
+    /* #rel-news_1 {background: url('https://picsum.photos/120?random=1') no-repeat;}
     #rel-news_2 {background: url('https://picsum.photos/120?random=2') no-repeat;}
     #rel-news_3 {background: url('https://picsum.photos/120?random=3') no-repeat;}
     #rel-news_4 {background: url('https://picsum.photos/120?random=4') no-repeat;}
     #rel-news_5 {background: url('https://picsum.photos/120?random=5') no-repeat;}
-    #rel-news_6 {background: url('https://picsum.photos/120?random=6') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/120?random=6') no-repeat;} */
 }
 
 /* For Small (landscape phones, less than 768px) devices */
@@ -218,12 +223,14 @@ footer p {
 
     /* Banner */
     #secBanner {padding: 2vw 0;}
-
     #secBanner input {width: 60vw;}
 
     /* News cards */
-    #news {width: 85vw;}
-
+    #news {
+        width: 100%;
+        padding: 1.5vw 3vw;
+        box-shadow: none;
+    }
     .news-link {height: 50vw; margin-bottom: 8vw;}
 
     /* NEWS.HTML */
@@ -246,20 +253,22 @@ footer p {
 
     /* Banner */
     #secBanner {padding: 2vw 0;}
-
     #secBanner input {width: 50vw;}
 
     /* News cards */
-    #news {width: 80vw;}
+    #news {
+        width: 95vw;
+        padding: 1.5vw 3vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
 
     #news_r1, #news_r2 {height: 55vw;}
-    #news_8, #news_9 {height: 28vw; width: 100%;}
-    #news_10, #news_11 {height: 28vw;}
+    .news-md-w {width: 43.5vw;} /* [news_1, news_2, news_3, news_4, news_6, news_7, news_9, news_10] */
+    .news-md-h {height: 28vw;} /* [news_8, news_9, news_10, news_11] */
 
-    .news-sqr {width: 40vw;}
-
-    .news-rec-md {width: 100%;}
-    .news-sqr-md {width: 40vw;}
+    .news-text h4 {font-size: 2vw;}
+    .news-text p {font-size: 1.5vw;}
 
     /* NEWS.HTML */
     #newsText {width: 90vw;}
@@ -285,19 +294,23 @@ footer p {
 
     /* Banner */
     #secBanner {padding: 4vw 0;}
-
     #secBanner input {width: 50vw;}
 
     /* News cards */
-    #news {width: 75vw;}
+    #news {
+        width: 80vw;
+        padding: 1.5vw 2vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
+    .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
 
-    #news_r1, #news_r2 {height: 15vw;}
-    #news_r3 {height: 30.5vw;}
-    #news_8 {width: 37.5vw;}
+    #news_r1, #news_r2 {height: 13vw;}
+    #news_r3 {height: 30vw;}
+    .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7] */
+    .news-lg-w2 {width: 37.4vw;} /* [news_r3-2, news_6, news_8] */
 
-    .news-sqr {width: 17.8vw;}
-
-    .news-text h4 {font-size: 1.4vw;}
+    .news-text h4 {font-size: 1.2vw;}
     .news-text p {font-size: 1vw;}
 
     /* NEWS.HTML */
@@ -324,27 +337,30 @@ footer p {
 
     /* Banner */
     #secBanner {padding: 4vw 0;}
-
     #secBanner h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
-
     #secBanner input {
         width: 35vw;
         font-size: 1.2vw;
     }
-
     #secBanner button {font-size: 1.2vw;}
 
     /* News cards */
-    #news {width: 75vw;}
+    #news {
+        width: 80vw;
+        padding: 1.5vw 2vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
+    .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
 
-    #news_r1, #news_r2 {height: 15vw;}
-    #news_r3 {height: 30.5vw;}
-    #news_8 {width: 37.5vw;}
-
-    .news-sqr {width: 17.8vw;}
+    #news_r1, #news_r2 {height: 13vw;}
+    #news_r3 {height: 30vw;}
+    #news_1, #news_2, #news_3, #news_4,
+    #news_5, #news_7, #news_9, #news_10 {width: 17vw;}
+    #news_r3-2, #news_6, #news_8 { width: 37vw;}
 
     .news-text h4 {font-size: 1.4vw;}
     .news-text p {font-size: 1vw;}
@@ -370,30 +386,34 @@ footer p {
 @media (min-width: 1400px) {
     /* Header */
     #searchLarge {width: 30vw;}
-    
+
     /* Banner */
     #secBanner {padding: 3vw 0;}
-
     #secBanner h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
-
     #secBanner input {
         width: 35vw;
         font-size: 1vw;
     }
-
     #secBanner button {font-size: 1.2vw;}
 
     /* News cards */
-    #news {width: 75vw;}
+    #news {
+        width: 80vw;
+        padding: 1.5vw 2vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
+    .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
 
-    #news_r1, #news_r2 {height: 15vw;}
-    #news_r3 {height: 30.5vw;}
-    #news_8 {width: 36.8vw;}
+    #news_r1, #news_r2 {height: 13vw;}
+    #news_r3 {height: 30vw;}
+    #news_1, #news_2, #news_3, #news_4,
+    #news_5, #news_7, #news_9, #news_10 {width: 17vw;}
+    #news_r3-2, #news_6, #news_8 { width: 37vw;}
 
-    .news-sqr {width: 17.8vw;}
     .news-text {font-size: .8vw;}
 
     /* NEWS.HTML */
