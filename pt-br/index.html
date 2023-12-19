@@ -62,17 +62,21 @@
                 <div class="modal-body"> <!-- Login body -->
                     <form action="" method="get">
                         <div class="mb-3"> <!-- User email -->
-                            <label for="email" class="form-label">E-mail</label>
-                            <input type="email" id="email" class="form-control">
+                            <label for="email" class="form-label">E-mail:</label>
+                            <input type="email" id="email" class="form-control" required>
                         </div> <!-- /end User email -->
 
                         <div class="mb-5"> <!-- User password -->
-                            <label for="pass" class="form-label">Senha</label>
-                            <input type="password" id="pass" class="form-control">
+                            <label for="pass" class="form-label">Senha:</label>
+                            <input type="password" id="pass" class="form-control" required minlength="6">
                         </div> <!-- /end User password -->
 
-                        <!-- Login button -->
-                        <button type="submit" class="btn btn-success w-100 fs-4">Entrar</button>
+                        <div class="d-flex justify-content-around">
+                            <!-- Login Button -->
+                            <a href="./register.html" class="fs-6 text-capitalize text-decoration-none align-self-center">criar conta</a>
+                            <!-- Register button -->
+                            <button type="submit" class="btn btn-success fs-6 text-capitalize px-4">entrar</button>
+                        </div>
                     </form>
                 </div> <!-- /end Login body -->
             </div>
@@ -86,7 +90,7 @@
 
             <form method="get">
                 <!-- Email input -->
-                <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="exemplo@email.com" required> <!-- /end Email input -->
+                <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="exemplo@email.com" autofocus required> <!-- /end Email input -->
                 <!-- Form button -->
                 <button type="submit" class="btn text-uppercase fw-bold text-light mx-auto d-block rounded-pill px-sm-4 py-sm-1 mt-sm-4">Enviar Email</button>
                 <!-- /end Form button -->
