@@ -58,7 +58,8 @@ li .btn:hover {
 /* Responsive button */
 .navbar-toggler {background-color: #6b132c;}
 
-/* INDEX.HTML */
+/* ============================ INDEX.HTML ============================ */
+
 /* Banner */
 #secBanner {
     background: #FB7D6F url('https://picsum.photos/1920/520') no-repeat;
@@ -88,7 +89,6 @@ li .btn:hover {
     position: relative;
     color: whitesmoke;
     border-radius: .4vw;
-    /* box-shadow: 0px 0px 6px 3px #00000052; */
     border: 2px solid #0C0330;
     transition: .3s;
 }
@@ -118,7 +118,8 @@ li .btn:hover {
     padding: 0 .4vw .2vw .4vw;
 }
 
-/* NEWS.HTML */
+/* =========================== NEWS.HTML =========================== */
+
 /* Main content */
 #newsText {box-shadow: 0 5px 15px 4px #00000059;}
 
@@ -154,6 +155,19 @@ footer p {
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
 }
+
+/* =========================== REGISTER.HTML =========================== */
+
+#register_right {
+    background-color: #fc4450;
+    width: 60vw;
+}
+
+#register_left {
+    width: 30vw;
+}
+
+/* =========================== RESPONSIVENESS =========================== */
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
@@ -193,6 +207,8 @@ footer p {
 
     #news_r3 > .row {margin: 0 auto;}
 
+    /* ========================================================= */
+
     /* NEWS.HTML */
     article div, 
     article figure,
@@ -207,6 +223,11 @@ footer p {
     #rel-news_4 {background: url('https://picsum.photos/120?random=4') no-repeat;}
     #rel-news_5 {background: url('https://picsum.photos/120?random=5') no-repeat;}
     #rel-news_6 {background: url('https://picsum.photos/120?random=6') no-repeat;} */
+
+    /* ========================================================= */
+
+    /* REGISTER.HTML */
+
 }
 
 /* For Small (landscape phones, less than 768px) devices */

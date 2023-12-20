@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
+<html lang="en" class="h-100">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body style="height: 100%;">
-    <div style="background-color: #fc4450;
-    width: 60vw; height: 100%;
-    position: relative;">
-        <img style="position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%);" src="../res/register_img.svg" alt="Woman sitting in a chair looking at her cell phone with a news panel in the background.">
+<body class="h-100">
+    <div id="register_right" class="position-relative h-100">
+        <img width="650" src="../res/news_animate.svg" class="position-absolute top-50 start-50 translate-middle">
+        <!-- <h3 class="text-center text-light position-absolute start-50">Some text</h3> -->
+    </div>
+
+    <div id="register_left" class="position-relative h-50" style="border: 1px solid black;">
+        <form action="" method="post" class="position-absolute translate-middle top-50 start-50">
+            <div class="mb-3 bg-light">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" class="form-control">
+            </div>
+        </form>
     </div>
 
     <script src="../js/bootstrap.min.js"></script>
