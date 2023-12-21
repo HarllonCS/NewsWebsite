@@ -1,7 +1,7 @@
 let register = document.querySelector('#create_acc')
 let login =  document.querySelector('#login')
-let reg_p = document.querySelector('#reg_p')
-let log_p = document.querySelector('#login_p')
+let reg_p = document.querySelector('#regP')
+let log_p = document.querySelector('#loginP')
 
 reg_p.addEventListener('click', () => {
     register.style.display = 'none'

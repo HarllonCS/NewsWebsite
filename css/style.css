@@ -80,7 +80,7 @@ li .btn:hover {
 
 /* Email button */
 #secBanner button {background-color: #842440;}
-#secBanner button:hover {background-color: #9b3652;}
+#secBanner button:hover {background-color: #701f36;} /* #9b3652 */
 
 /* News */
 #news {margin: 0 auto;}
@@ -158,17 +158,17 @@ footer p {
 
 /* =========================== REGISTER.HTML =========================== */
 
-#reg_left {
+#regLeft {
     background-color: #fc4450;
     width: 65%;
 }
-#reg_left h5 {
+#regLeft h5 {
     line-height: 1.4vw;
     text-align: justify;
     text-align-last: center;
 }
 
-#reg_right {width: 35%;}
+#regRight {width: 35%;}
 
 #create_acc {width: 25vw;}
 #login {
@@ -176,8 +176,7 @@ footer p {
     display: none;
 }
 
-#create_acc input:hover, #login input:hover,
-#create_acc input:focus, #login input:focus {
+.yellow-shadow:hover, .yellow-shadow:focus {
     border-color: #eed57c;
     box-shadow: 0px 0px 0px 0.25rem #ddc26240;
 }
