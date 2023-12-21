@@ -58,7 +58,7 @@
                     <input type="email" id="email" name="email" class="form-control" required placeholder="exemplo@email.com">
                 </div> <!-- /end Email -->
 
-                <div class="d-flex justify-content-between mb-5"> <!-- Password -->
+                <div class="d-flex justify-content-between mb-4"> <!-- Password -->
                     <div>
                         <label for="password" class="form-label">Senha:</label>
                         <input type="password" id="password" name="password" minlength="6" class="form-control" required autocomplete="new-password" placeholder="Min.: 6 caracteres">
@@ -72,13 +72,13 @@
 
                 <div class="d-flex justify-content-around pb-3">
                     <!-- Switch to login screen -->
-                    <p type="button" class="link-primary text-decoration-none mb-0 align-self-center">Eu tenho uma conta</p>
+                    <p type="button" id="reg_p" class="link-primary text-decoration-none mb-0 align-self-center">Eu tenho uma conta</p>
                     <!-- Create account button -->
                     <button type="submit" class="btn btn-success fw-bold px-3">Criar</button>
                 </div>
             </form> <!-- /end Registration form -->
 
-            <form action="" method="post" id="login" class="bg-light position-absolute top-50 start-50 translate-middle rounded p-3 shadow d-none"> <!-- Login form -->
+            <form action="" method="post" id="login" class="bg-light position-absolute top-50 start-50 translate-middle rounded p-3 shadow"> <!-- Login form -->
                 <div class="mb-3"> <!-- Login email -->
                     <label for="log_email" class="form-label">Email:</label>
                     <input type="email" name="log_email" id="log_email" class="form-control">
@@ -91,7 +91,7 @@
 
                 <div class="d-flex justify-content-around pb-3">
                     <!-- Switch to login screen -->
-                    <p type="button" class="link-primary text-decoration-none mb-0 align-self-center">Criar conta</p>
+                    <p type="button" id="login_p" class="link-primary text-decoration-none mb-0 align-self-center">Criar conta</p>
                     <!-- Create account button -->
                     <button type="submit" class="btn btn-success fw-bold px-3">Entrar</button>
                 </div>

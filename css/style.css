@@ -171,7 +171,16 @@ footer p {
 #reg_right {width: 35%;}
 
 #create_acc {width: 25vw;}
-#login {width: 20vw;}
+#login {
+    width: 20vw;
+    display: none;
+}
+
+#create_acc input:hover, #login input:hover,
+#create_acc input:focus, #login input:focus {
+    border-color: #eed57c;
+    box-shadow: 0px 0px 0px 0.25rem #ddc26240;
+}
 
 /* =========================== RESPONSIVENESS =========================== */
 
