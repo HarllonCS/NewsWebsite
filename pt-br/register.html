@@ -47,26 +47,26 @@
         </div> <!-- /end Left side -->
 
         <div id="reg_right" class="h-100 float-end position-relative"> <!-- Right side -->
-            <form action="" method="post" id="create_acc" class="bg-light position-absolute top-50 start-50 translate-middle rounded p-4 shadow"> <!-- Registration form -->
+            <form action="" method="post" id="create_acc" class="bg-light position-absolute top-50 start-50 translate-middle rounded p-3 shadow"> <!-- Registration form -->
                 <div class="mb-3"> <!-- Username -->
                     <label for="username" class="form-label">Nome de usuário:</label>
-                    <input type="text" id="username" class="form-control" required autocomplete="username" placeholder="Não pode conter palavrões!">
+                    <input type="text" id="username" name="usename" class="form-control" required autocomplete="username" placeholder="Não pode conter palavrões!">
                 </div> <!-- /end Username -->
 
                 <div class="mb-3"> <!-- Email -->
                     <label for="email" class="form-label">Email:</label>
-                    <input type="email" id="email" class="form-control" required placeholder="exemplo@email.com">
+                    <input type="email" id="email" name="email" class="form-control" required placeholder="exemplo@email.com">
                 </div> <!-- /end Email -->
 
                 <div class="d-flex justify-content-between mb-5"> <!-- Password -->
                     <div>
                         <label for="password" class="form-label">Senha:</label>
-                        <input type="password" id="password" minlength="6" class="form-control" required autocomplete="new-password" placeholder="Min.: 6 caracteres">
+                        <input type="password" id="password" name="password" minlength="6" class="form-control" required autocomplete="new-password" placeholder="Min.: 6 caracteres">
                     </div>
 
                     <div>
                         <label for="conf_password" class="form-label">Confirmar senha:</label>
-                        <input type="password" id="conf_password" class="form-control" require autocomplete="new-password">
+                        <input type="password" id="conf_password" name="conf_password" class="form-control" require autocomplete="new-password">
                     </div>
                 </div> <!-- /end Password -->
 
@@ -77,6 +77,25 @@
                     <button type="submit" class="btn btn-success fw-bold px-3">Criar</button>
                 </div>
             </form> <!-- /end Registration form -->
+
+            <form action="" method="post" id="login" class="bg-light position-absolute top-50 start-50 translate-middle rounded p-3 shadow d-none"> <!-- Login form -->
+                <div class="mb-3"> <!-- Login email -->
+                    <label for="log_email" class="form-label">Email:</label>
+                    <input type="email" name="log_email" id="log_email" class="form-control">
+                </div> <!-- /end Login email -->
+
+                <div class="mb-3"> <!-- login password -->
+                    <label for="log_password" class="form-label">Senha:</label>
+                    <input type="password" name="log_password" id="log_password" class="form-control">
+                </div> <!-- Login password -->
+
+                <div class="d-flex justify-content-around pb-3">
+                    <!-- Switch to login screen -->
+                    <p type="button" class="link-primary text-decoration-none mb-0 align-self-center">Criar conta</p>
+                    <!-- Create account button -->
+                    <button type="submit" class="btn btn-success fw-bold px-3">Entrar</button>
+                </div>
+            </form> <!-- /end Login form -->
         </div> <!-- /end Right side -->
     </div>
 
