@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>News Website | Create account</title>
+    <title>News Website | Crear conta</title>
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -25,8 +25,8 @@
                         <li class="nav-item me-md-3">
                             <select onchange="changeLang(this.value, './register')" class="form-select text-white fw-bold">
                                 <option class="text-black" value="pt-br">Português (BR)</option>
-                                <option class="text-black" value="en" selected>English</option>
-                                <option class="text-black" value="es">Español</option>
+                                <option class="text-black" value="en">English</option>
+                                <option class="text-black" value="es" selected>Español</option>
                             </select>
                         </li>
                     </ul>
@@ -49,39 +49,39 @@
         <div id="reg_right" class="h-100 float-end position-relative"> <!-- Right side -->
             <form action="" method="post" id="create_acc" class="bg-light position-absolute top-50 start-50 translate-middle rounded p-4 shadow"> <!-- Registration form -->
                 <div class="mb-3"> <!-- Username -->
-                    <label for="username" class="form-label">Username:</label>
-                    <input type="text" id="username" class="form-control" required autocomplete="username" placeholder="Cannot contain nasty words!">
+                    <label for="username" class="form-label">Nombre de usuario:</label>
+                    <input type="text" id="username" class="form-control" required autocomplete="username" placeholder="¡No puede contener palabras desagradables!">
                 </div> <!-- /end Username -->
 
                 <div class="mb-3"> <!-- Email -->
                     <label for="email" class="form-label">Email:</label>
-                    <input type="email" id="email" class="form-control" required placeholder="exemple@email.com">
+                    <input type="email" id="email" class="form-control" required placeholder="ejemplo@email.com">
                 </div> <!-- /end Email -->
 
                 <div class="d-flex justify-content-between mb-5"> <!-- Password -->
                     <div>
-                        <label for="password" class="form-label">Password:</label>
-                        <input type="password" id="password" minlength="6" class="form-control" required autocomplete="new-password" placeholder="Min.: 6 characters">
+                        <label for="password" class="form-label">Contraseña:</label>
+                        <input type="password" id="password" minlength="6" class="form-control" required autocomplete="new-password" placeholder="Min.: 6 caracteres">
                     </div>
 
                     <div>
-                        <label for="conf_password" class="form-label">Confirm password:</label>
+                        <label for="conf_password" class="form-label">Confirmar contraseña:</label>
                         <input type="password" id="conf_password" class="form-control" require autocomplete="new-password">
                     </div>
                 </div> <!-- /end Password -->
 
                 <div class="d-flex justify-content-around pb-3">
                     <!-- Switch to login screen -->
-                    <p type="button" class="link-primary text-decoration-none mb-0 align-self-center">I have an account</p>
+                    <p type="button" class="link-primary text-decoration-none mb-0 align-self-center">Tengo una cuenta</p>
                     <!-- Create account button -->
-                    <button type="submit" class="btn btn-success fw-bold px-3">Create</button>
+                    <button type="submit" class="btn btn-success fw-bold px-3">Crear</button>
                 </div>
             </form> <!-- /end Registration form -->
         </div> <!-- /end Right side -->
     </div>
 
     <footer> <!-- Footer -->
-        <p><sup>&copy;</sup>Harllon Cícero - 2023 - All rights reserved</p>
+        <p><sup>&copy;</sup>Harllon Cícero - 2023 - Reservados todos los derechos</p>
     </footer> <!-- /end Footer -->
 
     <script src="../js/bootstrap.min.js"></script>

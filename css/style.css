@@ -158,14 +158,19 @@ footer p {
 
 /* =========================== REGISTER.HTML =========================== */
 
-#register_right {
+#reg_left {
     background-color: #fc4450;
-    width: 60vw;
+    width: 65%;
+}
+#reg_left h5 {
+    line-height: 1.4vw;
+    text-align: justify;
+    text-align-last: center;
 }
 
-#register_left {
-    width: 30vw;
-}
+#reg_right {width: 35%;}
+
+#create_acc {width: 25vw;}
 
 /* =========================== RESPONSIVENESS =========================== */
 
