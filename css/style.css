@@ -94,17 +94,17 @@ li .btn:hover {
 }
 .news-link:hover {box-shadow: 0px 0px 6px 6px #00000052;}
 
-#news_1 {background: url('https://picsum.photos/670/380?random=1') no-repeat;}
-#news_2 {background: url('https://picsum.photos/670/380?random=2') no-repeat;}
-#news_3 {background: url('https://picsum.photos/670/380?random=3') no-repeat;}
-#news_4 {background: url('https://picsum.photos/670/380?random=4') no-repeat;}
-#news_5 {background: url('https://picsum.photos/830/380?random=5') no-repeat;}
-#news_6 {background: url('https://picsum.photos/830/380?random=6') no-repeat;}
-#news_7 {background: url('https://picsum.photos/830/380?random=7') no-repeat;}
-#news_8 {background: url('https://picsum.photos/830/600?random=8') no-repeat;}
-#news_9 {background: url('https://picsum.photos/830/380?random=9') no-repeat;}
-#news_10 {background: url('https://picsum.photos/830/380?random=10') no-repeat;}
-#news_11 {background: url('https://picsum.photos/830/380?random=11') no-repeat;}
+#news1 {background: url('https://picsum.photos/670/380?random=1') no-repeat;}
+#news2 {background: url('https://picsum.photos/670/380?random=2') no-repeat;}
+#news3 {background: url('https://picsum.photos/670/380?random=3') no-repeat;}
+#news4 {background: url('https://picsum.photos/670/380?random=4') no-repeat;}
+#news5 {background: url('https://picsum.photos/830/380?random=5') no-repeat;}
+#news6 {background: url('https://picsum.photos/830/380?random=6') no-repeat;}
+#news7 {background: url('https://picsum.photos/830/380?random=7') no-repeat;}
+#news8 {background: url('https://picsum.photos/830/600?random=8') no-repeat;}
+#news9 {background: url('https://picsum.photos/830/380?random=9') no-repeat;}
+#news10 {background: url('https://picsum.photos/830/380?random=10') no-repeat;}
+#news11 {background: url('https://picsum.photos/830/380?random=11') no-repeat;}
 
 .news-text {
     position: absolute;
@@ -215,7 +215,7 @@ footer p {
     .news-text h4 {font-size: 4.5vw;}
     .news-text p {font-size: 4vw;}
 
-    #news_r3 > .row {margin: 0 auto;}
+    #newsR3 > .row {margin: 0 auto;}
 
     /* ========================== NEWS.HTML  ========================== */
 
@@ -311,7 +311,7 @@ footer p {
         border-radius: .5vw;
     }
 
-    #news_r1, #news_r2 {height: 55vw;}
+    #newsR1, #newsR2 {height: 55vw;}
     .news-md-w {width: 43.5vw;} /* [news_1, news_2, news_3, news_4, news_6, news_7, news_9, news_10] */
     .news-md-h {height: 28vw;} /* [news_8, news_9, news_10, news_11] */
 
@@ -363,10 +363,10 @@ footer p {
     }
     .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
 
-    #news_r1, #news_r2 {height: 13vw;}
-    #news_r3 {height: 30vw;}
+    #newsR1, #newsR2 {height: 13vw;}
+    #newsR3 {height: 30vw;}
     .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7] */
-    .news-lg-w2 {width: 37.4vw;} /* [news_r3-2, news_6, news_8] */
+    .news-lg-w2 {width: 37.4vw;} /* [newsR3-2, news_6, news_8] */
 
     .news-text h4 {font-size: 1.2vw;}
     .news-text p {font-size: 1vw;}
@@ -423,10 +423,10 @@ footer p {
     }
     .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
 
-    #news_r1, #news_r2 {height: 13vw;}
-    #news_r3 {height: 30vw;}
+    #newsR1, #newsR2 {height: 13vw;}
+    #newsR3 {height: 30vw;}
     .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7, news_9, news_10] */
-    .news-lg-w2 { width: 37vw;} /* [news_r3-2 news_6, news_8] */
+    .news-lg-w2 { width: 37vw;} /* [newsR3-2 news_6, news_8] */
 
     .news-text h4 {font-size: 1.4vw;}
     .news-text p {font-size: 1vw;}
@@ -487,10 +487,10 @@ footer p {
     }
     .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
 
-    #news_r1, #news_r2 {height: 13vw;}
-    #news_r3 {height: 30vw;}
+    #newsR1, #newsR2 {height: 13vw;}
+    #newsR3 {height: 30vw;}
     .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7, news_9, news_10] */
-    .news-lg-w2 {width: 37vw;} /* [news_r3-2, news_6, news_8] */
+    .news-lg-w2 {width: 37vw;} /* [newsR3-2, news_6, news_8] */
 
     .news-text {font-size: .8vw;}
 
