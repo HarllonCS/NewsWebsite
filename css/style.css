@@ -158,17 +158,11 @@ footer p {
 
 /* =========================== REGISTER.HTML =========================== */
 
-#regLeft {
-    background-color: #fc4450;
-    width: 65%;
-}
+#regLeft {background-color: #fc4450;}
 #regLeft h5 {
-    line-height: 1.4vw;
     text-align: justify;
     text-align-last: center;
 }
-
-#regRight {width: 35%;}
 
 #create_acc {width: 25vw;}
 #login {
@@ -185,6 +179,8 @@ footer p {
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
     /* Header */
     #searchLarge {display: none;}
 
@@ -221,9 +217,8 @@ footer p {
 
     #news_r3 > .row {margin: 0 auto;}
 
-    /* ========================================================= */
+    /* ========================== NEWS.HTML  ========================== */
 
-    /* NEWS.HTML */
     article div, 
     article figure,
     article img {width: 100%;}
@@ -238,14 +233,20 @@ footer p {
     #rel-news_5 {background: url('https://picsum.photos/120?random=5') no-repeat;}
     #rel-news_6 {background: url('https://picsum.photos/120?random=6') no-repeat;} */
 
-    /* ========================================================= */
+    /* ========================== REGISTER.HTML  ========================== */
 
-    /* REGISTER.HTML */
+    #regLeft {display: none;}
 
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 85vw;}
+    #regRight #login {width: 70vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
 }
 
 /* For Small (landscape phones, less than 768px) devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
     /* Header */    
     #searchSmall {display: none;}
     
@@ -268,7 +269,8 @@ footer p {
     }
     .news-link {height: 50vw; margin-bottom: 8vw;}
 
-    /* NEWS.HTML */
+    /* ========================== NEWS.HTML  ========================== */
+
     article div, 
     article figure,
     article img {width: 100%;}
@@ -279,10 +281,19 @@ footer p {
     #rel-news_4 {background: url('https://picsum.photos/175?random=4') no-repeat;}
     #rel-news_5 {background: url('https://picsum.photos/175?random=5') no-repeat;}
     #rel-news_6 {background: url('https://picsum.photos/175?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 60vw;}
+    #regRight #login {width: 40vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 10.5pt;}
 }
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
     /* Header */
     #searchLarge {width: 40vw;}
 
@@ -305,7 +316,8 @@ footer p {
     .news-text h4 {font-size: 2vw;}
     .news-text p {font-size: 1.5vw;}
 
-    /* NEWS.HTML */
+    /* ========================== MEWS.HTML  ========================== */
+
     #newsText {width: 90vw;}
 
     article div, 
@@ -320,10 +332,19 @@ footer p {
     #rel-news_4 {background: url('https://picsum.photos/215?random=4') no-repeat;}
     #rel-news_5 {background: url('https://picsum.photos/215?random=5') no-repeat;}
     #rel-news_6 {background: url('https://picsum.photos/215?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 55vw;}
+    #regRight #login {width: 35vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 11pt;}
 }
 
 /* For Large (desktops, less than 1200px) devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
     /* Header */
     #searchLarge {width: 35vw;}
 
@@ -348,7 +369,8 @@ footer p {
     .news-text h4 {font-size: 1.2vw;}
     .news-text p {font-size: 1vw;}
 
-    /* NEWS.HTML */
+    /* ========================== NEWS.HTML  ========================== */
+
     #newsText {width: 80vw;}
 
     article div, 
@@ -363,10 +385,18 @@ footer p {
     #rel-news_4 {background: url('https://picsum.photos/155?random=4') no-repeat;}
     #rel-news_5 {background: url('https://picsum.photos/155?random=5') no-repeat;}
     #rel-news_6 {background: url('https://picsum.photos/155?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 45vw;}
+    #regRight #login {width: 30vw;}
 }
 
 /* For Extra Large devices (>= 1200px) size screens */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
     /* Header */
     #searchLarge {width: 30vw;}
 
@@ -393,14 +423,14 @@ footer p {
 
     #news_r1, #news_r2 {height: 13vw;}
     #news_r3 {height: 30vw;}
-    #news_1, #news_2, #news_3, #news_4,
-    #news_5, #news_7, #news_9, #news_10 {width: 17vw;}
-    #news_r3-2, #news_6, #news_8 { width: 37vw;}
+    .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7, news_9, news_10] */
+    .news-lg-w2 { width: 37vw;} /* [news_r3-2 news_6, news_8] */
 
     .news-text h4 {font-size: 1.4vw;}
     .news-text p {font-size: 1vw;}
 
-    /* NEWS.HTML */
+    /* ========================== NEWS.HTML  ========================== */
+
     #newsText {width: 80vw;}
 
     article div {width: 49.5vw;}
@@ -415,10 +445,22 @@ footer p {
     #rel-news_4 {background: url('https://picsum.photos/135?random=4') no-repeat;}
     #rel-news_5 {background: url('https://picsum.photos/135?random=5') no-repeat;}
     #rel-news_6 {background: url('https://picsum.photos/135?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regLeft {width: 60%;}
+    #regLeft h5 {font-size: 12pt;}
+
+    #regRight {width: 40%;}
+    #regRight #create_acc {width: 32vw;}
+    #regRight #login {width: 25vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
 }
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
 @media (min-width: 1400px) {
+    /* ========================== INDEX.HTML  ========================== */
+
     /* Header */
     #searchLarge {width: 30vw;}
 
@@ -445,13 +487,13 @@ footer p {
 
     #news_r1, #news_r2 {height: 13vw;}
     #news_r3 {height: 30vw;}
-    #news_1, #news_2, #news_3, #news_4,
-    #news_5, #news_7, #news_9, #news_10 {width: 17vw;}
-    #news_r3-2, #news_6, #news_8 { width: 37vw;}
+    .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7, news_9, news_10] */
+    .news-lg-w2 {width: 37vw;} /* [news_r3-2, news_6, news_8] */
 
     .news-text {font-size: .8vw;}
 
-    /* NEWS.HTML */
+    /* ========================== NEWS.HTML  ========================== */
+
     #newsText {width: 80vw;}
 
     article div {width: 49.5vw;}
@@ -466,4 +508,11 @@ footer p {
     
     aside h5 {font-size: 14pt;}
     aside p {font-size: 10.9pt;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regLeft {width: 65%;}
+    #regLeft h5 {font-size: 14pt;}
+
+    #regRight {width: 35%;}
 }
