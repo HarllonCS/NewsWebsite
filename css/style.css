@@ -80,22 +80,23 @@ li #btnUserMenu i {
     background: #FB7D6F url('https://picsum.photos/1920/520') no-repeat;
     border-bottom: 5px solid #842440;
 }
-
 /* Big text in index page */
 #secBanner h1 {
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     text-shadow: 0px 0px 10px black;
 }
-
 /* email field in index */
 #secBanner input[type='email'] {border-color: lightgray;}
 #secBanner input[type='email']:hover,
 #secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
-
 /* Email button */
-#secBanner button {background-color: #842440;}
-#secBanner button:hover {background-color: #701f36;} /* #9b3652 */
+#secBanner button {
+    box-shadow: 0px 0px 10px 0px black;
+    background-color: #842440;
+    transition: .3s;
+}
+#secBanner button:hover {background-color: #701f36;}
 
 /* News */
 #news {margin: 0 auto;}
@@ -126,7 +127,6 @@ li #btnUserMenu i {
     bottom: 0;
     padding: 0 .5vw;
 }
-
 .news-text > * {
     background-color: #00000085;
     display: inline-block;
@@ -146,14 +146,12 @@ article {
 
 /* Aside content */
 aside {padding: 0 1.5vw 0 0;}
-
 aside .row {
     padding: .5vw 0 .4vw .6vw;
     border-radius: .5vw;
     box-shadow: 0 5px 10px #0000002f;
     transition: all .3s;
 }
-
 aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
 
 /* Footer */
@@ -161,7 +159,6 @@ footer {
     background-color: #842440;
     color: whitesmoke;
 }
-
 footer p {
     margin: 0;
     font-size: 14pt;
