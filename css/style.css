@@ -199,6 +199,10 @@ footer p {
     /* Header */
     #searchLarge {display: none;}
 
+    /* User menu */
+    .offcanvas-body i {font-size: 16pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
+
     #searchSmall {
         margin: 3vw auto;
         width: 85vw;
@@ -264,6 +268,10 @@ footer p {
 
     /* Header */    
     #searchSmall {display: none;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 16pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
     
     #searchLarge {
         width: 80vw;
@@ -313,6 +321,10 @@ footer p {
 
     /* Header */
     #searchLarge {width: 40vw;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 12pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
 
     /* Banner */
     #secBanner {padding: 2vw 0;}
@@ -365,6 +377,10 @@ footer p {
     /* Header */
     #searchLarge {width: 35vw;}
 
+    /* User menu */
+    .offcanvas-body i {font-size: 12pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
+
     /* Banner */
     #secBanner {padding: 4vw 0;}
     #secBanner input {width: 50vw;}
@@ -416,6 +432,13 @@ footer p {
 
     /* Header */
     #searchLarge {width: 30vw;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 14pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 12pt;}
+
+    /* User menu */
+    .offcanvas-body nav {font-size: 12pt;}
 
     /* Banner */
     #secBanner {padding: 4vw 0;}
@@ -480,6 +503,10 @@ footer p {
 
     /* Header */
     #searchLarge {width: 30vw;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 18pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 14pt;}
 
     /* Banner */
     #secBanner {padding: 3vw 0;}
