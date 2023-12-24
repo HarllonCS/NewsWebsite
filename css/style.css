@@ -12,7 +12,7 @@ body {background-color: #F6ECC6;}
 
 /* Header */
 /* Navigation bar */
-nav {background-color: #842440;}
+.navbar {background-color: #842440;}
 
 .navbar-brand {font-family: 'Newsreader', serif;}
 
@@ -54,6 +54,21 @@ li .btn:hover {
     color: whitesmoke;
     border: 1px solid #ffffff8e;
 }
+
+/* User menu button */
+li #btnUserMenu {
+    background-color: #a02347;
+    border: 1px solid #d8d8d877;
+    transition: all .3s;
+}
+li #btnUserMenu:hover {background-color: #18080c52;}
+li #btnUserMenu i {
+    color: #d8d8d8;
+    padding: 5px 4px;
+}
+
+#userMenu {background-color: #5c1529;}
+#userMenu nav a:hover {background-color: #18080c52;}
 
 /* Responsive button */
 .navbar-toggler {background-color: #6b132c;}

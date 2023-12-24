@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/style.css">
 
+    <script src="https://kit.fontawesome.com/f1ed2eab26.js" crossorigin="anonymous"></script>
     <script src="../js/aos.js"></script>
 
     <!--[if lt IE 9]>
@@ -45,8 +46,14 @@
                             </select>
                         </li>
 
-                        <li class="nav-item">
-                            <button class="btn btn-danger fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                        <li class="nav-item align-self-center">
+                            <!-- Login button -->
+                            <button class="btn fw-bold pt-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+
+                            <!-- Button to user menu -->
+                            <!-- <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
+                                <i class="fa-user fa-solid fs-4"></i>
+                            </button> -->
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
@@ -85,7 +92,30 @@
                 </div> <!-- /end Login body -->
             </div>
         </div>
-    </div> <!-- /end Login screen -->
+    </div>
+
+    <!-- User menu -->
+    <!-- <div id="userMenu" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="userMenuLabel" data-bs-scroll="true" data-bs-backdrop="static">
+        <div class="offcanvas-header">
+            <h5 id="userMenuLabel" class="offcanvas-title text-capitalize text-light fs-4">cícero</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <div>
+                <nav class="nav flex-column fs-5">
+                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Notícias Favoritas</a>
+                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 1</a>
+                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 2</a>
+                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 3</a>
+                    <a href="#" class="nav-link fw-bold text-light py-3 mt-3 rounded-pill">
+                        <i class="fa-solid fa-arrow-right-from-bracket fs-4"></i>
+                        <span class="fs-5">Sair</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div> -->
 
     <main role="main" id="newsCards"> <!-- Main content -->
         <section id="secBanner">
