@@ -119,16 +119,42 @@
 
     <main role="main" id="newsCards"> <!-- Main content -->
         <section id="secBanner">
-            <!-- Text for user -->
-            <h1 class="text-uppercase text-center mx-auto fw-bold">Receba as notícias e <br> atualize-se</h1>
+            <div id="carouselBanner" class="carousel slide">
+                <div class="carousel-indicators mx-0">
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active shadow-none" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" class="shadow-none mx-4" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" class="shadow-none" aria-label="Slide 3"></button>
+                </div>
 
-            <form method="get">
-                <!-- Email input -->
-                <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="exemplo@email.com" autofocus required> <!-- /end Email input -->
-                <!-- Form button -->
-                <button type="submit" class="btn fw-bold text-light mx-auto d-block rounded-pill px-sm-4 pt-sm-1 mt-sm-4">Enviar email</button>
-                <!-- /end Form button -->
-            </form>
+                <div class="carousel-inner">
+                    <div id="carousel1" class="carousel-item active">
+                        <h1 class="text-uppercase text-center mx-auto fw-bold">Receba as notícias e <br> atualize-se</h1>
+
+                        <form action="" method="post">
+                            <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="exemplo@email.com" autofocus required>
+                            <button type="submit" class="btn fw-bold text-light mx-auto d-block rounded-pill px-sm-4 pt-sm-1 mt-sm-4">Enviar email</button>
+                        </form>
+                    </div>
+
+                    <div id="carousel2" class="carousel-item">
+                        <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    </div>
+
+                    <div id="carousel3" class="carousel-item">
+                        <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    </div>
+
+                    <button type="button" class="carousel-control-prev bg-transparent shadow-none" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon rounded" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button type="button" class="carousel-control-next bg-transparent shadow-none" data-bs-target="#carouselBanner" data-bs-slide="next">
+                        <span class="carousel-control-next-icon rounded" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </section>
 
         <section id="secNews" class="my-md-5"> <!-- News -->

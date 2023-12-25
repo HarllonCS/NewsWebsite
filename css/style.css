@@ -77,26 +77,29 @@ li #btnUserMenu i {
 
 /* Banner */
 #secBanner {
-    background: #FB7D6F url('https://picsum.photos/1920/520') no-repeat;
+    /* background: #FB7D6F url('https://picsum.photos/1920/520') no-repeat; */
     border-bottom: 5px solid #842440;
 }
+#carousel1 {background: url('https://picsum.photos/1920/520?random=1');}
+#carousel2 {background: url('https://picsum.photos/1920/520?random=2');}
+#carousel3 {background: url('https://picsum.photos/1920/520?random=3');}
 /* Big text in index page */
-#secBanner h1 {
+#carouselBanner h1 {
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     text-shadow: 0px 0px 10px black;
 }
 /* email field in index */
-#secBanner input[type='email'] {border-color: lightgray;}
-#secBanner input[type='email']:hover,
-#secBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
+#carouselBanner input[type='email'] {border-color: lightgray;}
+#carouselBanner input[type='email']:hover,
+#carouselBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 /* Email button */
-#secBanner button {
+#carouselBanner .btn {
     box-shadow: 0px 0px 10px 0px black;
     background-color: #842440;
     transition: .3s;
 }
-#secBanner button:hover {background-color: #701f36;}
+#carouselBanner .btn:hover {background-color: #701f36;}
 
 /* News */
 #news {margin: 0 auto;}
@@ -132,6 +135,9 @@ li #btnUserMenu i {
     display: inline-block;
     padding: 0 .4vw .2vw .4vw;
 }
+
+#carouselBanner button span,
+.carousel-indicators [data-bs-target] {background-color: #842440;}
 
 /* =========================== NEWS.HTML =========================== */
 
@@ -506,16 +512,20 @@ footer p {
     .offcanvas-body nav, .offcanvas-body span {font-size: 14pt;}
 
     /* Banner */
-    #secBanner {padding: 3vw 0;}
-    #secBanner h1 {
+    .carousel-item h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
+        padding: 0 20vw;
     }
-    #secBanner input {
+    #carousel1 {padding: 4vw 0;}
+    #carousel1 input {
         width: 35vw;
         font-size: 1vw;
     }
-    #secBanner button {font-size: 1.2vw;}
+    #carousel1 button {font-size: 1.2vw;}
+
+    #carousel2 {padding: 5.3vw 0;}
+    #carousel3 {padding: 7.05vw 0;}
 
     /* News cards */
     #news {
