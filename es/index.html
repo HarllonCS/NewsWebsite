@@ -119,42 +119,60 @@
 
     <main role="main" id="newsCards"> <!-- Main content -->
         <section id="secBanner">
-            <div id="carouselBanner" class="carousel slide">
-                <div class="carousel-indicators mx-0">
-                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active shadow-none" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" class="shadow-none mx-4" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" class="shadow-none" aria-label="Slide 3"></button>
-                </div>
+            <!-- data-bs-ride="carousel" -->
+            <div id="carouselBanner" class="carousel slide" data-bs-touch="true"> <!-- Carousel banner -->
+                <div class="carousel-indicators d-sm-none d-xl-flex mx-0"> <!-- Carousel indicator -->
+                    <!-- Button slide 1 -->
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <!-- Button slide 2 -->
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" class="mx-4" aria-label="Slide 2"></button>
+                    <!-- Button slide 3 -->
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div> <!-- Carousel indicator -->
 
-                <div class="carousel-inner">
-                    <div id="carousel1" class="carousel-item active">
-                        <h1 class="text-uppercase text-center mx-auto fw-bold">Recibe las noticias y <br> mantente actualizado</h1>
+                <div class="carousel-inner"> <!-- Carousel -->
+                    <div id="carousel1" class="carousel-item active"> <!-- Slide 1 -->
+                        <div class="d-flex h-100">
+                            <div class="align-self-center mx-auto">
+                                <h1 class="text-uppercase text-center fw-bold">Recibe las noticias y <br> mantente actualizado</h1>
 
-                        <form action="" method="post">
-                            <input type="email" class="form-control mx-auto text-center py-lg-2" placeholder="ejemplo@email.com" autofocus required>
-                            <button type="submit" class="btn fw-bold text-light mx-auto d-block rounded-pill px-sm-4 pt-sm-1 mt-sm-4">Enviar email</button>
-                        </form>
-                    </div>
+                                <form action="" method="post">
+                                    <input type="email" class="form-control text-center py-lg-2 mx-auto" placeholder="exemple@email.com" autofocus required>
+                                    <button type="submit" class="btn fw-bold text-light mx-auto d-block rounded-pill px-sm-4 pt-sm-1 mt-sm-4">Enviar email</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div> <!-- /end Slide -->
 
-                    <div id="carousel2" class="carousel-item">
-                        <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                    </div>
+                    <div id="carousel2" class="carousel-item"> <!-- Slide 2 -->
+                        <div class="d-flex h-100">
+                            <div class="align-self-center mx-auto">
+                                <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                            </div>
+                        </div>
+                    </div> <!-- /end Slide 2 -->
 
-                    <div id="carousel3" class="carousel-item">
-                        <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                    </div>
+                    <div id="carousel3" class="carousel-item"> <!-- Slide 3 -->
+                        <div class="d-flex h-100">
+                            <div class="align-self-center mx-auto">
+                                <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                            </div>
+                        </div>
+                    </div> <!-- /end Slide 3 -->
 
-                    <button type="button" class="carousel-control-prev bg-transparent shadow-none" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                    <!-- "Previous" carousel button -->
+                    <button type="button" class="carousel-control-prev" data-bs-target="#carouselBanner" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon rounded" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
 
-                    <button type="button" class="carousel-control-next bg-transparent shadow-none" data-bs-target="#carouselBanner" data-bs-slide="next">
+                    <!-- "Next" carousel button -->
+                    <button type="button" class="carousel-control-next" data-bs-target="#carouselBanner" data-bs-slide="next">
                         <span class="carousel-control-next-icon rounded" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
-                </div>
-            </div>
+                </div> <!-- /end Carousel -->
+            </div> <!-- /end Carousel banner -->
         </section>
 
         <section id="secNews" class="my-md-5"> <!-- News -->

@@ -17,17 +17,17 @@ body {background-color: #F6ECC6;}
 .navbar-brand {font-family: 'Newsreader', serif;}
 
 /* Search bar */
-input[type='search'] {background-color: #18080c52;}
-input[type='search']::placeholder {
+header input[type='search'] {background-color: #18080c52;}
+header input[type='search']::placeholder {
     color: whitesmoke;
     font-weight: bold;
 }
-input[type='search']:focus {
+header input[type='search']:focus {
     background-color: #18080c52;
     box-shadow: 0 0 0 4px #adcce685;
     border-color: whitesmoke;
 }
-input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
+header input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
 
 /* header li */
 li .form-select {
@@ -38,7 +38,7 @@ li .form-select {
 }
 li .form-select:hover {
     background-color: #6b132c;
-    border: 1px solid #ffffff8e;
+    border-color: #ffffff8e;
 }
 
 li option {background-color: whitesmoke;}
@@ -51,8 +51,7 @@ li .btn {
 }
 li .btn:hover {
     background-color: #6b132c;
-    color: whitesmoke;
-    border: 1px solid #ffffff8e;
+    border-color: #ffffff8e;
 }
 
 /* User menu button */
@@ -193,7 +192,7 @@ footer p {
     box-shadow: 0px 0px 0px 0.25rem #ddc26240;
 }
 
-/* =========================== RESPONSIVENESS =========================== */
+/* =========================== MEDIA QUERIES =========================== */
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
@@ -218,10 +217,7 @@ footer p {
     }
 
     /* Banner */
-    #secBanner {padding: 4vw 0;}
-    #secBanner h1 {line-height: 8vw;}
-    #secBanner input {width: 80vw;}
-    #secBanner button {margin-top: 4vw;}
+    #secBanner {display: none;}
     
     /* News cards */
     #secNews {margin-top: 0}
@@ -284,8 +280,18 @@ footer p {
     .navbar-nav {padding: 0 12vw;}
 
     /* Banner */
-    #secBanner {padding: 2vw 0;}
-    #secBanner input {width: 60vw;}
+    /* .carousel-item {height: 25vw;}
+    .carousel-item h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #carousel1 input {
+        width: 35vw;
+        font-size: 9.3pt;
+    }
+    #carousel1 button {font-size: 1.2vw;}
+
+    #carousel2 h1 {padding: 0 15vw;} */
 
     /* News cards */
     #news {
@@ -314,8 +320,6 @@ footer p {
     #regRight #create_acc {width: 60vw;}
     #regRight #login {width: 40vw;}
     #regRight form, #regRight input, #regRight .btn {font-size: 10.5pt;}
-
-    .form-select {width: 35vw;}
 }
 
 /* For Medium (tablets, less than 992px) devices */
@@ -330,8 +334,18 @@ footer p {
     .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
 
     /* Banner */
-    #secBanner {padding: 2vw 0;}
-    #secBanner input {width: 50vw;}
+    .carousel-item {height: 25vw;}
+    .carousel-item h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #carousel1 input {
+        width: 35vw;
+        font-size: 9.3pt;
+    }
+    #carousel1 button {font-size: 1.2vw;}
+
+    #carousel2 h1 {padding: 0 15vw;}
 
     /* News cards */
     #news {
@@ -385,8 +399,18 @@ footer p {
     .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
 
     /* Banner */
-    #secBanner {padding: 4vw 0;}
-    #secBanner input {width: 50vw;}
+    .carousel-item {height: 20vw;}
+    .carousel-item h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #carousel1 input {
+        width: 35vw;
+        font-size: 1vw;
+    }
+    #carousel1 button {font-size: 1.2vw;}
+
+    #carousel2 h1 {padding: 0 15vw;}
 
     /* News cards */
     #news {
@@ -440,20 +464,22 @@ footer p {
     .offcanvas-body i {font-size: 14pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 12pt;}
 
-    /* User menu */
-    .offcanvas-body nav {font-size: 12pt;}
-
     /* Banner */
-    #secBanner {padding: 4vw 0;}
-    #secBanner h1 {
+    .carousel-item {height: 20vw;}
+    .carousel-item h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
-    #secBanner input {
+    #carousel1 input {
         width: 35vw;
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
-    #secBanner button {font-size: 1.2vw;}
+    #carousel1 button {
+        font-size: 1.2vw;
+        margin-bottom: 2vw;
+    }
+
+    #carousel2 h1 {padding: 0 15vw;}
 
     /* News cards */
     #news {
@@ -512,20 +538,18 @@ footer p {
     .offcanvas-body nav, .offcanvas-body span {font-size: 14pt;}
 
     /* Banner */
+    .carousel-item {height: 20vw;}
     .carousel-item h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
-        padding: 0 20vw;
     }
-    #carousel1 {padding: 4vw 0;}
     #carousel1 input {
         width: 35vw;
         font-size: 1vw;
     }
     #carousel1 button {font-size: 1.2vw;}
 
-    #carousel2 {padding: 5.3vw 0;}
-    #carousel3 {padding: 7.05vw 0;}
+    #carousel2 h1 {padding: 0 15vw;}
 
     /* News cards */
     #news {
