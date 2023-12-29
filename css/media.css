@@ -1,0 +1,385 @@
+/* =========================== MEDIA QUERIES =========================== */
+
+/* For Extra Small (portrait phones, less than 576px) devices */
+@media (max-width: 575.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
+    /* Header */
+    #searchLarge {display: none;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 16pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
+
+    #searchSmall {
+        margin: 3vw auto;
+        width: 85vw;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 12vw;
+    }
+
+    /* Banner */
+    #secBanner {display: none;}
+    
+    /* News cards */
+    #secNews {margin-top: 0}
+
+    #news {
+        width: 100%;
+        padding: 2vw 5vw;
+    }
+    .news-link {
+        height: 50vw;
+        margin: 0 auto 8vw auto;
+    }
+    .news-text h4 {font-size: 4.5vw;}
+    .news-text p {font-size: 4vw;}
+
+    #newsR3 > .row {margin: 0 auto;}
+
+    /* ========================== NEWS.HTML  ========================== */
+
+    article div, 
+    article figure,
+    article img {width: 100%;}
+
+    aside .row {margin: 0 auto 4vw auto;}
+
+    /* DOESN'T WORK :'( */
+    /* #rel-news_1 {background: url('https://picsum.photos/120?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/120?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/120?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/120?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/120?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/120?random=6') no-repeat;} */
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regLeft {display: none;}
+
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 85vw;}
+    #regRight #login {width: 70vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
+}
+
+/* For Small (landscape phones, less than 768px) devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
+    /* Header */    
+    #searchSmall {display: none;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 16pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
+    
+    #searchLarge {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .navbar-nav {padding: 0 12vw;}
+
+    /* News cards */
+    #news {
+        width: 100%;
+        padding: 1.5vw 3vw;
+        box-shadow: none;
+    }
+    .news-link {height: 50vw; margin-bottom: 8vw;}
+
+    /* ========================== NEWS.HTML  ========================== */
+
+    article div, 
+    article figure,
+    article img {width: 100%;}
+
+    #rel-news_1 {background: url('https://picsum.photos/175?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/175?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/175?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/175?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/175?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/175?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 60vw;}
+    #regRight #login {width: 40vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 10.5pt;}
+}
+
+/* For Medium (tablets, less than 992px) devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
+    /* Header */
+    #searchLarge {width: 40vw;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 12pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
+
+    /* Banner */
+    .carousel-item {height: 25vw;}
+    .carousel-item h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #carousel1 input {
+        width: 35vw;
+        font-size: 9.3pt;
+    }
+    #carousel1 button {font-size: 1.4vw;}
+
+    #carousel2 h1 {padding: 0 15vw;}
+
+    /* News cards */
+    #news {
+        width: 95vw;
+        padding: 1.5vw 3vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
+
+    #newsR1, #newsR2 {height: 55vw;}
+    .news-md-w {width: 43.5vw;} /* [news_1, news_2, news_3, news_4, news_6, news_7, news_9, news_10] */
+    .news-md-h {height: 28vw;} /* [news_8, news_9, news_10, news_11] */
+
+    .news-text h4 {font-size: 2vw;}
+    .news-text p {font-size: 1.5vw;}
+
+    /* ========================== MEWS.HTML  ========================== */
+
+    #newsText {width: 90vw;}
+
+    article div, 
+    article figure,
+    article img {width: 100%;}
+
+    aside .row {margin-bottom: 4vw;}
+
+    #rel-news_1 {background: url('https://picsum.photos/215?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/215?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/215?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/215?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/215?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/215?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 55vw;}
+    #regRight #login {width: 35vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 11pt;}
+}
+
+/* For Large (desktops, less than 1200px) devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
+    /* Header */
+    #searchLarge {width: 35vw;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 12pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
+
+    /* Banner */
+    .carousel-item {height: 20vw;}
+    .carousel-item h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #carousel1 input {
+        width: 35vw;
+        font-size: 1vw;
+    }
+    #carousel1 button {font-size: 1.2vw;}
+
+    #carousel2 h1 {padding: 0 15vw;}
+
+    /* News cards */
+    #news {
+        width: 80vw;
+        padding: 1.5vw 2vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
+    .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
+
+    #newsR1, #newsR2 {height: 13vw;}
+    #newsR3 {height: 30vw;}
+    .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7] */
+    .news-lg-w2 {width: 37.4vw;} /* [newsR3-2, news_6, news_8] */
+
+    .news-text h4 {font-size: 1.2vw;}
+    .news-text p {font-size: 1vw;}
+
+    /* ========================== NEWS.HTML  ========================== */
+
+    #newsText {width: 80vw;}
+
+    article div, 
+    article figure,
+    article img {width: 100%;}
+
+    aside .row {width: 73vw;}
+
+    #rel-news_1 {background: url('https://picsum.photos/155?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/155?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/155?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/155?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/155?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/155?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regRight {width: 100%;}
+    #regRight #create_acc {width: 45vw;}
+    #regRight #login {width: 30vw;}
+}
+
+/* For Extra Large devices (>= 1200px) size screens */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* ========================== INDEX.HTML  ========================== */
+
+    /* Header */
+    #searchLarge {width: 30vw;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 14pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 12pt;}
+
+    /* Banner */
+    .carousel-item {height: 20vw;}
+    .carousel-item h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #carousel1 input {
+        width: 35vw;
+        font-size: 1vw;
+    }
+    #carousel1 button {
+        font-size: 1.2vw;
+        margin-bottom: 2vw;
+    }
+
+    #carousel2 h1 {padding: 0 15vw;}
+
+    /* News cards */
+    #news {
+        width: 80vw;
+        padding: 1.5vw 2vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
+    .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
+
+    #newsR1, #newsR2 {height: 13vw;}
+    #newsR3 {height: 30vw;}
+    .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7, news_9, news_10] */
+    .news-lg-w2 { width: 37vw;} /* [newsR3-2 news_6, news_8] */
+
+    .news-text h4 {font-size: 1.4vw;}
+    .news-text p {font-size: 1vw;}
+
+    /* ========================== NEWS.HTML  ========================== */
+
+    #newsText {width: 80vw;}
+
+    article div {width: 49.5vw;}
+
+    /* Related News */
+    aside h5 {font-size: 11.8pt;}
+    aside p {font-size: 9pt;}
+
+    #rel-news_1 {background: url('https://picsum.photos/135?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/135?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/135?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/135?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/135?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/135?random=6') no-repeat;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regLeft {width: 60%;}
+    #regLeft h5 {font-size: 12pt;}
+
+    #regRight {width: 40%;}
+    #regRight #create_acc {width: 32vw;}
+    #regRight #login {width: 25vw;}
+    #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
+}
+
+/* For Extra Extra Large devices (>= 1400px) size screens */
+@media (min-width: 1400px) {
+    /* ========================== INDEX.HTML  ========================== */
+
+    /* Header */
+    #searchLarge {width: 30vw;}
+
+    /* User menu */
+    .offcanvas-body i {font-size: 18pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 14pt;}
+
+    /* Banner */
+    .carousel-item {height: 20vw;}
+    .carousel-item h1 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #carousel1 input {
+        width: 35vw;
+        font-size: 1vw;
+    }
+    #carousel1 button {font-size: 1.2vw;}
+
+    #carousel2 h1 {padding: 0 15vw;}
+
+    /* News cards */
+    #news {
+        width: 80vw;
+        padding: 1.5vw 2vw;
+        border: 2px solid #842440;
+        border-radius: .5vw;
+    }
+    .news-link {box-shadow: 0px 0px 6px 3px #00000052;}
+
+    #newsR1, #newsR2 {height: 13vw;}
+    #newsR3 {height: 30vw;}
+    .news-lg-w {width: 17vw;} /* [news_1, news_2, news_3, news_4, news_5, news_7, news_9, news_10] */
+    .news-lg-w2 {width: 37vw;} /* [newsR3-2, news_6, news_8] */
+
+    .news-text {font-size: .8vw;}
+
+    /* ========================== NEWS.HTML  ========================== */
+
+    #newsText {width: 80vw;}
+
+    article div {width: 49.5vw;}
+
+    /* Related News */
+    #rel-news_1 {background: url('https://picsum.photos/155?random=1') no-repeat;}
+    #rel-news_2 {background: url('https://picsum.photos/155?random=2') no-repeat;}
+    #rel-news_3 {background: url('https://picsum.photos/155?random=3') no-repeat;}
+    #rel-news_4 {background: url('https://picsum.photos/155?random=4') no-repeat;}
+    #rel-news_5 {background: url('https://picsum.photos/155?random=5') no-repeat;}
+    #rel-news_6 {background: url('https://picsum.photos/155?random=6') no-repeat;}
+    
+    aside h5 {font-size: 14pt;}
+    aside p {font-size: 10.9pt;}
+
+    /* ========================== REGISTER.HTML  ========================== */
+
+    #regLeft {width: 65%;}
+    #regLeft h5 {font-size: 14pt;}
+
+    #regRight {width: 35%;}
+}
