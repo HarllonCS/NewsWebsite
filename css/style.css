@@ -75,13 +75,11 @@ li #btnUserMenu i {
 /* ============================ INDEX.HTML ============================ */
 
 /* Banner */
-#secBanner {
-    /* background: #FB7D6F url('https://picsum.photos/1920/520') no-repeat; */
-    border-bottom: 5px solid #842440;
-}
-#carousel1 {background: url('https://picsum.photos/1920/520?random=1');}
-#carousel2 {background: url('https://picsum.photos/1920/520?random=2');}
-#carousel3 {background: url('https://picsum.photos/1920/520?random=3');}
+#secBanner {border-bottom: 5px solid #842440;}
+
+#carousel1 {background-image: url('https://picsum.photos/1920/520?random=1');}
+#carousel2 {background-image: url('https://picsum.photos/1920/520?random=2');}
+#carousel3 {background-image: url('https://picsum.photos/1920/520?random=3');}
 /* Big text in index page */
 #carouselBanner h1 {
     font-family: 'Roboto', sans-serif;

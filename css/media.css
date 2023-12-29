@@ -5,16 +5,17 @@
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
+    .navbar-brand {font-size: 4vw;}
+
     #searchLarge {display: none;}
-
-    /* User menu */
-    .offcanvas-body i {font-size: 16pt;}
-    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
-
     #searchSmall {
         margin: 3vw auto;
         width: 85vw;
     }
+
+    /* User menu */
+    .offcanvas-body i {font-size: 16pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
 
     .navbar-nav {
         flex-direction: row;
@@ -26,8 +27,6 @@
     #secBanner {display: none;}
     
     /* News cards */
-    #secNews {margin-top: 0}
-
     #news {
         width: 100%;
         padding: 2vw 5vw;
@@ -36,10 +35,13 @@
         height: 50vw;
         margin: 0 auto 8vw auto;
     }
-    .news-text h4 {font-size: 4.5vw;}
+    .news-text h4 {
+        font-size: 4.5vw;
+        padding: .6vw 2vw 1vw;
+    }
     .news-text p {font-size: 4vw;}
 
-    #newsR3 > .row {margin: 0 auto;}
+    #newsR3 .row {margin: 0 auto;}
 
     /* ========================== NEWS.HTML  ========================== */
 
@@ -59,8 +61,10 @@
 
     /* ========================== REGISTER.HTML  ========================== */
 
+    /* Left side (image) */
     #regLeft {display: none;}
 
+    /* Right side (register/login screen) */
     #regRight {width: 100%;}
     #regRight #create_acc {width: 85vw;}
     #regRight #login {width: 70vw;}
@@ -72,16 +76,16 @@
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */    
-    #searchSmall {display: none;}
+    .navbar-brand {font-size: 3.3vw;}
 
-    /* User menu */
-    .offcanvas-body i {font-size: 16pt;}
-    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
-    
     #searchLarge {
         width: 80vw;
         margin: 0 auto;
     }
+
+    /* User menu */
+    .offcanvas-body i {font-size: 16pt;}
+    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
 
     .navbar-nav {padding: 0 12vw;}
 
@@ -108,6 +112,7 @@
 
     /* ========================== REGISTER.HTML  ========================== */
 
+    /* Right side (image) */
     #regRight {width: 100%;}
     #regRight #create_acc {width: 60vw;}
     #regRight #login {width: 40vw;}
@@ -119,7 +124,13 @@
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
+    .navbar-brand {font-size: 2.4vw;}
+
     #searchLarge {width: 40vw;}
+    #searchLarge input {font-size: 9.5pt;}
+
+    .nav-item .form-select,
+    .nav-item button {font-size: 9pt;}
 
     /* User menu */
     .offcanvas-body i {font-size: 12pt;}
@@ -173,6 +184,7 @@
 
     /* ========================== REGISTER.HTML  ========================== */
 
+    /* Right side (image) */
     #regRight {width: 100%;}
     #regRight #create_acc {width: 55vw;}
     #regRight #login {width: 35vw;}
@@ -184,7 +196,13 @@
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
+    .navbar-brand {font-size: 2.2vw;}
+
     #searchLarge {width: 35vw;}
+    #searchLarge input,
+
+    .nav-item .form-select,
+    .nav-item button {font-size: 10pt;}
 
     /* User menu */
     .offcanvas-body i {font-size: 12pt;}
@@ -240,6 +258,7 @@
 
     /* ========================== REGISTER.HTML  ========================== */
 
+    /* Right side (image) */
     #regRight {width: 100%;}
     #regRight #create_acc {width: 45vw;}
     #regRight #login {width: 30vw;}
@@ -250,7 +269,13 @@
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
+    .navbar-brand {font-size: 2vw;}
+
     #searchLarge {width: 30vw;}
+    #searchLarge input,
+
+    .nav-item .form-select,
+    .nav-item button {font-size: 10pt;}
 
     /* User menu */
     .offcanvas-body i {font-size: 14pt;}
@@ -309,9 +334,11 @@
 
     /* ========================== REGISTER.HTML  ========================== */
 
+    /* Left side (image) */
     #regLeft {width: 60%;}
     #regLeft h5 {font-size: 12pt;}
 
+    /* Right side (register/login screen) */
     #regRight {width: 40%;}
     #regRight #create_acc {width: 32vw;}
     #regRight #login {width: 25vw;}
@@ -323,6 +350,8 @@
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
+    .navbar-brand {font-size: 2vw;}
+
     #searchLarge {width: 30vw;}
 
     /* User menu */
@@ -378,8 +407,10 @@
 
     /* ========================== REGISTER.HTML  ========================== */
 
+    /* Left side (image) */
     #regLeft {width: 65%;}
     #regLeft h5 {font-size: 14pt;}
 
+    /* Right side (register/login screen) */
     #regRight {width: 35%;}
 }

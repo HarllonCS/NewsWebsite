@@ -7,12 +7,12 @@
     <title>News Website</title>
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/aos.css">
+    <!-- <link rel="stylesheet" href="../css/aos.css"> -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/media.css">
 
     <script src="https://kit.fontawesome.com/f1ed2eab26.js" crossorigin="anonymous"></script>
-    <script src="../js/aos.js"></script>
+    <!-- <script src="../js/aos.js"></script> -->
 
     <!--[if lt IE 9]>
 	    <script src="../js/html5shiv.js"></script>
@@ -29,7 +29,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button> <!-- /end Responsive button -->
 
-                <form role="search" action="" method="get" id="searchSmall" class="d-md-none"> <!-- Search bar -->
+                <form role="search" action="" method="get" id="searchSmall" class="d-sm-none"> <!-- Search bar -->
                     <input type="search" name="search" placeholder="Pesquisar..." class="form-control text-light rounded-pill">
                 </form> <!-- /end Search bar -->
 
@@ -120,8 +120,7 @@
 
     <main role="main" id="newsCards"> <!-- Main content -->
         <section id="secBanner" class="d-sm-none d-md-block">
-            <!-- data-bs-ride="carousel" -->
-            <div id="carouselBanner" class="carousel slide" data-bs-touch="true"> <!-- Carousel banner -->
+            <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"> <!-- Carousel banner -->
                 <div class="carousel-indicators d-sm-none d-xl-flex mx-0"> <!-- Carousel indicator -->
                     <!-- Button slide 1 -->
                     <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -181,28 +180,28 @@
                 <div id="newsR1" class="row justify-content-md-between g-md-4 mb-lg-4"> <!-- Row News 1 -->
                     <a href="./news.html" id="news1" class="news-link col-lg-3 col-md-6 news-md-w news-lg-w"> <!-- News 1 -->
                         <div class="news-text">
-                            <h4>Notícia 1</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 1</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 1 -->
 
                     <a href="./news.html" id="news2" class="news-link col-lg-3 col-md-6 news-md-w news-lg-w"> <!-- News 2 -->
                         <div class="news-text">
-                            <h4>Notícia 2</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 2</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 2 -->
 
                     <a href="./news.html" id="news3" class="news-link col-lg-3 col-md-6 news-md-w news-lg-w"> <!-- News 3 -->
                         <div class="news-text">
-                            <h4>Notícia 3</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 3</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 3 -->
 
                     <a href="./news.html" id="news4" class="news-link col-lg-3 col-md-6 news-md-w news-lg-w"> <!-- News 4 -->
                         <div class="news-text">
-                            <h4>Notícia 4</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 4</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 4 -->
@@ -211,21 +210,21 @@
                 <div id="newsR2" class="row justify-content-md-between mb-lg-4"> <!-- Row News 2 -->
                     <a href="./news.html" id="news5" class="news-link col-lg-3 col-md-12 my-md-4 my-lg-0 news-lg-w"> <!-- News 5 -->
                         <div class="news-text">
-                            <h4>Notícia 5</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 5</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 5 -->
 
                     <a href="./news.html" id="news6" class="news-link col-lg-6 news-md-w news-lg-w2"> <!-- News 6 -->
                         <div class="news-text">
-                            <h4>Notícia 6</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 6</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 6 -->
 
                     <a href="./news.html" id="news7" class="news-link col-lg-3 news-md-w news-lg-w"> <!-- News 7 -->
                         <div class="news-text">
-                            <h4>Notícia 7</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 7</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 7 -->
@@ -234,7 +233,7 @@
                 <div id="newsR3" class="row justify-content-md-between"> <!-- Row News 3 -->
                     <a href="./news.html" id="news8" class="news-link col-md-12 my-md-4 my-lg-0 news-md-h news-lg-w2"> <!-- News 8 -->
                         <div class="news-text">
-                            <h4>Notícia 8</h4><br>
+                            <h4 class="px-sm-1 px-md-0">Notícia 8</h4><br>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </a> <!-- /end News 8 -->
@@ -242,21 +241,21 @@
                     <div id="newsR3-2" class="row col-lg-6 col-md-12 justify-content-md-between px-0 mx-sm-auto mx-lg-0 news-lg-w2">
                         <a href="./news.html" id="news9" class="news-link col-md-12 news-md-w news-md-h news-lg-w"> <!-- News 9 -->
                             <div class="news-text">
-                                <h4>Notícia 9</h4><br>
+                                <h4 class="px-sm-1 px-md-0">Notícia 9</h4><br>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             </div>
                         </a> <!-- /end News 9 -->
 
                         <a href="./news.html" id="news10" class="news-link col-lg-6 news-md-w news-md-h news-lg-w"> <!-- News 10 -->
                             <div class="news-text">
-                                <h4>Notícia 10</h4><br>
+                                <h4 class="px-sm-1 px-md-0">Notícia 10</h4><br>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             </div>
                         </a> <!-- /end News 10 -->
 
                         <a href="./news.html" id="news11" class="news-link col-12 mt-md-4 news-md-h"> <!-- News 11 -->
                             <div class="news-text">
-                                <h4>Notícia 11</h4><br>
+                                <h4 class="px-sm-1 px-md-0">Notícia 11</h4><br>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             </div>
                         </a> <!-- /end News 11 -->
@@ -271,7 +270,7 @@
     </footer> <!-- /end Footer -->
 
     <script src="../js/bootstrap.min.js"></script>
-    <script>AOS.init()</script>
+    <!-- <script>AOS.init()</script> -->
     <script src="../js/script.js"></script>
 </body>
 </html>
