@@ -279,20 +279,6 @@ footer p {
 
     .navbar-nav {padding: 0 12vw;}
 
-    /* Banner */
-    /* .carousel-item {height: 25vw;}
-    .carousel-item h1 {
-        font-size: 2.5vw;
-        line-height: 3.5vw;
-    }
-    #carousel1 input {
-        width: 35vw;
-        font-size: 9.3pt;
-    }
-    #carousel1 button {font-size: 1.2vw;}
-
-    #carousel2 h1 {padding: 0 15vw;} */
-
     /* News cards */
     #news {
         width: 100%;
@@ -343,7 +329,7 @@ footer p {
         width: 35vw;
         font-size: 9.3pt;
     }
-    #carousel1 button {font-size: 1.2vw;}
+    #carousel1 button {font-size: 1.4vw;}
 
     #carousel2 h1 {padding: 0 15vw;}
 
