@@ -319,6 +319,14 @@
     /* News cards */
     #news {width: 90vw;}
 
+    .news-lg-w {width: 17vw;}
+    .news-lg-w2, #news_10 {width: 35.3vw;}
+    .news-lg-h {height: 10.5vw;}
+
+    #news_10 img {height: 25.6vw;}
+
+    .card .card-text {height: 5vw;}
+
     /* ========================== NEWS.HTML  ========================== */
 
     #newsText {width: 80vw;}

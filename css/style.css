@@ -101,12 +101,20 @@ li #btnUserMenu i {
 }
 #carouselBanner .btn:hover {background-color: #701f36;}
 
+#carouselBanner button span,
+.carousel-indicators [data-bs-target] {background-color: #842440;}
+
 /* News */
 #news {margin: 0 auto;}
 
-.card {background-color: whitesmoke;}
+.card {
+    background-color: whitesmoke;
+    border: none;
+}
+.card a {color: #2e2e2e;}
+.card img {border-radius: .3vw;}
 
-#news1 {background: url('https://picsum.photos/670/380?random=1') no-repeat;}
+/* #news1 {background: url('https://picsum.photos/670/380?random=1') no-repeat;}
 #news2 {background: url('https://picsum.photos/670/380?random=2') no-repeat;}
 #news3 {background: url('https://picsum.photos/670/380?random=3') no-repeat;}
 #news4 {background: url('https://picsum.photos/670/380?random=4') no-repeat;}
@@ -116,10 +124,7 @@ li #btnUserMenu i {
 #news8 {background: url('https://picsum.photos/830/600?random=8') no-repeat;}
 #news9 {background: url('https://picsum.photos/830/380?random=9') no-repeat;}
 #news10 {background: url('https://picsum.photos/830/380?random=10') no-repeat;}
-#news11 {background: url('https://picsum.photos/830/380?random=11') no-repeat;}
-
-#carouselBanner button span,
-.carousel-indicators [data-bs-target] {background-color: #842440;}
+#news11 {background: url('https://picsum.photos/830/380?random=11') no-repeat;} */
 
 /* =========================== NEWS.HTML =========================== */
 
