@@ -137,6 +137,9 @@
     /* News cards */
     #news {width: 95vw;}
 
+    .news-md-w {width: 35vw;}
+    .news-md-h {height: 18vw;}
+
     /* ========================== MEWS.HTML  ========================== */
 
     #newsText {width: 90vw;}
@@ -196,6 +199,15 @@
 
     /* News cards */
     #news {width: 90vw;}
+
+    .news-lg-w {width: 17vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
+    .news-lg-w2 {width: 35.3vw;} /* news_7, news_10 */
+    .news-lg-h {height: 10.5vw;}
+
+    #news_10 .news-img {height: 25.6vw;}
+
+    .card .card-title {font-size: 12pt;}
+    .card .card-footer {font-size: 8.5pt;}
 
     /* ========================== NEWS.HTML  ========================== */
 
@@ -259,6 +271,15 @@
     /* News cards */
     #news {width: 90vw;}
 
+    .news-lg-w {width: 17vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
+    .news-lg-w2 {width: 35.3vw;} /* news_7, news_10 */
+    .news-lg-h {height: 10.5vw;}
+
+    #news_10 .news-img {height: 25.6vw;}
+
+    .card .card-title {font-size: 13pt;}
+    .card .card-footer {font-size: 9pt;}
+
     /* ========================== NEWS.HTML  ========================== */
 
     #newsText {width: 80vw;}
@@ -319,13 +340,13 @@
     /* News cards */
     #news {width: 90vw;}
 
-    .news-lg-w {width: 17vw;}
-    .news-lg-w2 {width: 35.3vw;}
+    .news-lg-w {width: 17vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
+    .news-lg-w2 {width: 35.3vw;} /* news_7, news_10 */
     .news-lg-h {height: 10.5vw;}
 
     #news_10 .news-img {height: 25.6vw;}
 
-    .card .card-text {height: 5vw;}
+    .card .card-title {font-size: 14pt;}
     .card .card-footer {font-size: 10.5pt;}
 
     /* ========================== NEWS.HTML  ========================== */
