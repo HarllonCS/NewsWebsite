@@ -112,7 +112,7 @@ li #btnUserMenu i {
     border: none;
 }
 .card a {color: #2e2e2e;}
-.card .news-img {border-radius: .3vw;}
+.card .news-img {border-radius: .6vw;}
 .card .card-footer {background-color: whitesmoke;}
 
 #news_1 .news-img {background-image: url('https://picsum.photos/1?random=1');}
@@ -130,6 +130,7 @@ li #btnUserMenu i {
 #news_13 .news-img {background-image: url('https://picsum.photos/1?random=13');}
 #news_14 .news-img {background-image: url('https://picsum.photos/1?random=14');}
 #news_15 .news-img {background-image: url('https://picsum.photos/1?random=15');}
+#news_16 .news-img {background-image: url('https://picsum.photos/1?random=16');}
 
 /* =========================== NEWS.HTML =========================== */
 
