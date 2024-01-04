@@ -60,7 +60,7 @@ li #btnUserMenu {
     border: 1px solid #d8d8d877;
     transition: all .3s;
 }
-li #btnUserMenu:hover {background-color: #18080c52;}
+li #btnUserMenu:hover {background-color: #7a1e38;}
 li #btnUserMenu i {
     color: #d8d8d8;
     padding: 5px 4px;
