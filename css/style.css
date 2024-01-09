@@ -66,7 +66,12 @@ li #btnUserMenu i {
     padding: 5px 4px;
 }
 
+/* User Menu */
 #userMenu {background-color: #5c1529;}
+#userPhoto i {
+    background-color: #7a1e38;
+    color: #d8d8d8;
+}
 #userMenu nav a:hover {background-color: #18080c52;}
 
 /* Responsive button */
