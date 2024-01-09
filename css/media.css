@@ -14,9 +14,13 @@
     }
 
     /* User menu */
-    #userPhoto i {
+    #userPhoto .fa-user {
         font-size: 65pt;
         padding: 3.8vw 6vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13.5pt;
+        padding: 1vw .2vw;
     }
     #userPhoto h5 {font-size: 14pt;}
 
@@ -90,9 +94,13 @@
     }
 
     /* User menu */
-    #userPhoto i {
+    #userPhoto .fa-user {
         font-size: 65pt;
-        padding: 3vw 4vw;
+        padding: 3vw 4.5vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13.5pt;
+        padding: 1vw .2vw;
     }
     #userPhoto h5 {font-size: 13pt;}
 
@@ -145,9 +153,13 @@
     .nav-item button {font-size: 9pt;}
 
     /* User menu */
-    #userPhoto i {
+    #userPhoto .fa-user {
         font-size: 65pt;
         padding: 2vw 2.9vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13pt;
+        padding: .50vw .1vw;
     }
     #userPhoto h5 {font-size: 13pt;}
 
@@ -223,9 +235,13 @@
     .nav-item button {font-size: 10pt;}
 
     /* User menu */
-    #userPhoto i {
+    #userPhoto .fa-user {
         font-size: 65pt;
         padding: 1.9vw 2.5vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13pt;
+        padding: .30vw .01vw;
     }
     #userPhoto h5 {font-size: 14pt;}
 
@@ -302,9 +318,13 @@
     .nav-item button {font-size: 10pt;}
 
     /* User menu */
-    #userPhoto i {
+    #userPhoto .fa-user {
         font-size: 65pt;
         padding: 1.9vw 2.5vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13.5pt;
+        padding: .42vw .1vw;
     }
     #userPhoto h5 {font-size: 16pt;}
 
@@ -385,9 +405,13 @@
     #searchLarge {width: 30vw;}
 
     /* User menu */
-    #userPhoto i {
+    #userPhoto .fa-user {
         font-size: 80pt;
         padding: 1.2vw 1.8vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 14pt;
+        padding: .35vw .1vw;
     }
     .offcanvas-body nav, .offcanvas-body span {font-size: 14pt;}
     .offcanvas-body nav i {font-size: 16pt;}
