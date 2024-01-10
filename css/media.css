@@ -14,7 +14,7 @@
     }
 
     /* User menu */
-    #userPhoto .fa-user {
+    #userPhoto .fa-user, #editUserData .fa-user {
         font-size: 65pt;
         padding: 3.8vw 6vw;
     }
@@ -94,7 +94,7 @@
     }
 
     /* User menu */
-    #userPhoto .fa-user {
+    #userPhoto .fa-user, #editUserData .fa-user {
         font-size: 65pt;
         padding: 3vw 4.5vw;
     }
@@ -153,7 +153,7 @@
     .nav-item button {font-size: 9pt;}
 
     /* User menu */
-    #userPhoto .fa-user {
+    #userPhoto .fa-user, #editUserData .fa-user {
         font-size: 65pt;
         padding: 2vw 2.9vw;
     }
@@ -235,7 +235,7 @@
     .nav-item button {font-size: 10pt;}
 
     /* User menu */
-    #userPhoto .fa-user {
+    #userPhoto .fa-user, #editUserData .fa-user {
         font-size: 65pt;
         padding: 1.9vw 2.5vw;
     }
@@ -318,7 +318,7 @@
     .nav-item button {font-size: 10pt;}
 
     /* User menu */
-    #userPhoto .fa-user {
+    #userPhoto .fa-user, #editUserData .fa-user {
         font-size: 65pt;
         padding: 1.9vw 2.5vw;
     }
@@ -405,7 +405,7 @@
     #searchLarge {width: 30vw;}
 
     /* User menu */
-    #userPhoto .fa-user {
+    #userPhoto .fa-user, #editUserData .fa-user {
         font-size: 80pt;
         padding: 1.2vw 1.8vw;
     }

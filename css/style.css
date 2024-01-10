@@ -74,6 +74,10 @@ li #btnUserMenu i {padding: 5px 4px;}
 #userPhoto button:hover {background-color: #7a1e38;}
 #userMenu nav a:hover {background-color: #18080c52;}
 
+/* Edit user data screen */
+#editUserData .fa-user {background-color: whitesmoke;}
+/* input#file-upload-button {background-color: blue;} */
+
 /* Responsive button */
 .navbar-toggler {background-color: #6b132c;}
 

@@ -129,6 +129,41 @@
         </div>
     </div>
 
+    <!-- Edit profile screen -->
+    <div id="editUserData" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editUserLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="editUserLabel" class="modal-title fw-bold">Editar Perfil</h4>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="mb-3 text-center">
+                            <!-- User photo -->
+                            <i class="fa-user fa-solid border border-black rounded-circle text-dark mb-3"></i>
+
+                            <div> <!-- Choose image profile -->
+                                <label for="photo" class="btn btn-primary rounded-pill">Selecione uma imagem</label>
+                                <input type="file" name="photo" id="photo" accept=".png,.jpg,.gif" class="d-none">
+                            </div> <!-- /end Choose image profile -->
+                        </div>
+
+                        <div class="mb-3"> <!-- New user name -->
+                            <label for="newUsername" class="form-label">Novo nome de usuário:</label>
+                            <input type="text" name="newUsername" id="newUsername" class="form-control yellow-shadow">
+                        </div> <!-- New user name -->
+
+                        <!-- Save button -->
+                        <button type="submit" class="btn btn-success fs-5 d-block w-75 mx-auto">Salvar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <main role="main" id="newsCards"> <!-- Main content -->
         <section id="secBanner" class="d-sm-none d-md-block">
             <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"> <!-- Carousel banner -->
