@@ -134,38 +134,7 @@ li #btnUserMenu i {
 
 /* =========================== NEWS.HTML =========================== */
 
-/* Main content */
-#newsText {box-shadow: 0 5px 15px 4px #00000059;}
-
-/* Article */
-article {
-    padding: 0 0 0 1.5vw;
-    text-align: justify;
-}
-
-/* Aside content */
-aside {padding: 0 1.5vw 0 0;}
-aside .row {
-    padding: .5vw 0 .4vw .6vw;
-    border-radius: .5vw;
-    box-shadow: 0 5px 10px #0000002f;
-    transition: all .3s;
-}
-aside .row:hover {box-shadow: 0 5px 15px #0000004f;}
-
-/* Footer */
-footer {
-    background-color: #842440;
-    color: whitesmoke;
-}
-footer p {
-    margin: 0;
-    font-size: 14pt;
-    padding: 1vw 0;
-    text-align: center;
-    font-family: 'Roboto' sans-serif;
-    font-weight: bold;
-}
+article #newsImg {background: url('https://picsum.photos/1'); height: 25vw;}
 
 /* =========================== REGISTER.HTML =========================== */
 

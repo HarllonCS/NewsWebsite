@@ -364,20 +364,8 @@
 
     /* ========================== NEWS.HTML  ========================== */
 
-    #newsText {width: 80vw;}
-
-    article div {width: 49.5vw;}
-
-    /* Related News */
-    #rel-news_1 {background: url('https://picsum.photos/155?random=1') no-repeat;}
-    #rel-news_2 {background: url('https://picsum.photos/155?random=2') no-repeat;}
-    #rel-news_3 {background: url('https://picsum.photos/155?random=3') no-repeat;}
-    #rel-news_4 {background: url('https://picsum.photos/155?random=4') no-repeat;}
-    #rel-news_5 {background: url('https://picsum.photos/155?random=5') no-repeat;}
-    #rel-news_6 {background: url('https://picsum.photos/155?random=6') no-repeat;}
+    #newsText {width: 90vw;}
     
-    aside h5 {font-size: 14pt;}
-    aside p {font-size: 10.9pt;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
