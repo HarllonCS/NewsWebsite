@@ -329,6 +329,11 @@
     .news {width: 90vw;}
     
     #newsText {font-size: 14pt;}
+
+    /* Related News */
+    .rel-news-lg-w {width: 25vw;}
+    .rel-news-lg-h {height: 15vw;}
+
     /* ========================== REGISTER.HTML  ========================== */
 
     /* Left side (image) */

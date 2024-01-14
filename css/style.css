@@ -134,7 +134,13 @@ li #btnUserMenu i {
 
 /* =========================== NEWS.HTML =========================== */
 
-article #newsImg {background: url('https://picsum.photos/1'); height: 25vw;}
+article #headlineImg {background: url('https://picsum.photos/1'); height: 25vw;}
+
+#relNews_1 .news-img {background: url('https://picsum.photos/1?random=1');}
+#relNews_2 .news-img {background: url('https://picsum.photos/1?random=2');}
+#relNews_3 .news-img {background: url('https://picsum.photos/1?random=3');}
+#relNews_4 .news-img {background: url('https://picsum.photos/1?random=4');}
+
 
 /* =========================== REGISTER.HTML =========================== */
 
