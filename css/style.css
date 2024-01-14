@@ -75,7 +75,7 @@ li #btnUserMenu i {
 /* ============================ INDEX.HTML ============================ */
 
 /* Banner */
-#secBanner {
+#banner {
     border-bottom: 5px solid #842440;
     background-color: #fb7d6f;
 }
@@ -84,28 +84,28 @@ li #btnUserMenu i {
 #carousel2 {background-image: url('https://picsum.photos/1920/520?random=2');}
 #carousel3 {background-image: url('https://picsum.photos/1920/520?random=3');}
 /* Big text in index page */
-#carouselBanner h1 {
+.carousel h1 {
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     text-shadow: 0px 0px 10px black;
 }
 /* email field in index */
-#carouselBanner input[type='email'] {border-color: lightgray;}
-#carouselBanner input[type='email']:hover,
-#carouselBanner input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
+.carousel input[type='email'] {border-color: lightgray;}
+.carousel input[type='email']:hover,
+.carousel input[type='email']:focus {box-shadow: 0 0 0 4px #adcce685;}
 /* Email button */
-#carouselBanner .btn {
+.carousel .btn {
     box-shadow: 0px 0px 10px 0px black;
     background-color: #842440;
     transition: .3s;
 }
-#carouselBanner .btn:hover {background-color: #701f36;}
+.carousel .btn:hover {background-color: #701f36;}
 
-#carouselBanner button span,
+.carousel button span,
 .carousel-indicators [data-bs-target] {background-color: #842440;}
 
 /* News */
-#news {margin: 0 auto;}
+.news {margin: 0 auto;}
 
 .card {
     background-color: whitesmoke;

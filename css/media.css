@@ -24,12 +24,10 @@
     }
 
     /* Banner */
-    #secBanner {display: none;}
+    #banner {display: none;}
     
     /* News cards */
-    #news {
-        margin-top: 4vw;
-    }
+    .news{margin-top: 4vw;}
 
     .row {margin: 0 auto;}
     .card .news-img {height: 45vw;}
@@ -44,14 +42,6 @@
     article img {width: 100%;}
 
     aside .row {margin: 0 auto 4vw auto;}
-
-    /* DOESN'T WORK :'( */
-    /* #rel-news_1 {background: url('https://picsum.photos/120?random=1') no-repeat;}
-    #rel-news_2 {background: url('https://picsum.photos/120?random=2') no-repeat;}
-    #rel-news_3 {background: url('https://picsum.photos/120?random=3') no-repeat;}
-    #rel-news_4 {background: url('https://picsum.photos/120?random=4') no-repeat;}
-    #rel-news_5 {background: url('https://picsum.photos/120?random=5') no-repeat;}
-    #rel-news_6 {background: url('https://picsum.photos/120?random=6') no-repeat;} */
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -95,13 +85,6 @@
     article div, 
     article figure,
     article img {width: 100%;}
-
-    #rel-news_1 {background: url('https://picsum.photos/175?random=1') no-repeat;}
-    #rel-news_2 {background: url('https://picsum.photos/175?random=2') no-repeat;}
-    #rel-news_3 {background: url('https://picsum.photos/175?random=3') no-repeat;}
-    #rel-news_4 {background: url('https://picsum.photos/175?random=4') no-repeat;}
-    #rel-news_5 {background: url('https://picsum.photos/175?random=5') no-repeat;}
-    #rel-news_6 {background: url('https://picsum.photos/175?random=6') no-repeat;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -155,20 +138,13 @@
 
     /* ========================== MEWS.HTML  ========================== */
 
-    #newsText {width: 90vw;}
+    .news {width: 90vw;}
 
     article div, 
     article figure,
     article img {width: 100%;}
 
     aside .row {margin-bottom: 4vw;}
-
-    #rel-news_1 {background: url('https://picsum.photos/215?random=1') no-repeat;}
-    #rel-news_2 {background: url('https://picsum.photos/215?random=2') no-repeat;}
-    #rel-news_3 {background: url('https://picsum.photos/215?random=3') no-repeat;}
-    #rel-news_4 {background: url('https://picsum.photos/215?random=4') no-repeat;}
-    #rel-news_5 {background: url('https://picsum.photos/215?random=5') no-repeat;}
-    #rel-news_6 {background: url('https://picsum.photos/215?random=6') no-repeat;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -211,7 +187,7 @@
     #carousel2 h1 {padding: 0 15vw;}
 
     /* News cards */
-    #news {width: 90vw;}
+    .news {width: 90vw;}
 
     .row {margin-bottom: 6vw;}
 
@@ -224,20 +200,13 @@
 
     /* ========================== NEWS.HTML  ========================== */
 
-    #newsText {width: 80vw;}
+    .news {width: 80vw;}
 
     article div, 
     article figure,
     article img {width: 100%;}
 
     aside .row {width: 73vw;}
-
-    #rel-news_1 {background: url('https://picsum.photos/155?random=1') no-repeat;}
-    #rel-news_2 {background: url('https://picsum.photos/155?random=2') no-repeat;}
-    #rel-news_3 {background: url('https://picsum.photos/155?random=3') no-repeat;}
-    #rel-news_4 {background: url('https://picsum.photos/155?random=4') no-repeat;}
-    #rel-news_5 {background: url('https://picsum.photos/155?random=5') no-repeat;}
-    #rel-news_6 {background: url('https://picsum.photos/155?random=6') no-repeat;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -282,7 +251,7 @@
     #carousel2 h1 {padding: 0 15vw;}
 
     /* News cards */
-    #news {width: 90vw;}
+    .news {width: 90vw;}
 
     .row {margin-bottom: 6vw;}
 
@@ -295,20 +264,13 @@
 
     /* ========================== NEWS.HTML  ========================== */
 
-    #newsText {width: 80vw;}
+    .news {width: 80vw;}
 
     article div {width: 49.5vw;}
 
     /* Related News */
     aside h5 {font-size: 11.8pt;}
     aside p {font-size: 9pt;}
-
-    #rel-news_1 {background: url('https://picsum.photos/135?random=1') no-repeat;}
-    #rel-news_2 {background: url('https://picsum.photos/135?random=2') no-repeat;}
-    #rel-news_3 {background: url('https://picsum.photos/135?random=3') no-repeat;}
-    #rel-news_4 {background: url('https://picsum.photos/135?random=4') no-repeat;}
-    #rel-news_5 {background: url('https://picsum.photos/135?random=5') no-repeat;}
-    #rel-news_6 {background: url('https://picsum.photos/135?random=6') no-repeat;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -351,7 +313,7 @@
     #carousel2 h1 {padding: 0 15vw;}
 
     /* News cards */
-    #news {width: 90vw;}
+    .news {width: 90vw;}
 
     .row {margin-bottom: 6vw;}
 
@@ -364,9 +326,9 @@
 
     /* ========================== NEWS.HTML  ========================== */
 
-    #newsText {width: 90vw;}
+    .news {width: 90vw;}
     
-
+    #newsText {font-size: 14pt;}
     /* ========================== REGISTER.HTML  ========================== */
 
     /* Left side (image) */
