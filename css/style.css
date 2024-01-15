@@ -80,9 +80,9 @@ li #btnUserMenu i {
     background-color: #fb7d6f;
 }
 
-#carousel1 {background-image: url('https://picsum.photos/1920/520?random=1');}
-#carousel2 {background-image: url('https://picsum.photos/1920/520?random=2');}
-#carousel3 {background-image: url('https://picsum.photos/1920/520?random=3');}
+#carousel_1 {background-image: url('https://picsum.photos/1920/520?random=1');}
+#carousel_2 {background-image: url('https://picsum.photos/1920/520?random=2');}
+#carousel_3 {background-image: url('https://picsum.photos/1920/520?random=3');}
 /* Big text in index page */
 .carousel h1 {
     font-family: 'Roboto', sans-serif;

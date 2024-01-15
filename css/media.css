@@ -2,6 +2,16 @@
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
+    .news {margin-top: 6vw;}
+
+    .card {
+        width: 90vw;
+        margin: 0 auto 6vw auto;
+    }
+    .card .news-img {height: 50vw;}
+    .card-title {font-size: 14pt;}
+    .card-footer {font-size: 9pt;}
+
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
@@ -25,23 +35,10 @@
 
     /* Banner */
     #banner {display: none;}
-    
-    /* News cards */
-    .news{margin-top: 4vw;}
-
-    .row {margin: 0 auto;}
-    .card .news-img {height: 45vw;}
-
-    .card .card-title {font-size: 14pt;}
-    .card .card-footer {font-size: 9pt;}
 
     /* ========================== NEWS.HTML  ========================== */
 
-    article div, 
-    article figure,
-    article img {width: 100%;}
-
-    aside .row {margin: 0 auto 4vw auto;}
+    #newsHeadline h1 {font-size: 18pt;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -57,6 +54,16 @@
 
 /* For Small (landscape phones, less than 768px) devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .news {margin-top: 4vw;}
+
+    .card {
+        width: 90vw;
+        margin: 0 auto 6vw auto;
+    }
+    .card .news-img {height: 50vw;}
+    .card-title {font-size: 14pt;}
+    .card-footer {font-size: 9.5pt;}
+
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */    
@@ -73,19 +80,6 @@
 
     .navbar-nav {padding: 0 12vw;}
 
-    /* News cards */
-    .row {margin: 0 auto;}
-    .card .news-img {height: 35vw;}
-
-    .card .card-title {font-size: 13pt;}
-    .card .card-footer {font-size: 9.5pt;}
-
-    /* ========================== NEWS.HTML  ========================== */
-
-    article div, 
-    article figure,
-    article img {width: 100%;}
-
     /* ========================== REGISTER.HTML  ========================== */
 
     /* Right side (image) */
@@ -97,6 +91,13 @@
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .news {width: 90vw;}
+
+    .card {margin-bottom: 4vw;}
+
+    .card-title {font-size: 14pt;}
+    .card-footer {font-size: 10pt;}
+
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
@@ -118,34 +119,23 @@
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
-    #carousel1 input {
+    #carousel_1 input {
         width: 35vw;
         font-size: 9.3pt;
     }
-    #carousel1 button {font-size: 1.4vw;}
+    #carousel_1 button {font-size: 1.4vw;}
 
-    #carousel2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 {padding: 0 15vw;}
 
     /* News cards */
-    .row {margin: 0 auto;}
-    .card {margin-bottom: 6vw;}
-
-    .news-md-w {width: 48vw;}
-    .news-md-h {height: 23vw;}
-
-    .card .card-title {font-size: 14pt;}
-    .card .card-footer {font-size: 10pt;}
+    .inews-md-w {width: 45vw;}
+    .inews-md-h {height: 23vw;}
 
     /* ========================== MEWS.HTML  ========================== */
 
-    .news {width: 90vw;}
-
-    article div, 
-    article figure,
-    article img {width: 100%;}
-
-    aside .row {margin-bottom: 4vw;}
-
+    .rnews-w {width: 80vw;}
+    .rnews-h {height: 45vw;}
+    
     /* ========================== REGISTER.HTML  ========================== */
 
     /* Right side (image) */
@@ -157,6 +147,13 @@
 
 /* For Large (desktops, less than 1200px) devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .news {width: 90vw;}
+
+    .card {margin-bottom: 3vw;}
+
+    .card-title {font-size: 11pt;}
+    .card-footer {font-size: 8.5pt;}
+
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
@@ -178,35 +175,34 @@
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
-    #carousel1 input {
+    #carousel_1 input {
         width: 35vw;
         font-size: 1vw;
     }
-    #carousel1 button {font-size: 1.2vw;}
+    #carousel_1 button {font-size: 1.2vw;}
 
-    #carousel2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 {padding: 0 15vw;}
 
     /* News cards */
-    .news {width: 90vw;}
-
-    .row {margin-bottom: 6vw;}
-
-    .news-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
-    .news-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
-    .news-lg-h {height: 10.5vw;}
-
-    .card .card-title {font-size: 11pt;}
-    .card .card-footer {font-size: 8.5pt;}
+    .inews-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
+    .inews-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
+    .inews-lg-h {height: 10.5vw;}
 
     /* ========================== NEWS.HTML  ========================== */
 
-    .news {width: 80vw;}
+    /* Headline */
+    #newsHeadline h1 {font-size: 20pt;}
 
-    article div, 
-    article figure,
-    article img {width: 100%;}
+    /* Text of the news */
+    #newsText h2 {font-size: 16pt;}
+    #newsText h3 {font-size: 14pt;}
+    #newsText p {font-size: 12pt;}
 
-    aside .row {width: 73vw;}
+    /* Related News */
+    aside h4 {font-size: 15pt;}
+
+    .rnews-w {width: 25vw;}
+    .rnews-h {height: 15vw;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -218,6 +214,13 @@
 
 /* For Extra Large devices (>= 1200px) size screens */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .news {width: 90vw;}
+
+    .card {margin-bottom: 3vw;}
+
+    .card-title {font-size: 13pt;}
+    .card-footer {font-size: 9pt;}
+
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
@@ -239,38 +242,37 @@
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
-    #carousel1 input {
+    #carousel_1 input {
         width: 35vw;
         font-size: 1vw;
     }
-    #carousel1 button {
+    #carousel_1 button {
         font-size: 1.2vw;
         margin-bottom: 2vw;
     }
 
-    #carousel2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 {padding: 0 15vw;}
 
     /* News cards */
-    .news {width: 90vw;}
-
-    .row {margin-bottom: 6vw;}
-
-    .news-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
-    .news-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
-    .news-lg-h {height: 10.5vw;}
-
-    .card .card-title {font-size: 13pt;}
-    .card .card-footer {font-size: 9pt;}
+    .inews-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
+    .inews-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
+    .inews-lg-h {height: 10.5vw;}
 
     /* ========================== NEWS.HTML  ========================== */
 
-    .news {width: 80vw;}
+    /* Headline */
+    #newsHeadline h1 {font-size: 24pt;}
 
-    article div {width: 49.5vw;}
+    /* Text of the news */
+    #newsText h2 {font-size: 18pt;}
+    #newsText h3 {font-size: 16pt;}
+    #newsText p {font-size: 13pt;}
 
     /* Related News */
-    aside h5 {font-size: 11.8pt;}
-    aside p {font-size: 9pt;}
+    aside h4 {font-size: 16pt;}
+
+    .rnews-w {width: 25vw;}
+    .rnews-h {height: 15vw;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
@@ -287,6 +289,11 @@
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
 @media (min-width: 1400px) {
+    .card {margin-bottom: 3vw;}
+
+    /* News */
+    .news {width: 90vw;}
+
     /* ========================== INDEX.HTML  ========================== */
 
     /* Header */
@@ -304,35 +311,30 @@
         font-size: 2.5vw;
         line-height: 3.5vw;
     }
-    #carousel1 input {
+    #carousel_1 input {
         width: 35vw;
         font-size: 1vw;
     }
-    #carousel1 button {font-size: 1.2vw;}
+    #carousel_1 button {font-size: 1.2vw;}
 
-    #carousel2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 {padding: 0 15vw;}    
 
     /* News cards */
-    .news {width: 90vw;}
-
-    .row {margin-bottom: 6vw;}
-
-    .news-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
-    .news-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
-    .news-lg-h {height: 10.5vw;}
-
-    .card .card-title {font-size: 14pt;}
-    .card .card-footer {font-size: 10.5pt;}
+    
+    .inews-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
+    .inews-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
+    .inews-lg-h {height: 10.5vw;}
 
     /* ========================== NEWS.HTML  ========================== */
-
-    .news {width: 90vw;}
     
-    #newsText {font-size: 14pt;}
+    /* Text of the news */
+    #newsText h2 {font-size: 20pt;}
+    #newsText h3 {font-size: 18pt;}
+    #newsText p {font-size: 14pt;}
 
     /* Related News */
-    .rel-news-lg-w {width: 25vw;}
-    .rel-news-lg-h {height: 15vw;}
+    .rnews-w {width: 25vw;}
+    .rnews-h {height: 15vw;}
 
     /* ========================== REGISTER.HTML  ========================== */
 
