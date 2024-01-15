@@ -17,17 +17,29 @@ body {background-color: #F6ECC6;}
 .navbar-brand {font-family: 'Newsreader', serif;}
 
 /* Search bar */
-header input[type='search'] {background-color: #18080c52;}
+header input[type='search'] {
+    background-color: #691b31;
+    border-color: #ffffff63;
+}
 header input[type='search']::placeholder {
     color: whitesmoke;
     font-weight: bold;
 }
 header input[type='search']:focus {
     background-color: #18080c52;
-    box-shadow: 0 0 0 4px #adcce685;
+    box-shadow: none;
     border-color: whitesmoke;
 }
-header input[type='search']:hover {box-shadow: 0 0 0 4px #adcce685;}
+
+/* Button of search bar */
+header .input-group button {
+    background-color: #af2f53;
+    border: 1px solid #ffffff63;
+}
+header .input-group button:hover {
+    background-color: #a12a4c;
+    border: 1px solid #ffffff63;
+}
 
 /* header li */
 li .form-select {
@@ -52,6 +64,7 @@ li .btn {
 li .btn:hover {
     background-color: #6b132c;
     border-color: #ffffff8e;
+    color: whitesmoke
 }
 
 /* User menu button */

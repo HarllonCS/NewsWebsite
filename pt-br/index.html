@@ -30,12 +30,20 @@
                 </button> <!-- /end Responsive button -->
 
                 <form role="search" action="" method="get" id="searchSmall" class="d-sm-none"> <!-- Search bar -->
-                    <input type="search" name="search" placeholder="Pesquisar..." class="form-control text-light rounded-pill">
+                    <div class="input-group">
+                        <input type="search" name="search" placeholder="Pesquisar" class="form-control text-light rounded-start-pill py-2" aria-label="Search" aria-describedby="searchIcon">
+
+                        <button type="submit" class="input-group-text rounded-end-pill px-3 btn btn-danger text-light">Enviar</button>
+                    </div>
                 </form> <!-- /end Search bar -->
 
                 <div id="headerMenu" class="collapse navbar-collapse show"> <!-- Menu options -->
                     <form role="search" action="" method="get" id="searchLarge" class="ms-md-auto py-3"> <!-- Search bar -->
-                        <input type="search" name="search" placeholder="Pesquisar..." class="form-control text-light rounded-pill py-2">
+                        <div class="input-group">
+                            <input type="search" name="search" placeholder="Pesquisar" class="form-control text-light rounded-start-pill py-2" aria-label="Search" aria-describedby="searchIcon">
+    
+                            <button type="submit" class="input-group-text rounded-end-pill px-3 btn btn-danger text-light">Enviar</button>
+                        </div>
                     </form> <!-- /end Search bar -->
 
                     <ul class="navbar-nav text-capitalize ms-auto flex-sm-row justify-content-sm-between">
