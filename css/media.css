@@ -13,6 +13,8 @@
         width: 85vw;
     }
 
+    li #btnUserMenu {font-size: 18pt;}
+
     /* User menu */
     .offcanvas-body i {font-size: 16pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
@@ -83,6 +85,8 @@
         margin: 0 auto;
     }
 
+    li #btnUserMenu {font-size: 18pt;}
+
     /* User menu */
     .offcanvas-body i {font-size: 16pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
@@ -131,6 +135,8 @@
 
     .nav-item .form-select,
     .nav-item button {font-size: 9pt;}
+
+    li #btnUserMenu {font-size: 13pt;}
 
     /* User menu */
     .offcanvas-body i {font-size: 12pt;}
@@ -204,6 +210,8 @@
     .nav-item .form-select,
     .nav-item button {font-size: 10pt;}
 
+    li #btnUserMenu {font-size: 14.5pt;}
+
     /* User menu */
     .offcanvas-body i {font-size: 12pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
@@ -276,6 +284,8 @@
 
     .nav-item .form-select,
     .nav-item button {font-size: 10pt;}
+
+    li #btnUserMenu {font-size: 14pt;}
 
     /* User menu */
     .offcanvas-body i {font-size: 14pt;}
@@ -353,6 +363,8 @@
     .navbar-brand {font-size: 2vw;}
 
     #searchLarge {width: 30vw;}
+
+    li #btnUserMenu {font-size: 16pt;}
 
     /* User menu */
     .offcanvas-body i {font-size: 18pt;}
