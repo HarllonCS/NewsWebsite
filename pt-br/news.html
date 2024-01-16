@@ -65,7 +65,7 @@
 
                             <!-- Button to user menu -->
                             <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
-                                <i class="fa-user fa-solid"></i>
+                                <i class="fa-user fa-solid text-light"></i>
                             </button>
                         </li>
                     </ul>
@@ -75,57 +75,103 @@
     </header> <!-- /end header -->
 
     <!-- Login screen -->
-    <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+    <!-- <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header"> <!-- Login header -->
+                <div class="modal-header">
                     <h3 id="loginLabel" class="modal-title text-uppercase text-center fw-bold">Login</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div> <!-- /end Login header -->
+                </div>
 
-                <div class="modal-body"> <!-- Login body -->
+                <div class="modal-body">
                     <form action="" method="post">
-                        <div class="mb-3"> <!-- User email -->
+                        <div class="mb-3">
                             <label for="logEmail" class="form-label">E-mail</label>
                             <input type="email" name="logEmail" id="logEmail" class="form-control yellow-shadow" required>
-                        </div> <!-- /end User email -->
+                        </div>
 
-                        <div class="mb-5"> <!-- User password -->
+                        <div class="mb-5">
                             <label for="logPassword" class="form-label">Senha</label>
                             <input type="password" name="logPassword" id="logPassword" class="form-control yellow-shadow" required minlength="6">
-                        </div> <!-- /end User password -->
+                        </div>
 
                         <div class="d-flex justify-content-around">
-                            <!-- Login Button -->
                             <a href="./register.html" class="fs-6 text-decoration-none align-self-center">Criar conta</a>
-                            <!-- Register button -->
+                            
                             <button type="submit" class="btn btn-success fs-6 px-4">Entrar</button>
                         </div>
                     </form>
-                </div> <!-- /end Login body -->
+                </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- User menu -->
     <div id="userMenu" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="userMenuLabel" data-bs-scroll="true" data-bs-backdrop="static">
         <div class="offcanvas-header">
-            <h5 id="userMenuLabel" class="offcanvas-title text-capitalize text-light fs-4">cícero</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         
         <div class="offcanvas-body">
-            <div>
-                <nav class="nav flex-column">
-                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Notícias Favoritas</a>
-                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 1</a>
-                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 2</a>
-                    <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 3</a>
-                    <a href="#" class="nav-link fw-bold text-light py-3 mt-3 rounded-pill">
-                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                        <span class="ms-3">Sair</span>
-                    </a>
-                </nav>
+            <div id="userPhoto" class="text-center mb-5">
+                <div class="position-relative mb-4">
+                    <!-- User Photo -->
+                    <i class="fa-user fa-solid border rounded-circle text-light"></i>
+
+                    <!-- Edit user data button -->
+                    <button type="button" class="position-absolute border rounded-circle" data-bs-toggle="modal" data-bs-target="#editProfile">
+                        <i class="fa-pen-to-square fa-solid text-light"></i>
+                    </button>
+                </div>
+
+                <!-- User name -->
+                <h5 class="text-capitalize text-light">Cícero</h5>
+            </div>
+
+            <nav class="nav flex-column">
+                <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Notícias Favoritas</a>
+                <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 1</a>
+                <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 2</a>
+                <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opção 3</a>
+                <a href="#" class="nav-link fw-bold text-light py-3 mt-3 rounded-pill">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <span class="ms-3">Sair</span>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Edit profile screen -->
+    <div id="editProfile" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editProfileLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="editProfileLabel" class="modal-title fw-bold">Editar Perfil</h4>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="mb-3 text-center">
+                            <!-- User photo -->
+                            <i class="fa-user fa-solid border border-black rounded-circle text-dark mb-3"></i>
+
+                            <div> <!-- Choose image profile -->
+                                <label for="photo" class="btn btn-primary rounded-pill">Selecionar uma imagem</label>
+                                <input type="file" name="photo" id="photo" accept=".png,.jpg,.gif" class="d-none">
+                            </div> <!-- /end Choose image profile -->
+                        </div>
+
+                        <div class="mb-3"> <!-- New user name -->
+                            <label for="newUsername" class="form-label">Novo nome de usuário:</label>
+                            <input type="text" name="newUsername" id="newUsername" class="form-control yellow-shadow">
+                        </div> <!-- New user name -->
+
+                        <!-- Save button -->
+                        <button type="submit" class="btn btn-success fs-5 d-block w-75 mx-auto">Salvar</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

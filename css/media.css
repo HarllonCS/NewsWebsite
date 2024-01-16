@@ -18,6 +18,16 @@
     li #btnUserMenu {font-size: 18pt;}
 
     /* User menu */
+    #userPhoto .fa-user, #editProfile .fa-user {
+        font-size: 65pt;
+        padding: 3.8vw 6vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13.5pt;
+        padding: 1vw .2vw;
+    }
+    #userPhoto h5 {font-size: 14pt;}
+
     .offcanvas-body i {font-size: 16pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
 
@@ -92,6 +102,16 @@
     li #btnUserMenu {font-size: 18pt;}
 
     /* User menu */
+    #userPhoto .fa-user, #editProfile .fa-user {
+        font-size: 65pt;
+        padding: 3vw 4.5vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13.5pt;
+        padding: 1vw .2vw;
+    }
+    #userPhoto h5 {font-size: 13pt;}
+
     .offcanvas-body i {font-size: 16pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
 
@@ -145,6 +165,16 @@
     li #btnUserMenu {font-size: 13pt;}
 
     /* User menu */
+    #userPhoto .fa-user, #editProfile .fa-user {
+        font-size: 65pt;
+        padding: 2vw 2.9vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13pt;
+        padding: .50vw .1vw;
+    }
+    #userPhoto h5 {font-size: 13pt;}
+
     .offcanvas-body i {font-size: 12pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
 
@@ -221,6 +251,16 @@
     li #btnUserMenu {font-size: 14.5pt;}
 
     /* User menu */
+    #userPhoto .fa-user, #editProfile .fa-user {
+        font-size: 65pt;
+        padding: 1.9vw 2.5vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13pt;
+        padding: .30vw .01vw;
+    }
+    #userPhoto h5 {font-size: 14pt;}
+
     .offcanvas-body i {font-size: 12pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
 
@@ -298,6 +338,16 @@
     li #btnUserMenu {font-size: 14pt;}
 
     /* User menu */
+    #userPhoto .fa-user, #editProfile .fa-user {
+        font-size: 65pt;
+        padding: 1.9vw 2.5vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 13.5pt;
+        padding: .42vw .1vw;
+    }
+    #userPhoto h5 {font-size: 16pt;}
+
     .offcanvas-body i {font-size: 14pt;}
     .offcanvas-body nav, .offcanvas-body span {font-size: 12pt;}
 
@@ -379,8 +429,16 @@
     li #btnUserMenu {font-size: 16pt;}
 
     /* User menu */
-    .offcanvas-body i {font-size: 18pt;}
+    #userPhoto .fa-user, #editProfile .fa-user {
+        font-size: 80pt;
+        padding: 1.2vw 1.8vw;
+    }
+    #userPhoto .fa-pen-to-square {
+        font-size: 14pt;
+        padding: .35vw .1vw;
+    }
     .offcanvas-body nav, .offcanvas-body span {font-size: 14pt;}
+    .offcanvas-body nav i {font-size: 16pt;}
 
     /* Banner */
     .carousel-item {height: 20vw;}
