@@ -113,6 +113,21 @@
         </div>
 
         <div class="offcanvas-body">
+            <div id="userPhoto" class="text-center mb-5">
+                <div class="position-relative mb-4">
+                    <!-- User Photo -->
+                    <i class="fa-user fa-solid border rounded-circle text-light"></i>
+
+                    <!-- Edit user data button -->
+                    <button type="button" class="position-absolute border rounded-circle" data-bs-toggle="modal" data-bs-target="#editProfile">
+                        <i class="fa-pen-to-square fa-solid text-light"></i>
+                    </button>
+                </div>
+
+                <!-- User name -->
+                <h5 class="text-capitalize text-light">Cícero</h5>
+            </div>
+
             <nav class="nav flex-column">
                 <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Noticias Favoritas</a>
                 <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opción 1</a>
@@ -123,6 +138,42 @@
                     <span class="ms-3">Cerrar sesión</span>
                 </a>
             </nav>
+        </div>
+    </div>
+
+    <!-- Edit profile screen -->
+    <div id="editProfile" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editProfileLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="editProfileLabel" class="modal-title fw-bold">Editar Perfil</h4>
+
+                    <!-- Close button -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="mb-3 text-center">
+                            <!-- User photo -->
+                            <i class="fa-user fa-solid border border-black rounded-circle text-dark mb-3"></i>
+
+                            <div> <!-- Choose image profile -->
+                                <label for="photo" class="btn btn-primary rounded-pill">Seleccionar imagen</label>
+                                <input type="file" name="photo" id="photo" accept=".png,.jpg,.gif" class="d-none">
+                            </div> <!-- /end Choose image profile -->
+                        </div>
+
+                        <div class="mb-3"> <!-- New user name -->
+                            <label for="newUsername" class="form-label">Nuevo Nombre de Usuario:</label>
+                            <input type="text" name="newUsername" id="newUsername" class="form-control yellow-shadow">
+                        </div> <!-- New user name -->
+
+                        <!-- Save button -->
+                        <button type="submit" class="btn btn-success fs-5 d-block w-75 mx-auto">Guardar</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
