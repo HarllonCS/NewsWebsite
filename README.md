@@ -8,5 +8,5 @@ Here's a link list of some of them:
 
 OBS.: As I save projects on GitHub, I also update the list.
 
-# Web Project: News Website
-The idea of this site is to present news of events that circulate in the world. The user will be able to insert his e-mail if he wants this news to be delivered to his inbox.
+## Web Project: News Website
+The idea of this site is to present news of events that circulate in the world. The user will be able to register his e-mail if he wants this news to be delivered to his inbox.
