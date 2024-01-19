@@ -16,19 +16,19 @@
 </head>
 <body class="h-100">
     <header> <!-- header -->
-        <nav class="navbar navbar-expand-md px-lg-5"> <!-- Navigation menu -->
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-md"> <!-- Navigation menu -->
+            <div class="container-fluid container">
                 <!-- Title of the site -->
-                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white fs-2">news website</a>
+                <a href="./index.html" class="navbar-brand fw-bold text-white">News Website</a>
                                 
                 <button type="button" class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
                     <span class="navbar-toggler-icon"></span>
                 </button> <!-- /end Responsive button -->
 
                 <div id="headerMenu" class="collapse navbar-collapse"> <!-- Menu options -->
-                    <ul class="navbar-nav text-capitalize ms-auto px-0">
-                        <li class="nav-item mx-auto">
-                            <select onchange="changeLang(this.value, './register')" class="form-select text-white fw-bold text-center">
+                    <ul class="navbar-nav ms-auto px-0">
+                        <li class="nav-item">
+                            <select onchange="changeLang(this.value, './register')" class="form-select text-white fw-bold">
                                 <option class="text-black" value="pt-br">Português (BR)</option>
                                 <option class="text-black" value="en" selected>English</option>
                                 <option class="text-black" value="es">Español</option>
