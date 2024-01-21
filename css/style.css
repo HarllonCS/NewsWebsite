@@ -1,11 +1,11 @@
 /* Fonts */
 @font-face {
     font-family: 'Newsreader';
-    src: url('../res/fonts/Newsreader-Regular.ttf');
+    src: url('../src/fonts/Newsreader-Regular.ttf');
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('../res/fonts/Roboto-Regular.ttf');
+    src: url('../src/fonts/Roboto-Regular.ttf');
 }
 
 body {background-color: whitesmoke;}

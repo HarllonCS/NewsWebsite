@@ -28,7 +28,8 @@
     li #btnUserMenu {font-size: 18pt;}
 
     /* User menu */
-    #userPhoto .fa-user, #editProfile .fa-user {
+    #userPhoto .fa-user,
+    #editProfile .fa-user {
         font-size: 65pt;
         padding: 3.8vw 6vw;
     }
@@ -38,8 +39,9 @@
     }
     #userPhoto h5 {font-size: 14pt;}
 
-    .offcanvas-body i {font-size: 16pt;}
-    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
+    .offcanvas nav,
+    .offcanvas span {font-size: 13pt;}
+    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
 
     .navbar-nav {
         flex-direction: row;
@@ -63,7 +65,9 @@
     #regRight {width: 100%;}
     #regRight #register {width: 85vw;}
     #regRight #login {width: 70vw;}
-    #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
+    #regRight form,
+    #regRight input,
+    #regRight .btn {font-size: 10pt;}
 }
 
 /* For Small (landscape phones, less than 768px) devices */
@@ -93,7 +97,8 @@
     li #btnUserMenu {font-size: 18pt;}
 
     /* User menu */
-    #userPhoto .fa-user, #editProfile .fa-user {
+    #userPhoto .fa-user,
+    #editProfile .fa-user {
         font-size: 65pt;
         padding: 3vw 4.5vw;
     }
@@ -103,8 +108,9 @@
     }
     #userPhoto h5 {font-size: 13pt;}
 
-    .offcanvas-body i {font-size: 16pt;}
-    .offcanvas-body nav, .offcanvas-body span {font-size: 13pt;}
+    .offcanvas nav,
+    .offcanvas span {font-size: 13pt;}
+    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
 
     .navbar-nav {padding: 0 12vw;}
 
@@ -114,7 +120,9 @@
     #regRight {width: 100%;}
     #regRight #register {width: 60vw;}
     #regRight #login {width: 40vw;}
-    #regRight form, #regRight input, #regRight .btn {font-size: 10.5pt;}
+    #regRight form,
+    #regRight input,
+    #regRight .btn {font-size: 10.5pt;}
 }
 
 /* For Medium (tablets, less than 992px) devices */
@@ -142,7 +150,8 @@
     li #btnUserMenu {font-size: 13pt;}
 
     /* User menu */
-    #userPhoto .fa-user, #editProfile .fa-user {
+    #userPhoto .fa-user,
+    #editProfile .fa-user {
         font-size: 65pt;
         padding: 2vw 2.9vw;
     }
@@ -152,8 +161,9 @@
     }
     #userPhoto h5 {font-size: 13pt;}
 
-    .offcanvas-body i {font-size: 12pt;}
-    .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
+    .offcanvas nav,
+    .offcanvas span {font-size: 10pt;}
+    .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
 
     /* Banner */
     .carousel-item {height: 25vw;}
@@ -184,7 +194,9 @@
     #regRight {width: 100%;}
     #regRight #register {width: 55vw;}
     #regRight #login {width: 35vw;}
-    #regRight form, #regRight input, #regRight .btn {font-size: 11pt;}
+    #regRight form,
+    #regRight input,
+    #regRight .btn {font-size: 11pt;}
 }
 
 /* For Large (desktops, less than 1200px) devices */
@@ -212,7 +224,8 @@
     li #btnUserMenu {font-size: 14.5pt;}
 
     /* User menu */
-    #userPhoto .fa-user, #editProfile .fa-user {
+    #userPhoto .fa-user,
+    #editProfile .fa-user {
         font-size: 65pt;
         padding: 1.9vw 2.5vw;
     }
@@ -222,8 +235,9 @@
     }
     #userPhoto h5 {font-size: 14pt;}
 
-    .offcanvas-body i {font-size: 12pt;}
-    .offcanvas-body nav, .offcanvas-body span {font-size: 10pt;}
+    .offcanvas nav,
+    .offcanvas span {font-size: 10pt;}
+    .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
 
     /* Banner */
     .carousel-item {height: 20vw;}
@@ -293,7 +307,8 @@
     li #btnUserMenu {font-size: 14pt;}
 
     /* User menu */
-    #userPhoto .fa-user, #editProfile .fa-user {
+    #userPhoto .fa-user,
+    #editProfile .fa-user {
         font-size: 65pt;
         padding: 1.9vw 2.5vw;
     }
@@ -303,8 +318,9 @@
     }
     #userPhoto h5 {font-size: 16pt;}
 
-    .offcanvas-body i {font-size: 14pt;}
-    .offcanvas-body nav, .offcanvas-body span {font-size: 12pt;}
+    .offcanvas nav,
+    .offcanvas span {font-size: 12pt;}
+    .offcanvas .fa-arrow-right-from-bracket {font-size: 14pt;}
 
     /* Banner */
     .carousel-item {height: 20vw;}
@@ -354,7 +370,9 @@
     #regRight {width: 40%;}
     #regRight #register {width: 32vw;}
     #regRight #login {width: 25vw;}
-    #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
+    #regRight form,
+    #regRight input,
+    #regRight .btn {font-size: 10pt;}
 }
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
@@ -376,7 +394,8 @@
     li #btnUserMenu {font-size: 16pt;}
 
     /* User menu */
-    #userPhoto .fa-user, #editProfile .fa-user {
+    #userPhoto .fa-user,
+    #editProfile .fa-user {
         font-size: 80pt;
         padding: 1.2vw 1.8vw;
     }
@@ -384,8 +403,9 @@
         font-size: 14pt;
         padding: .35vw .1vw;
     }
-    .offcanvas-body nav, .offcanvas-body span {font-size: 14pt;}
-    .offcanvas-body nav i {font-size: 16pt;}
+    .offcanvas nav,
+    .offcanvas span {font-size: 14pt;}
+    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
 
     /* Banner */
     .carousel-item {height: 20vw;}
@@ -399,7 +419,7 @@
     }
     #carousel_1 button {font-size: 1.2vw;}
 
-    #carousel_2 h1 {padding: 0 15vw;}    
+    #carousel_2 h1 {padding: 0 15vw;}
 
     /* News cards */
     
