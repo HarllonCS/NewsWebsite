@@ -29,7 +29,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button> <!-- /end Responsive button -->
 
-                <form role="search" action="" method="get" id="searchSmall" class="d-sm-none"> <!-- Search bar -->
+                <form role="search" action="" method="GET" id="searchSmall" class="d-sm-none"> <!-- Search bar -->
                     <div class="input-group">
                         <input type="search" name="search" placeholder="Procurar" class="form-control text-light rounded-start-pill py-2" aria-label="Search" aria-describedby="searchIcon">
 
@@ -40,7 +40,7 @@
                 </form> <!-- /end Search bar -->
 
                 <div id="headerMenu" class="collapse navbar-collapse show"> <!-- Menu options -->
-                    <form role="search" action="" method="get" id="searchLarge" class="ms-md-auto py-3"> <!-- Search bar -->
+                    <form role="search" action="" method="GET" id="searchLarge" class="ms-md-auto py-3"> <!-- Search bar -->
                         <div class="input-group">
                             <input type="search" name="search" placeholder="Procurar" class="form-control text-light rounded-start-pill py-2" aria-label="Search" aria-describedby="searchIcon">
     
@@ -61,10 +61,10 @@
                         
                         <li class="nav-item align-self-center">
                             <!-- Login button -->
-                            <button class="btn fw-bold d-none" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <button class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
 
                             <!-- Button to user menu -->
-                            <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
+                            <button type="button" id="btnUserMenu" class="rounded-circle d-none" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
                                 <i class="fa-user fa-solid text-light"></i>
                             </button>
                         </li>
