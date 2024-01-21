@@ -61,7 +61,7 @@
 
     /* Right side (register/login screen) */
     #regRight {width: 100%;}
-    #regRight #create_acc {width: 85vw;}
+    #regRight #register {width: 85vw;}
     #regRight #login {width: 70vw;}
     #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
 }
@@ -112,7 +112,7 @@
 
     /* Right side (image) */
     #regRight {width: 100%;}
-    #regRight #create_acc {width: 60vw;}
+    #regRight #register {width: 60vw;}
     #regRight #login {width: 40vw;}
     #regRight form, #regRight input, #regRight .btn {font-size: 10.5pt;}
 }
@@ -182,7 +182,7 @@
 
     /* Right side (image) */
     #regRight {width: 100%;}
-    #regRight #create_acc {width: 55vw;}
+    #regRight #register {width: 55vw;}
     #regRight #login {width: 35vw;}
     #regRight form, #regRight input, #regRight .btn {font-size: 11pt;}
 }
@@ -264,7 +264,7 @@
 
     /* Right side (image) */
     #regRight {width: 100%;}
-    #regRight #create_acc {width: 45vw;}
+    #regRight #register {width: 45vw;}
     #regRight #login {width: 30vw;}
 }
 
@@ -352,7 +352,7 @@
 
     /* Right side (register/login screen) */
     #regRight {width: 40%;}
-    #regRight #create_acc {width: 32vw;}
+    #regRight #register {width: 32vw;}
     #regRight #login {width: 25vw;}
     #regRight form, #regRight input, #regRight .btn {font-size: 10pt;}
 }

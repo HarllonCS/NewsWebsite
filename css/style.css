@@ -172,7 +172,7 @@ article #headlineImg {background: url('https://picsum.photos/1'); height: 25vw;}
     text-align-last: center;
 }
 
-#create_acc {width: 25vw;}
+#register {width: 25vw;}
 #login {
     width: 20vw;
     display: none;
