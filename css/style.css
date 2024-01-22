@@ -163,7 +163,6 @@ article #headlineImg {background: url('https://picsum.photos/1'); height: 25vw;}
 #relNews_3 .news-img {background: url('https://picsum.photos/1?random=3');}
 #relNews_4 .news-img {background: url('https://picsum.photos/1?random=4');}
 
-
 /* =========================== REGISTER.HTML =========================== */
 
 #regLeft {background-color: #fc4450;}
@@ -178,7 +177,8 @@ article #headlineImg {background: url('https://picsum.photos/1'); height: 25vw;}
     display: none;
 }
 
-.yellow-shadow:hover, .yellow-shadow:focus {
+.yellow-shadow:hover,
+.yellow-shadow:focus {
     border-color: #eed57c;
     box-shadow: 0px 0px 0px 0.25rem #ddc26240;
 }
