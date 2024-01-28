@@ -22,10 +22,9 @@
         margin: 3vw auto;
         width: 85vw;
     }
-
     .fa-magnifying-glass {font-size: 13pt;}
 
-    li #btnUserMenu {font-size: 18pt;}
+    li .user-icon {width: 6vw;}
 
     /* User menu */
     #userPhoto .fa-user,
@@ -91,10 +90,9 @@
         width: 80vw;
         margin: 0 auto;
     }
-
     .fa-magnifying-glass {font-size: 13pt;}
 
-    li #btnUserMenu {font-size: 18pt;}
+    li .user-icon {width: 4.5vw;}
 
     /* User menu */
     #userPhoto .fa-user,
@@ -147,7 +145,7 @@
 
     .fa-magnifying-glass {font-size: 11pt;}
 
-    li #btnUserMenu {font-size: 13pt;}
+    li .user-icon {width: 2.4vw;}
 
     /* User menu */
     #userPhoto .fa-user,
@@ -221,7 +219,7 @@
 
     .fa-magnifying-glass {font-size: 11.5pt;}
 
-    li #btnUserMenu {font-size: 14.5pt;}
+    li .user-icon {width: 2.3vw;}
 
     /* User menu */
     #userPhoto .fa-user,
@@ -304,7 +302,7 @@
 
     .fa-magnifying-glass {font-size: 12pt;}
 
-    li #btnUserMenu {font-size: 14pt;}
+    li .user-icon {width: 2vw;}
 
     /* User menu */
     #userPhoto .fa-user,
@@ -388,10 +386,9 @@
     .navbar-brand {font-size: 2vw;}
 
     #searchLarge {width: 30vw;}
-
     .fa-magnifying-glass {font-size: 14pt;}
 
-    li #btnUserMenu {font-size: 16pt;}
+    li .user-icon {width: 1.5vw;}
 
     /* User menu */
     #userPhoto .fa-user,
@@ -422,7 +419,6 @@
     #carousel_2 h1 {padding: 0 15vw;}
 
     /* News cards */
-    
     .inews-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
     .inews-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
     .inews-lg-h {height: 10.5vw;}
