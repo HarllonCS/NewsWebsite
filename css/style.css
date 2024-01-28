@@ -79,7 +79,10 @@ li .btn:hover {
 
 /* User Menu */
 #userMenu {background-color: #5c1529;}
-#userPhoto .fa-user {background-color: #7a1e38;}
+#userPhoto .user-icon {
+    background-color: #7a1e38;
+    border: 1px solid #d8d8d877;
+}
 #userPhoto button {
     background-color: #b83056;
     top: 80%; right: 32%;

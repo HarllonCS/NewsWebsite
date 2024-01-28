@@ -27,9 +27,9 @@
     li .user-icon {width: 6vw;}
 
     /* User menu */
-    #userPhoto .fa-user,
-    #editProfile .fa-user {
-        font-size: 65pt;
+    #userPhoto .user-icon,
+    #editProfile .user-icon {
+        width: 35vw;
         padding: 3.8vw 6vw;
     }
     #userPhoto .fa-pen-to-square {
@@ -95,10 +95,10 @@
     li .user-icon {width: 4.5vw;}
 
     /* User menu */
-    #userPhoto .fa-user,
-    #editProfile .fa-user {
-        font-size: 65pt;
-        padding: 3vw 4.5vw;
+    #userPhoto .user-icon,
+    #editProfile .user-icon {
+        width: 25vw;
+        padding: 2.6vw 4.5vw;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 13.5pt;
@@ -148,14 +148,14 @@
     li .user-icon {width: 2.4vw;}
 
     /* User menu */
-    #userPhoto .fa-user,
-    #editProfile .fa-user {
-        font-size: 65pt;
+    #userPhoto .user-icon,
+    #editProfile .user-icon {
+        width: 15vw;
         padding: 2vw 2.9vw;
     }
     #userPhoto .fa-pen-to-square {
-        font-size: 13pt;
-        padding: .50vw .1vw;
+        font-size: 12pt;
+        padding: .7vw .1vw;
     }
     #userPhoto h5 {font-size: 13pt;}
 
@@ -222,14 +222,14 @@
     li .user-icon {width: 2.3vw;}
 
     /* User menu */
-    #userPhoto .fa-user,
-    #editProfile .fa-user {
-        font-size: 65pt;
+    #userPhoto .user-icon,
+    #editProfile .user-icon {
+        width: 13vw;
         padding: 1.9vw 2.5vw;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 13pt;
-        padding: .30vw .01vw;
+        padding: .48vw .1vw;
     }
     #userPhoto h5 {font-size: 14pt;}
 
@@ -305,9 +305,9 @@
     li .user-icon {width: 2vw;}
 
     /* User menu */
-    #userPhoto .fa-user,
-    #editProfile .fa-user {
-        font-size: 65pt;
+    #userPhoto .user-icon,
+    #editProfile .user-icon  {
+        width: 11vw;
         padding: 1.9vw 2.5vw;
     }
     #userPhoto .fa-pen-to-square {
@@ -391,10 +391,10 @@
     li .user-icon {width: 1.5vw;}
 
     /* User menu */
-    #userPhoto .fa-user,
-    #editProfile .fa-user {
-        font-size: 80pt;
-        padding: 1.2vw 1.8vw;
+    #userPhoto .user-icon,
+    #editProfile .user-icon {
+        width: 9vw;
+        padding: 1vw 1.8vw;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 14pt;
