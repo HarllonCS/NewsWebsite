@@ -2,29 +2,20 @@
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
-    .news {margin-top: 6vw;}
-
-    .card {
-        width: 90vw;
-        margin: 0 auto 6vw auto;
-    }
-    .card .news-img {height: 50vw;}
-    .card-title {font-size: 14pt;}
-    .card-footer {font-size: 9pt;}
-
-    /* ========================== INDEX.HTML  ========================== */
+    /* ========================== INDEX page ========================== */
 
     /* Header */
-    .navbar-brand {font-size: 4vw;}
+    .navbar-brand { font-size: 4vw; }
 
-    #searchLarge {display: none;}
+    #searchLarge { display: none; }
     #searchSmall {
         margin: 3vw auto;
         width: 85vw;
     }
-    .fa-magnifying-glass {font-size: 13pt;}
 
-    li .user-icon {width: 6vw;}
+    .fa-magnifying-glass { font-size: 13pt; }
+
+    li #btnUserMenu { font-size: 18pt; }
 
     /* User menu */
     #userPhoto .user-icon,
@@ -36,11 +27,10 @@
         font-size: 13.5pt;
         padding: 1vw .2vw;
     }
-    #userPhoto h5 {font-size: 14pt;}
+    #userPhoto h5 { font-size: 14pt; }
 
-    .offcanvas nav,
-    .offcanvas span {font-size: 13pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+    .offcanvas-body i { font-size: 16pt; }
+    .offcanvas-body nav, .offcanvas-body span { font-size: 13pt; }
 
     .navbar-nav {
         flex-direction: row;
@@ -49,50 +39,49 @@
     }
 
     /* Banner */
-    #banner {display: none;}
+    #banner { display: none; }
 
-    /* ========================== NEWS.HTML  ========================== */
-
-    #newsHeadline h1 {font-size: 18pt;}
-
-    /* ========================== REGISTER.HTML  ========================== */
-
-    /* Left side (image) */
-    #regLeft {display: none;}
-
-    /* Right side (register/login screen) */
-    #regRight {width: 100%;}
-    #regRight #register {width: 85vw;}
-    #regRight #login {width: 70vw;}
-    #regRight form,
-    #regRight input,
-    #regRight .btn {font-size: 10pt;}
-}
-
-/* For Small (landscape phones, less than 768px) devices */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .news {margin-top: 4vw;}
-
+    /* News cards */
+    .news { margin-top: 6vw; }
     .card {
         width: 90vw;
         margin: 0 auto 6vw auto;
     }
-    .card .news-img {height: 50vw;}
-    .card-title {font-size: 14pt;}
-    .card-footer {font-size: 9.5pt;}
+    .card .news-img { height: 50vw; }
+    .card-title { font-size: 14pt; }
+    .card-footer { font-size: 9pt; }
 
-    /* ========================== INDEX.HTML  ========================== */
+    /* ========================== NEWS page ========================== */
+
+    #newsHeadline h1 { font-size: 18pt; }
+
+    /* ========================== REGISTER page ========================== */
+
+    /* Left side (image) */
+    #regLeft { display: none; }
+
+    /* Right side (register/login screen) */
+    #regRight { width: 100%; }
+    #regRight #create_acc { width: 85vw; }
+    #regRight #login { width: 70vw; }
+    #regRight form, #regRight input, #regRight .btn { font-size: 10pt; }
+}
+
+/* For Small (landscape phones, less than 768px) devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ========================== INDEX page ========================== */
 
     /* Header */    
-    .navbar-brand {font-size: 3.3vw;}
+    .navbar-brand { font-size: 3.3vw; }
 
     #searchLarge {
         width: 80vw;
         margin: 0 auto;
     }
-    .fa-magnifying-glass {font-size: 13pt;}
 
-    li .user-icon {width: 4.5vw;}
+    .fa-magnifying-glass { font-size: 13pt; }
+
+    li #btnUserMenu { font-size: 18pt; }
 
     /* User menu */
     #userPhoto .user-icon,
@@ -104,48 +93,48 @@
         font-size: 13.5pt;
         padding: 1vw .2vw;
     }
-    #userPhoto h5 {font-size: 13pt;}
+    #userPhoto h5 { font-size: 13pt; }
 
-    .offcanvas nav,
-    .offcanvas span {font-size: 13pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+    .offcanvas-body i { font-size: 16pt; }
+    .offcanvas-body nav, .offcanvas-body span { font-size: 13pt; }
 
-    .navbar-nav {padding: 0 12vw;}
+    .navbar-nav { padding: 0 12vw; }
 
-    /* ========================== REGISTER.HTML  ========================== */
+    /* News cards */
+    .news { margin-top: 4vw; }
+    .card {
+        width: 90vw;
+        margin: 0 auto 6vw auto;
+    }
+    .card .news-img { height: 50vw; }
+    .card-title { font-size: 14pt; }
+    .card-footer { font-size: 9.5pt; }
+
+    /* ========================== REGISTER page ========================== */
 
     /* Right side (image) */
-    #regRight {width: 100%;}
-    #regRight #register {width: 60vw;}
-    #regRight #login {width: 40vw;}
-    #regRight form,
-    #regRight input,
-    #regRight .btn {font-size: 10.5pt;}
+    #regRight { width: 100%; }
+    #regRight #create_acc { width: 60vw; }
+    #regRight #login { width: 40vw; }
+    #regRight form, #regRight input, #regRight .btn { font-size: 10.5pt; }
 }
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .news {width: 90vw;}
-
-    .card {margin-bottom: 4vw;}
-
-    .card-title {font-size: 14pt;}
-    .card-footer {font-size: 10pt;}
-
-    /* ========================== INDEX.HTML  ========================== */
+    /* ========================== INDEX page ========================== */
 
     /* Header */
-    .navbar-brand {font-size: 2.4vw;}
+    .navbar-brand { font-size: 2.4vw; }
 
-    #searchLarge {width: 40vw;}
-    #searchLarge input {font-size: 9.5pt;}
+    #searchLarge { width: 40vw; }
+    #searchLarge input { font-size: 9.5pt; }
 
     .nav-item .form-select,
-    .nav-item button {font-size: 9pt;}
+    .nav-item button { font-size: 9pt; }
 
-    .fa-magnifying-glass {font-size: 11pt;}
+    .fa-magnifying-glass { font-size: 11pt; }
 
-    li .user-icon {width: 2.4vw;}
+    li #btnUserMenu { font-size: 13pt; }
 
     /* User menu */
     #userPhoto .user-icon,
@@ -157,14 +146,13 @@
         font-size: 12pt;
         padding: .7vw .1vw;
     }
-    #userPhoto h5 {font-size: 13pt;}
+    #userPhoto h5 { font-size: 13pt; }
 
-    .offcanvas nav,
-    .offcanvas span {font-size: 10pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
+    .offcanvas-body i { font-size: 12pt; }
+    .offcanvas-body nav, .offcanvas-body span { font-size: 10pt; }
 
     /* Banner */
-    .carousel-item {height: 25vw;}
+    .carousel-item { height: 25vw; }
     .carousel-item h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
@@ -173,53 +161,49 @@
         width: 35vw;
         font-size: 9.3pt;
     }
-    #carousel_1 button {font-size: 1.4vw;}
+    #carousel_1 button { font-size: 1.4vw; }
 
-    #carousel_2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 { padding: 0 15vw; }
 
     /* News cards */
-    .inews-md-w {width: 45vw;}
-    .inews-md-h {height: 23vw;}
-
-    /* ========================== MEWS.HTML  ========================== */
-
-    .rnews-w {width: 80vw;}
-    .rnews-h {height: 45vw;}
+    .news { width: 90vw; }
+    .card { margin-bottom: 4vw; }
+    .card-title { font-size: 14pt; }
+    .card-footer { font-size: 10pt; }
     
-    /* ========================== REGISTER.HTML  ========================== */
+    .inews-md-w { width: 45.5vw; }
+    .inews-md-h { height: 23vw; }
+
+    /* ========================== MEWS page ========================== */
+
+    .rnews-w { width: 80vw; }
+    .rnews-h { height: 45vw; }
+    
+    /* ========================== REGISTER page ========================== */
 
     /* Right side (image) */
-    #regRight {width: 100%;}
-    #regRight #register {width: 55vw;}
-    #regRight #login {width: 35vw;}
-    #regRight form,
-    #regRight input,
-    #regRight .btn {font-size: 11pt;}
+    #regRight { width: 100%; }
+    #regRight #create_acc { width: 55vw; }
+    #regRight #login { width: 35vw; }
+    #regRight form, #regRight input, #regRight .btn { font-size: 11pt; }
 }
 
 /* For Large (desktops, less than 1200px) devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .news {width: 90vw;}
-
-    .card {margin-bottom: 3vw;}
-
-    .card-title {font-size: 11pt;}
-    .card-footer {font-size: 8.5pt;}
-
-    /* ========================== INDEX.HTML  ========================== */
+    /* ========================== INDEX page ========================== */
 
     /* Header */
-    .navbar-brand {font-size: 2.2vw;}
+    .navbar-brand { font-size: 2.2vw; }
 
-    #searchLarge {width: 35vw;}
+    #searchLarge { width: 35vw; }
     #searchLarge input,
 
     .nav-item .form-select,
-    .nav-item button {font-size: 10pt;}
+    .nav-item button { font-size: 10pt; }
 
-    .fa-magnifying-glass {font-size: 11.5pt;}
+    .fa-magnifying-glass { font-size: 11.5pt; }
 
-    li .user-icon {width: 2.3vw;}
+    li #btnUserMenu { font-size: 14.5pt; }
 
     /* User menu */
     #userPhoto .user-icon,
@@ -231,14 +215,13 @@
         font-size: 13pt;
         padding: .48vw .1vw;
     }
-    #userPhoto h5 {font-size: 14pt;}
+    #userPhoto h5 { font-size: 14pt; }
 
-    .offcanvas nav,
-    .offcanvas span {font-size: 10pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
+    .offcanvas-body i { font-size: 12pt; }
+    .offcanvas-body nav, .offcanvas-body span { font-size: 10pt; }
 
     /* Banner */
-    .carousel-item {height: 20vw;}
+    .carousel-item { height: 20vw; }
     .carousel-item h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
@@ -247,62 +230,60 @@
         width: 35vw;
         font-size: 1vw;
     }
-    #carousel_1 button {font-size: 1.2vw;}
+    #carousel_1 button { font-size: 1.2vw; }
 
-    #carousel_2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 { padding: 0 15vw; }
 
     /* News cards */
-    .inews-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
-    .inews-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
-    .inews-lg-h {height: 10.5vw;}
+    .news { width: 90vw; }
+    .card { margin-bottom: 3vw; }
+    .card-title { font-size: 11pt; }
+    .card-footer { font-size: 8.5pt; }
 
-    /* ========================== NEWS.HTML  ========================== */
+    .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
+    .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
+    .inews-lg-h { height: 10.5vw; }
+
+    /* ========================== NEWS page ========================== */
 
     /* Headline */
-    #newsHeadline h1 {font-size: 20pt;}
+    #newsHeadline h1 { font-size: 20pt; }
 
     /* Text of the news */
-    #newsText h2 {font-size: 16pt;}
-    #newsText h3 {font-size: 14pt;}
-    #newsText p {font-size: 12pt;}
+    #newsText h2 { font-size: 16pt; }
+    #newsText h3 { font-size: 14pt; }
+    #newsText p { font-size: 12pt; }
 
     /* Related News */
-    aside h4 {font-size: 15pt;}
+    aside h4 { font-size: 15pt; }
 
-    .rnews-w {width: 25vw;}
-    .rnews-h {height: 15vw;}
+    .rnews-w { width: 25vw; }
+    .rnews-h { height: 15vw; }
 
-    /* ========================== REGISTER.HTML  ========================== */
+    /* ========================== REGISTER page ========================== */
 
     /* Right side (image) */
-    #regRight {width: 100%;}
-    #regRight #register {width: 45vw;}
-    #regRight #login {width: 30vw;}
+    #regRight { width: 100%; }
+    #regRight #create_acc { width: 45vw; }
+    #regRight #login { width: 30vw; }
 }
 
 /* For Extra Large devices (>= 1200px) size screens */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    .news {width: 90vw;}
-
-    .card {margin-bottom: 3vw;}
-
-    .card-title {font-size: 13pt;}
-    .card-footer {font-size: 9pt;}
-
-    /* ========================== INDEX.HTML  ========================== */
+    /* ========================== INDEX page ========================== */
 
     /* Header */
-    .navbar-brand {font-size: 2vw;}
+    .navbar-brand { font-size: 2vw; }
 
-    #searchLarge {width: 30vw;}
+    #searchLarge { width: 30vw; }
     #searchLarge input,
 
     .nav-item .form-select,
-    .nav-item button {font-size: 10pt;}
+    .nav-item button { font-size: 10pt; }
 
-    .fa-magnifying-glass {font-size: 12pt;}
+    .fa-magnifying-glass { font-size: 12pt; }
 
-    li .user-icon {width: 2vw;}
+    li #btnUserMenu { font-size: 14pt; }
 
     /* User menu */
     #userPhoto .user-icon,
@@ -314,14 +295,13 @@
         font-size: 13.5pt;
         padding: .42vw .1vw;
     }
-    #userPhoto h5 {font-size: 16pt;}
+    #userPhoto h5 { font-size: 16pt; }
 
-    .offcanvas nav,
-    .offcanvas span {font-size: 12pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 14pt;}
+    .offcanvas-body i { font-size: 14pt; }
+    .offcanvas-body nav, .offcanvas-body span { font-size: 12pt; }
 
     /* Banner */
-    .carousel-item {height: 20vw;}
+    .carousel-item { height: 20vw; }
     .carousel-item h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
@@ -335,60 +315,59 @@
         margin-bottom: 2vw;
     }
 
-    #carousel_2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 { padding: 0 15vw; }
 
     /* News cards */
-    .inews-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
-    .inews-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
-    .inews-lg-h {height: 10.5vw;}
+    .news { width: 90vw; }
+    .card { margin-bottom: 3vw; }
+    .card-title { font-size: 13pt; }
+    .card-footer { font-size: 9pt; }
 
-    /* ========================== NEWS.HTML  ========================== */
+    .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
+    .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
+    .inews-lg-h { height: 10.5vw; }
+
+    /* ========================== NEWS page ========================== */
 
     /* Headline */
-    #newsHeadline h1 {font-size: 24pt;}
+    #newsHeadline h1 { font-size: 24pt; }
 
     /* Text of the news */
-    #newsText h2 {font-size: 18pt;}
-    #newsText h3 {font-size: 16pt;}
-    #newsText p {font-size: 13pt;}
+    #newsText h2 { font-size: 18pt; }
+    #newsText h3 { font-size: 16pt; }
+    #newsText p { font-size: 13pt; }
 
     /* Related News */
-    aside h4 {font-size: 16pt;}
+    aside h4 { font-size: 16pt; }
 
-    .rnews-w {width: 25vw;}
-    .rnews-h {height: 15vw;}
+    .rnews-w { width: 25vw; }
+    .rnews-h { height: 15vw; }
 
-    /* ========================== REGISTER.HTML  ========================== */
+    /* ========================== REGISTER page ========================== */
 
     /* Left side (image) */
-    #regLeft {width: 60%;}
-    #regLeft h5 {font-size: 12pt;}
+    #regLeft { width: 60%; }
+    #regLeft h5 { font-size: 12pt; }
 
     /* Right side (register/login screen) */
-    #regRight {width: 40%;}
-    #regRight #register {width: 32vw;}
-    #regRight #login {width: 25vw;}
-    #regRight form,
-    #regRight input,
-    #regRight .btn {font-size: 10pt;}
+    #regRight { width: 40%; }
+    #regRight #create_acc { width: 32vw; }
+    #regRight #login { width: 25vw; }
+    #regRight form, #regRight input, #regRight .btn { font-size: 10pt; }
 }
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
 @media (min-width: 1400px) {
-    .card {margin-bottom: 3vw;}
-
-    /* News */
-    .news {width: 90vw;}
-
-    /* ========================== INDEX.HTML  ========================== */
+    /* ========================== INDEX page ========================== */
 
     /* Header */
-    .navbar-brand {font-size: 2vw;}
+    .navbar-brand { font-size: 2vw; }
 
-    #searchLarge {width: 30vw;}
-    .fa-magnifying-glass {font-size: 14pt;}
+    #searchLarge { width: 30vw; }
 
-    li .user-icon {width: 1.5vw;}
+    .fa-magnifying-glass { font-size: 14pt; }
+
+    li #btnUserMenu { font-size: 16pt; }
 
     /* User menu */
     #userPhoto .user-icon,
@@ -400,12 +379,11 @@
         font-size: 14pt;
         padding: .35vw .1vw;
     }
-    .offcanvas nav,
-    .offcanvas span {font-size: 14pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+    .offcanvas-body nav, .offcanvas-body span { font-size: 14pt; }
+    .offcanvas-body nav i { font-size: 16pt; }
 
     /* Banner */
-    .carousel-item {height: 20vw;}
+    .carousel-item { height: 20vw; }
     .carousel-item h1 {
         font-size: 2.5vw;
         line-height: 3.5vw;
@@ -414,32 +392,34 @@
         width: 35vw;
         font-size: 1vw;
     }
-    #carousel_1 button {font-size: 1.2vw;}
+    #carousel_1 button { font-size: 1.2vw; }
 
-    #carousel_2 h1 {padding: 0 15vw;}
+    #carousel_2 h1 { padding: 0 15vw; }
 
     /* News cards */
-    .inews-lg-w {width: 18vw;} /* news_1 -> news_6, news_8, news_9, news_11 -> news_14 */
-    .inews-lg-w2 {width: 36.5vw;} /* news_7, news_10 */
-    .inews-lg-h {height: 10.5vw;}
+    .card { margin-bottom: 3vw;}
+    .news { width: 90vw; }
+    .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
+    .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
+    .inews-lg-h { height: 10.5vw; }
 
-    /* ========================== NEWS.HTML  ========================== */
+    /* ========================== NEWS page ========================== */
     
     /* Text of the news */
-    #newsText h2 {font-size: 20pt;}
-    #newsText h3 {font-size: 18pt;}
-    #newsText p {font-size: 14pt;}
+    #newsText h2 { font-size: 20pt; }
+    #newsText h3 { font-size: 18pt; }
+    #newsText p { font-size: 14pt; }
 
     /* Related News */
-    .rnews-w {width: 25vw;}
-    .rnews-h {height: 15vw;}
+    .rnews-w { width: 25vw; }
+    .rnews-h { height: 15vw; }
 
-    /* ========================== REGISTER.HTML  ========================== */
+    /* ========================== REGISTER page ========================== */
 
     /* Left side (image) */
-    #regLeft {width: 65%;}
-    #regLeft h5 {font-size: 14pt;}
+    #regLeft { width: 65%; }
+    #regLeft h5 { font-size: 14pt; }
 
     /* Right side (register/login screen) */
-    #regRight {width: 35%;}
+    #regRight { width: 35%; }
 }
