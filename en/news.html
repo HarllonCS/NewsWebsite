@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-md px-lg-5"> <!-- Navigation menu -->
             <div class="container-fluid">
                 <!-- Title of the site -->
-                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white fs-2">news website</a>
+                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
                                 
                 <button type="button" class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
                     <span class="navbar-toggler-icon"></span>
@@ -61,12 +61,12 @@
 
                         <li class="nav-item align-self-center">
                             <!-- Login button -->
-                            <button class="btn fw-bold d-none" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <button class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
 
                             <!-- Button to user menu -->
-                            <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
+                            <!-- <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
                                 <i class="fa-user fa-solid text-light"></i>
-                            </button>
+                            </button> -->
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
@@ -78,30 +78,32 @@
     <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header"> <!-- Login header -->
                     <h3 id="loginLabel" class="modal-title text-uppercase text-center fw-bold">Login</h3>
+                    <!-- Close button -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> <!-- /end Login header -->
 
-                <div class="modal-body">
+                <div class="modal-body"> <!-- Login body -->
                     <form action="" method="post">
-                        <div class="mb-3">
+                        <div class="mb-3"> <!-- E-mail -->
                             <label for="logEmail" class="form-label">E-mail</label>
                             <input type="email" name="logEmail" id="logEmail" class="form-control yellow-shadow" required>
-                        </div>
+                        </div> <!-- /end E-mail -->
 
-                        <div class="mb-5">
+                        <div class="mb-5"> <!-- Password -->
                             <label for="logPassword" class="form-label">Password</label>
                             <input type="password" name="logPassword" id="logPassword" class="form-control yellow-shadow" required minlength="6">
-                        </div>
+                        </div> <!-- /end Password -->
 
                         <div class="d-flex justify-content-around">
+                            <!-- Create account link -->
                             <a href="./register.html" class="fs-6 text-decoration-none align-self-center">Create account</a>
-                            
+                            <!-- Confirm login button -->
                             <button type="submit" class="btn btn-success fs-6 px-4">Sign in</button>
                         </div>
                     </form>
-                </div>
+                </div> <!-- /end Login body -->
             </div>
         </div>
     </div>
@@ -180,9 +182,9 @@
 
     <!-- Main content -->
     <main role="main" class="news row mt-md-4 mx-auto">
-        <article class="col-lg-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+        <article class="col-lg-8">
             <div id="newsHeadline">
-                <h1 class="mb-4" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">Headline - Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <h1 class="mb-4">Headline - Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
 
                 <div id="headlineImg" class="rounded mb-2"></div>
                 <p class="text-secondary">Caption</p>
@@ -213,7 +215,7 @@
             <h4 class="text-center mt-4 mb-3" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">Related News</h4>
 
             <div id="relNews_1" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">
@@ -225,7 +227,7 @@
             </div>
 
             <div id="relNews_2" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">
@@ -237,7 +239,7 @@
             </div>
 
             <div id="relNews_3" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">
@@ -249,7 +251,7 @@
             </div>
 
             <div id="relNews_4" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">

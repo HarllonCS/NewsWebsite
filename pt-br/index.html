@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-md px-lg-5"> <!-- Navigation menu -->
             <div class="container-fluid">
                 <!-- Title of the site -->
-                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white fs-2">news website</a>
+                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
                                 
                 <button type="button" class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
                     <span class="navbar-toggler-icon"></span>
@@ -78,30 +78,32 @@
     <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header"> <!-- Login header -->
                     <h3 id="loginLabel" class="modal-title text-uppercase text-center fw-bold">Login</h3>
+                    <!-- Close button -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> <!-- /end Login header -->
 
-                <div class="modal-body">
+                <div class="modal-body"> <!-- Login body -->
                     <form action="" method="post">
-                        <div class="mb-3">
+                        <div class="mb-3"> <!-- E-mail -->
                             <label for="logEmail" class="form-label">E-mail:</label>
                             <input type="email" name="logEmail" id="logEmail" class="form-control yellow-shadow" required>
-                        </div>
+                        </div> <!-- /end E-mail -->
 
-                        <div class="mb-5">
+                        <div class="mb-5"> <!-- Password -->
                             <label for="logPassword" class="form-label">Senha:</label>
                             <input type="password" name="logPassword" id="logPassword" class="form-control yellow-shadow" required minlength="6">
-                        </div>
+                        </div> <!-- /end Password -->
 
                         <div class="d-flex justify-content-around">
+                            <!-- Create account link -->
                             <a href="./register.html" class="fs-6 text-decoration-none align-self-center">Criar conta</a>
-
+                            <!-- Confirm login button -->
                             <button type="submit" class="btn btn-success fs-6 px-4">Entrar</button>
                         </div>
                     </form>
-                </div>
+                </div> <!-- /end Login body -->
             </div>
         </div>
     </div>
@@ -181,7 +183,7 @@
     <main role="main"> <!-- Main content -->
         <section id="banner" class="d-sm-none d-md-block"> <!-- Banner -->
             <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"> <!-- Carousel banner -->
-                <div class="carousel-indicators d-sm-none d-xl-flex mx-0"> <!-- Carousel indicator -->
+                <div class="carousel-indicators d-sm-none d-xl-flex"> <!-- Carousel indicator -->
                     <!-- Button slide 1 -->
                     <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <!-- Button slide 2 -->
