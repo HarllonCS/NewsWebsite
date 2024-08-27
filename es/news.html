@@ -78,30 +78,32 @@
     <div id="loginModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header"> <!-- Login header -->
                     <h3 id="loginLabel" class="modal-title text-uppercase text-center fw-bold">Login</h3>
+                    <!-- Close button -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> <!-- /end Login header -->
 
-                <div class="modal-body">
+                <div class="modal-body"> <!-- Login body -->
                     <form action="" method="post">
-                        <div class="mb-3">
+                        <div class="mb-3"> <!-- E-mail -->
                             <label for="logEmail" class="form-label">E-mail</label>
                             <input type="email" name="logEmail" id="logEmail" class="form-control yellow-shadow" required>
-                        </div>
+                        </div> <!-- /end E-mail -->
 
-                        <div class="mb-5">
+                        <div class="mb-5"> <!-- Password -->
                             <label for="logPassword" class="form-label">Contraseña</label>
                             <input type="password" name="logPassword" id="logPassword" class="form-control yellow-shadow" required minlength="6">
-                        </div>
+                        </div> <!-- /end Password -->
 
                         <div class="d-flex justify-content-around">
+                            <!-- Create account link -->
                             <a href="./register.html" class="fs-6 text-decoration-none align-self-center">Crear cuenta</a>
-
+                            <!-- Confirm login button -->
                             <button type="submit" class="btn btn-success fs-6 px-4">Iniciar sesión</button>
                         </div>
                     </form>
-                </div>
+                </div> <!-- /end Login body -->
             </div>
         </div>
     </div>
@@ -217,7 +219,7 @@
             <h4 class="text-center mt-4 mb-3" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">Noticias Relacionadas</h4>
 
             <div id="relNews_1" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">
@@ -228,8 +230,8 @@
                 </a>
             </div>
 
-            <div id="relNews_2" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+            <div id="relNews_2" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">
@@ -241,7 +243,7 @@
             </div>
 
             <div id="relNews_3" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">
@@ -253,7 +255,7 @@
             </div>
 
             <div id="relNews_4" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
-                <a href="./news.html" target="_self" class="text-decoration-none">
+                <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
 
                     <div class="card-body pb-0">
