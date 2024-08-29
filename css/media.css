@@ -26,10 +26,9 @@
         font-size: 13.5pt;
         padding: 1vw .2vw;
     }
-    #userPhoto h5 {font-size: 14pt;}
-    .offcanvas nav,
-    .offcanvas span {font-size: 13pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+    #userPhoto h5 { font-size: 14pt; }
+    .offcanvas nav, .offcanvas span { font-size: 13pt; }
+    .offcanvas .fa-arrow-right-from-bracket { font-size: 16pt; }
 
     /* Edit profile */
     #editProfile .user-icon {
@@ -97,10 +96,9 @@
         font-size: 13.5pt;
         padding: 1vw .2vw;
     }
-    #userPhoto h5 {font-size: 13pt;}
-    .offcanvas nav,
-    .offcanvas span {font-size: 13pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+    #userPhoto h5 { font-size: 13pt; }
+    .offcanvas nav, .offcanvas span { font-size: 13pt; }
+    .offcanvas .fa-arrow-right-from-bracket { font-size: 16pt; }
 
     /* Edit profile */
     #editProfile .user-icon {
@@ -156,10 +154,9 @@
         font-size: 12pt;
         padding: .7vw .1vw;
     }
-    #userPhoto h5 {font-size: 13pt;}
-    .offcanvas nav,
-    .offcanvas span {font-size: 10pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
+    #userPhoto h5 { font-size: 13pt; }
+    .offcanvas nav, .offcanvas span { font-size: 10pt; }
+    .offcanvas .fa-arrow-right-from-bracket { font-size: 12pt; }
 
     /* Edit profile */
     #editProfile .user-icon {
@@ -230,10 +227,9 @@
         font-size: 13pt;
         padding: .48vw .1vw;
     }
-    #userPhoto h5 {font-size: 14pt;}
-    .offcanvas nav,
-    .offcanvas span {font-size: 10pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
+    #userPhoto h5 { font-size: 14pt; }
+    .offcanvas nav, .offcanvas span { font-size: 10pt; }
+    .offcanvas .fa-arrow-right-from-bracket { font-size: 12pt; }
 
     /* Edit profile */
     #editProfile .user-icon {
@@ -315,10 +311,9 @@
         font-size: 13.5pt;
         padding: .42vw .1vw;
     }
-    #userPhoto h5 {font-size: 16pt;}
-    .offcanvas nav,
-    .offcanvas span {font-size: 12pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 14pt;}
+    #userPhoto h5 { font-size: 16pt; }
+    .offcanvas nav, .offcanvas span { font-size: 12pt; }
+    .offcanvas .fa-arrow-right-from-bracket { font-size: 14pt; }
     
     /* Edit profile */
     #editProfile .user-icon {
@@ -403,9 +398,8 @@
         font-size: 14pt;
         padding: .35vw .1vw;
     }
-    .offcanvas nav,
-    .offcanvas span {font-size: 14pt;}
-    .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+    .offcanvas nav, .offcanvas span { font-size: 14pt; }
+    .offcanvas .fa-arrow-right-from-bracket { font-size: 16pt; }
     
     /* Edit profile */
     #editProfile .user-icon {
