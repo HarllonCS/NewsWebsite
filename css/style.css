@@ -79,7 +79,10 @@ li #btnUserMenu i { padding: 5px 4px; }
 
 /* User Menu */
 #userMenu { background-color: #5c1529; }
-#userPhoto .fa-user { background-color: #7a1e38; }
+#userPhoto .user-icon-bg {
+    background-color: #7a1e38;
+    border: 1px solid #d8d8d877;
+}
 #userPhoto button {
     background-color: #b83056;
     top: 80%; right: 32%;
@@ -89,7 +92,10 @@ li #btnUserMenu i { padding: 5px 4px; }
 #userMenu nav a:hover { background-color: #18080c52; }
 
 /* Edit user data screen */
-#editProfile .fa-user { background-color: whitesmoke; }
+#editProfile .user-icon-bg {
+    background: whitesmoke;
+    border: 1px solid #8d8d8d;
+}
 
 /* Responsive button */
 .navbar-toggler { background-color: #6b132c; }

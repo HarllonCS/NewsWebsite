@@ -61,12 +61,12 @@
 
                         <li class="nav-item">
                             <!-- Login button -->
-                            <button class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <!-- <button class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button> -->
 
                             <!-- Button to user menu -->
-                            <!-- <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
+                            <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
                                 <i class="fa-user fa-solid text-light"></i>
-                            </button> -->
+                            </button>
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
@@ -119,7 +119,9 @@
             <div id="userPhoto" class="text-center mb-5">
                 <div class="position-relative mb-4">
                     <!-- User Photo -->
-                    <img src="../src/icons/user-icon-white.svg" alt="User Photo" class="rounded-circle user-icon">
+                    <div class="rounded-circle d-block w-50 mx-auto user-icon-bg">
+                        <img src="../src/icons/user-icon-white.svg" alt="User Photo"    class="user-icon">
+                    </div>
 
                     <!-- Edit user data button -->
                     <button type="button" class="position-absolute border rounded-circle" data-bs-toggle="modal" data-bs-target="#editProfile">
@@ -162,7 +164,9 @@
                     <form action="" method="POST">
                         <div class="mb-3 text-center">
                             <!-- User photo -->
-                            <img src="../src/icons/user-icon-black.svg" alt="User Photo" class="rounded-circle border border-black mb-3 user-icon">
+                            <div class="rounded-circle d-block w-50 mx-auto mb-4 user-icon-bg">
+                                <img src="../src/icons/user-icon-black.svg" alt="User Photo"    class="user-icon">
+                            </div>
 
                             <div> <!-- Choose image profile -->
                                 <label for="photo" class="btn btn-primary rounded-pill">Select image</label>
