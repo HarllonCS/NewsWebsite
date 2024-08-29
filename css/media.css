@@ -27,20 +27,24 @@
     li .user-icon {width: 6vw;}
 
     /* User menu */
-    #userPhoto .user-icon,
-    #editProfile .user-icon {
-        width: 35vw;
-        padding: 3.8vw 6vw;
+    #userPhoto .user-icon {
+        width: 14vw;
+        padding: 8vw 0;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 13.5pt;
         padding: 1vw .2vw;
     }
     #userPhoto h5 {font-size: 14pt;}
-
     .offcanvas nav,
     .offcanvas span {font-size: 13pt;}
     .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+
+    /* Edit profile */
+    #editProfile .user-icon {
+        width: 25vw;
+        padding: 8vw 1vw;
+    }
 
     .navbar-nav {
         flex-direction: row;
@@ -95,20 +99,24 @@
     li .user-icon {width: 4.5vw;}
 
     /* User menu */
-    #userPhoto .user-icon,
-    #editProfile .user-icon {
-        width: 25vw;
-        padding: 2.6vw 4.5vw;
+    #userPhoto .user-icon {
+        width: 12vw;
+        padding: 6vw 0;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 13.5pt;
         padding: 1vw .2vw;
     }
     #userPhoto h5 {font-size: 13pt;}
-
     .offcanvas nav,
     .offcanvas span {font-size: 13pt;}
     .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
+
+    /* Edit profile */
+    #editProfile .user-icon {
+        width: 18vw;
+        padding: 6vw 1vw;
+    }
 
     .navbar-nav {padding: 0 12vw;}
 
@@ -148,20 +156,25 @@
     li .user-icon {width: 2.4vw;}
 
     /* User menu */
-    #userPhoto .user-icon,
-    #editProfile .user-icon {
-        width: 15vw;
-        padding: 2vw 2.9vw;
+    #userPhoto .user-icon {
+        width: 11vw;
+        padding: 4vw 1vw;
     }
+    
     #userPhoto .fa-pen-to-square {
         font-size: 12pt;
         padding: .7vw .1vw;
     }
     #userPhoto h5 {font-size: 13pt;}
-
     .offcanvas nav,
     .offcanvas span {font-size: 10pt;}
     .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
+
+    /* Edit profile */
+    #editProfile .user-icon {
+        width: 15vw;
+        padding: 4vw 1vw;
+    }
 
     /* Banner */
     .carousel-item {height: 25vw;}
@@ -222,20 +235,24 @@
     li .user-icon {width: 2.3vw;}
 
     /* User menu */
-    #userPhoto .user-icon,
-    #editProfile .user-icon {
-        width: 13vw;
-        padding: 1.9vw 2.5vw;
+    #userPhoto .user-icon {
+        width: 9vw;
+        padding: 3vw 1vw;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 13pt;
         padding: .48vw .1vw;
     }
     #userPhoto h5 {font-size: 14pt;}
-
     .offcanvas nav,
     .offcanvas span {font-size: 10pt;}
     .offcanvas .fa-arrow-right-from-bracket {font-size: 12pt;}
+
+    /* Edit profile */
+    #editProfile .user-icon {
+        width: 12vw;
+        padding: 4vw 1vw;
+    }
 
     /* Banner */
     .carousel-item {height: 20vw;}
@@ -305,21 +322,24 @@
     li .user-icon {width: 2vw;}
 
     /* User menu */
-    #userPhoto .user-icon,
-    #editProfile .user-icon  {
-        width: 11vw;
-        padding: 1.9vw 2.5vw;
+    #userPhoto .user-icon  {
+        width: 10vw;
+        padding: 1.9vw 1.2vw;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 13.5pt;
         padding: .42vw .1vw;
     }
     #userPhoto h5 {font-size: 16pt;}
-
     .offcanvas nav,
     .offcanvas span {font-size: 12pt;}
     .offcanvas .fa-arrow-right-from-bracket {font-size: 14pt;}
-
+    
+    /* Edit profile */
+    #editProfile .user-icon {
+        width: 9vw;
+        padding: 3vw 0;
+    }
     /* Banner */
     .carousel-item {height: 20vw;}
     .carousel-item h1 {
@@ -388,13 +408,12 @@
     #searchLarge {width: 30vw;}
     .fa-magnifying-glass {font-size: 14pt;}
 
-    li .user-icon {width: 1.5vw;}
+    li .user-icon {width: 1.6vw;}
 
     /* User menu */
-    #userPhoto .user-icon,
-    #editProfile .user-icon {
-        width: 9vw;
-        padding: 1vw 1.8vw;
+    #userPhoto .user-icon {
+        width: 7vw;
+        padding: 1.2vw .5vw;
     }
     #userPhoto .fa-pen-to-square {
         font-size: 14pt;
@@ -403,7 +422,13 @@
     .offcanvas nav,
     .offcanvas span {font-size: 14pt;}
     .offcanvas .fa-arrow-right-from-bracket {font-size: 16pt;}
-
+    
+    /* Edit profile */
+    #editProfile .user-icon {
+        width: 7vw;
+        padding: 2vw 0;
+    }
+    
     /* Banner */
     .carousel-item {height: 20vw;}
     .carousel-item h1 {
