@@ -110,11 +110,11 @@
 
     <!-- User menu -->
     <div id="userMenu" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="userMenuLabel" data-bs-scroll="true" data-bs-backdrop="static">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header"> <!-- User menu header -->
             <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+        </div> <!-- /end User menu header -->
 
-        <div class="offcanvas-body">
+        <div class="offcanvas-body"> <!-- User menu body -->
             <div id="userPhoto" class="text-center mb-5">
                 <div class="position-relative mb-4">
                     <!-- User Photo -->
@@ -142,24 +142,23 @@
                 <a href="#" class="nav-link fw-bold text-light py-2 mb-2 rounded-pill">Opción 3</a>
                 <a href="#" class="nav-link fw-bold text-light py-3 mt-3 rounded-pill"> <!-- Log out button -->
                     <i class="fa-solid fa-arrow-right-from-bracket"></i>
-
                     <span class="ms-3">Cerrar sesión</span>
                 </a> <!-- /end Log out button -->
             </nav> <!-- /end User menu navigation options -->
-        </div>
+        </div> <!-- /end User menu body -->
     </div>
 
     <!-- Edit profile screen -->
     <div id="editProfile" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editProfileLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header"> <!-- Edit profile header -->
                     <h4 id="editProfileLabel" class="modal-title fw-bold">Editar Perfil</h4>
                     <!-- Close button -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> <!-- /end Edit profile header -->
 
-                <div class="modal-body">
+                <div class="modal-body"> <!-- Edit profile body -->
                     <form action="" method="POST">
                         <div class="mb-3 text-center">
                             <!-- User photo -->
@@ -181,7 +180,7 @@
                         <!-- Save button -->
                         <button type="submit" class="btn btn-success fs-5 d-block w-75 mx-auto">Guardar</button>
                     </form>
-                </div>
+                </div> <!-- /end Edit profile body -->
             </div>
         </div>
     </div>
@@ -234,14 +233,12 @@
                     <!-- "Previous" carousel button -->
                     <button type="button" class="carousel-control-prev" data-bs-target="#carouselBanner" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon rounded" aria-hidden="true"></span>
-
                         <span class="visually-hidden">Previous</span>
                     </button>
 
                     <!-- "Next" carousel button -->
                     <button type="button" class="carousel-control-next" data-bs-target="#carouselBanner" data-bs-slide="next">
                         <span class="carousel-control-next-icon rounded" aria-hidden="true"></span>
-                        
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div> <!-- /end Carousel -->

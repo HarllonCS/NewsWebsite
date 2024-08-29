@@ -61,12 +61,12 @@
 
                         <li class="nav-item">
                             <!-- Login button -->
-                            <!-- <button class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button> -->
+                            <button class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
 
                             <!-- Button to user menu -->
-                            <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
+                            <!-- <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
                                 <i class="fa-user fa-solid text-light"></i>
-                            </button>
+                            </button> -->
                         </li>
                     </ul>
                 </div> <!-- /end Menu options -->
@@ -110,12 +110,12 @@
 
     <!-- User menu -->
     <div id="userMenu" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="userMenuLabel" data-bs-scroll="true" data-bs-backdrop="static">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header"> <!-- User menu header -->
             <!-- Close button -->
             <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+        </div> <!-- /end User menu header -->
 
-        <div class="offcanvas-body">
+        <div class="offcanvas-body"> <!-- User menu body -->
             <div id="userPhoto" class="text-center mb-5">
                 <div class="position-relative mb-4">
                     <!-- User Photo -->
@@ -146,21 +146,21 @@
                     <span class="ms-3">Log out</span>
                 </a> <!-- /end Log out button -->
             </nav> <!-- /end User menu navigation options -->
-        </div>
+        </div> <!-- /end User menu body -->
     </div>
 
     <!-- Edit profile screen -->
     <div id="editProfile" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editProfileLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header"> <!-- Edit profile header -->
                     <h4 id="editProfileLabel" class="modal-title fw-bold">Edit Profile</h4>
 
                     <!-- Close button -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> <!-- /end Edit profile header -->
 
-                <div class="modal-body">
+                <div class="modal-body"> <!-- Edit profile body -->
                     <form action="" method="POST">
                         <div class="mb-3 text-center">
                             <!-- User photo -->
@@ -170,7 +170,6 @@
 
                             <div> <!-- Choose image profile -->
                                 <label for="photo" class="btn btn-primary rounded-pill">Select image</label>
-
                                 <input type="file" name="photo" id="photo" accept=".png,.jpg,.gif" class="d-none">
                             </div> <!-- /end Choose image profile -->
                         </div>
@@ -184,7 +183,7 @@
                         <!-- Save button -->
                         <button type="submit" class="btn btn-success fs-5 d-block w-75 mx-auto">Save</button>
                     </form>
-                </div>
+                </div> <!-- /end Edit profile body -->
             </div>
         </div>
     </div>
@@ -237,14 +236,12 @@
                     <!-- "Previous" carousel button -->
                     <button type="button" class="carousel-control-prev" data-bs-target="#carouselBanner" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon rounded" aria-hidden="true"></span>
-
                         <span class="visually-hidden">Previous</span>
                     </button>
 
                     <!-- "Next" carousel button -->
                     <button type="button" class="carousel-control-next" data-bs-target="#carouselBanner" data-bs-slide="next">
                         <span class="carousel-control-next-icon rounded" aria-hidden="true"></span>
-
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div> <!-- /end Carousel -->

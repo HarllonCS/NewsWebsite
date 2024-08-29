@@ -110,12 +110,12 @@
 
     <!-- User menu -->
     <div id="userMenu" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="userMenuLabel" data-bs-scroll="true" data-bs-backdrop="static">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header"> <!-- User menu header -->
             <!-- Close button -->
             <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+        </div> <!-- /end User menu header -->
 
-        <div class="offcanvas-body">
+        <div class="offcanvas-body"> <!-- User menu body -->
             <div id="userPhoto" class="text-center mb-5">
                 <div class="position-relative mb-4">
                     <!-- User Photo -->
@@ -146,20 +146,20 @@
                     <span class="ms-3">Log out</span>
                 </a> <!-- /end Log out button -->
             </nav> <!-- /end User menu navigation options -->
-        </div>
+        </div> <!-- /end User menu body -->
     </div>
 
     <!-- Edit profile screen -->
     <div id="editProfile" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editProfileLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header"> <!-- Edit profile header -->
                     <h4 id="editProfileLabel" class="modal-title fw-bold">Editar Perfil</h4>
                     <!-- Close button -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> <!-- /end Edit profile header -->
 
-                <div class="modal-body">
+                <div class="modal-body"> <!-- Edit profile body -->
                     <form action="" method="post">
                         <div class="mb-3 text-center">
                             <!-- User photo -->
@@ -181,7 +181,7 @@
                         <!-- Save button -->
                         <button type="submit" class="btn btn-success fs-5 d-block w-75 mx-auto">Save</button>
                     </form>
-                </div>
+                </div> <!-- /end Edit profile body -->
             </div>
         </div>
     </div>
@@ -189,14 +189,14 @@
     <!-- Main content -->
     <main role="main" class="news row mt-md-4 mx-auto">
         <article class="col-lg-8">
-            <div id="newsHeadline">
+            <div id="newsHeadline"> <!-- Headline -->
                 <h1 class="mb-4">Headline - Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-
+                <!-- Headline image -->
                 <div id="headlineImg" class="rounded mb-2"></div>
                 <p class="text-secondary">Caption</p>
-            </div>
+            </div> <!-- /end Headline -->
 
-            <div id="newsText">
+            <div id="newsText"> <!-- News -->
                 <h2>Title 1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus modi eos ut corporis architecto quia doloremque voluptas quaerat beatae, perspiciatis facilis! Voluptas reprehenderit at nam exercitationem ducimus accusantium eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias recusandae natus atque aliquam asperiores in sit magnam distinctio magni quidem aperiam enim nam praesentium consectetur saepe, corrupti tempora eos. Harum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde suscipit sapiente nisi porro aliquam eius! Laudantium impedit vel a quas eos tempore consequatur ipsam alias, laborum consequuntur illo ab in!</p>
 
@@ -214,12 +214,12 @@
 
                 <h2>Title 3</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam itaque odio natus sint quibusdam sapiente libero repellendus mollitia. Dignissimos voluptatum, veritatis aliquam qui facilis blanditiis numquam modi magni animi!</p>
-            </div>
+            </div> <!-- /end News -->
         </article>
 
-        <aside class="col-lg-4">
+        <aside class="col-lg-4"> <!-- Related News -->
             <h4 class="text-center mt-4 mb-3" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">Related News</h4>
-
+            <!-- Related news 1 -->
             <div id="relNews_1" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
                 <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
@@ -231,7 +231,7 @@
                     <div class="card-footer text-secondary border-0">Updated - MM/DD/YYYY</div>
                 </a>
             </div>
-
+            <!-- Related news 2 -->
             <div id="relNews_2" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
                 <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
@@ -243,7 +243,7 @@
                     <div class="card-footer text-secondary border-0">Updated - MM/DD/YYYY</div>
                 </a>
             </div>
-
+            <!-- Related news 3 -->
             <div id="relNews_3" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
                 <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
@@ -255,7 +255,7 @@
                     <div class="card-footer text-secondary border-0">Updated - MM/DD/YYYY</div>
                 </a>
             </div>
-
+            <!-- Related news 4 -->
             <div id="relNews_4" class="card mx-auto rnews-w" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
                 <a href="./news.html" class="text-decoration-none">
                     <div class="news-img rnews-h"></div>
@@ -267,7 +267,7 @@
                     <div class="card-footer text-secondary border-0">Updated - MM/DD/YYYY</div>
                 </a>
             </div>
-        </aside>
+        </aside> <!-- /end Headline -->
     </main> <!-- /end Main content -->
 
     <script src="../js/bootstrap.min.js"></script>
