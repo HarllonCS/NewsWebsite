@@ -2,8 +2,6 @@
 
 /* For Extra Small (portrait phones, less than 576px) devices */
 @media (max-width: 575.98px) {
-    /* ========================== INDEX page ========================== */
-
     /* Header */
     .navbar-brand { font-size: 4vw; }
 
@@ -31,24 +29,23 @@
     .offcanvas-body i { font-size: 16pt; }
     .offcanvas-body nav, .offcanvas-body span { font-size: 13pt; }
 
-    .navbar-nav {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 12vw;
-    }
-
-    /* Banner */
-    #banner { display: none; }
-
     /* News cards */
     .news { margin-top: 6vw; }
     .card {
         width: 90vw;
         margin: 0 auto 6vw auto;
     }
-    .card .news-img { height: 50vw; }
+    .card .news-img {
+        width: 100%;
+        height: 28vh;
+    }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 9pt; }
+
+    /* ========================== INDEX page ========================== */
+
+    /* Banner */
+    #banner { display: none; }
 
     /* ========================== NEWS page ========================== */
 
@@ -68,9 +65,8 @@
 
 /* For Small (landscape phones, less than 768px) devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    /* ========================== INDEX page ========================== */
-
-    /* Header */    
+    /* Header */
+    .navbar-nav { padding: 0 12vw; }
     .navbar-brand { font-size: 3.3vw; }
 
     #searchLarge {
@@ -96,15 +92,13 @@
     .offcanvas-body i { font-size: 16pt; }
     .offcanvas-body nav, .offcanvas-body span { font-size: 13pt; }
 
-    .navbar-nav { padding: 0 12vw; }
-
     /* News cards */
     .news { margin-top: 4vw; }
     .card {
         width: 90vw;
         margin: 0 auto 6vw auto;
     }
-    .card .news-img { height: 50vw; }
+    .card .news-img { height: 45vh; }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 9.5pt; }
 
@@ -119,8 +113,6 @@
 
 /* For Medium (tablets, less than 992px) devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /* ========================== INDEX page ========================== */
-
     /* Header */
     .navbar-brand { font-size: 2.4vw; }
 
@@ -148,6 +140,14 @@
     .offcanvas-body i { font-size: 12pt; }
     .offcanvas-body nav, .offcanvas-body span { font-size: 10pt; }
 
+    /* News cards */
+    .news { width: 90vw; }
+    .card { margin-bottom: 4vw; }
+    .card-title { font-size: 14pt; }
+    .card-footer { font-size: 10pt; }
+
+    /* ========================== INDEX page ========================== */
+
     /* Banner */
     .carousel-item { height: 25vw; }
     .carousel-item h1 {
@@ -162,12 +162,7 @@
 
     #carousel_2 h1 { padding: 0 15vw; }
 
-    /* News cards */
-    .news { width: 90vw; }
-    .card { margin-bottom: 4vw; }
-    .card-title { font-size: 14pt; }
-    .card-footer { font-size: 10pt; }
-    
+    /* Image cards width */
     .inews-md-w { width: 45.5vw; }
     .inews-md-h { height: 23vw; }
 
@@ -187,8 +182,6 @@
 
 /* For Large (desktops, less than 1200px) devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* ========================== INDEX page ========================== */
-
     /* Header */
     .navbar-brand { font-size: 2.2vw; }
 
@@ -216,6 +209,14 @@
     .offcanvas-body i { font-size: 12pt; }
     .offcanvas-body nav, .offcanvas-body span { font-size: 10pt; }
 
+    /* News cards */
+    .news { width: 90vw; }
+    .card { margin-bottom: 3vw; }
+    .card-title { font-size: 11pt; }
+    .card-footer { font-size: 8.5pt; }
+
+    /* ========================== INDEX page ========================== */
+
     /* Banner */
     .carousel-item { height: 20vw; }
     .carousel-item h1 {
@@ -227,15 +228,9 @@
         font-size: 1vw;
     }
     #carousel_1 button { font-size: 1.2vw; }
-
     #carousel_2 h1 { padding: 0 15vw; }
-
-    /* News cards */
-    .news { width: 90vw; }
-    .card { margin-bottom: 3vw; }
-    .card-title { font-size: 11pt; }
-    .card-footer { font-size: 8.5pt; }
-
+    
+    /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
     .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
     .inews-lg-h { height: 10.5vw; }
@@ -266,8 +261,6 @@
 
 /* For Extra Large devices (>= 1200px) size screens */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    /* ========================== INDEX page ========================== */
-
     /* Header */
     .navbar-brand { font-size: 2vw; }
 
@@ -295,6 +288,14 @@
     .offcanvas-body i { font-size: 14pt; }
     .offcanvas-body nav, .offcanvas-body span { font-size: 12pt; }
 
+    /* News cards */
+    .news { width: 90vw; }
+    .card { margin-bottom: 3vw; }
+    .card-title { font-size: 13pt; }
+    .card-footer { font-size: 9pt; }
+
+    /* ========================== INDEX page ========================== */
+
     /* Banner */
     .carousel-item { height: 20vw; }
     .carousel-item h1 {
@@ -309,15 +310,9 @@
         font-size: 1.2vw;
         margin-bottom: 2vw;
     }
-
     #carousel_2 h1 { padding: 0 15vw; }
 
-    /* News cards */
-    .news { width: 90vw; }
-    .card { margin-bottom: 3vw; }
-    .card-title { font-size: 13pt; }
-    .card-footer { font-size: 9pt; }
-
+    /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
     .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
     .inews-lg-h { height: 10.5vw; }
@@ -353,8 +348,6 @@
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
 @media (min-width: 1400px) {
-    /* ========================== INDEX page ========================== */
-
     /* Header */
     .navbar-brand { font-size: 2vw; }
 
@@ -376,6 +369,12 @@
     .offcanvas-body nav, .offcanvas-body span { font-size: 14pt; }
     .offcanvas-body nav i { font-size: 16pt; }
 
+    /* News cards */
+    .news { width: 90vw; }
+    .card { margin-bottom: 3vw;}
+
+    /* ========================== INDEX page ========================== */
+
     /* Banner */
     .carousel-item { height: 20vw; }
     .carousel-item h1 {
@@ -387,12 +386,9 @@
         font-size: 1vw;
     }
     #carousel_1 button { font-size: 1.2vw; }
-
     #carousel_2 h1 { padding: 0 15vw; }
 
-    /* News cards */
-    .card { margin-bottom: 3vw;}
-    .news { width: 90vw; }
+    /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
     .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
     .inews-lg-h { height: 10.5vw; }
@@ -400,8 +396,6 @@
     /* ========================== NEWS page ========================== */
     
     /* Text of the news */
-    #newsText h2 { font-size: 20pt; }
-    #newsText h3 { font-size: 18pt; }
     #newsText p { font-size: 14pt; }
 
     /* Related News */

@@ -1,12 +1,5 @@
 /* Fonts */
-@font-face {
-    font-family: 'Newsreader';
-    src: url('../res/fonts/Newsreader-Regular.ttf');
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('../res/fonts/Roboto-Regular.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body { background-color: whitesmoke; }
 #regBody { background-color: #f6ecc8; }
@@ -15,7 +8,7 @@ body { background-color: whitesmoke; }
 /* Navigation bar */
 .navbar { background-color: #842440; }
 
-.navbar-brand { font-family: 'Newsreader', serif; }
+.navbar-brand { font-family: 'Newsreader', sans-serif; }
 
 /* Search bar */
 header input[type='search'] {
@@ -156,17 +149,19 @@ li #btnUserMenu i { padding: 5px 4px; }
 #news_16 .news-img { background-image: url('https://picsum.photos/1?random=16'); }
 
 /* =========================== NEWS page =========================== */
+#newsHeadline { font-family: 'Lora', serif; }
 
-article #headlineImg {
-    background: url('https://picsum.photos/1');
-    height: 25vw;
+#newsText {
+    font-family: 'Open Sans', sans-serif;
+    color: #2e2e2e;
+    letter-spacing: .5px;
 }
 
+/* Related news */
 #relNews_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
 #relNews_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
 #relNews_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
 #relNews_4 .news-img { background: url('https://picsum.photos/1?random=4'); }
-
 
 /* =========================== REGISTER page =========================== */
 
