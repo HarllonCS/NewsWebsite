@@ -1,103 +1,109 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body { background-color: whitesmoke; }
-#regBody { background-color: #f6ecc8; }
+:root {
+    --red1: #7a1e38;
+    --red2: #6b132c;
+    --red3: #842440;
+    --white1: #ffffff63;
+    --white2: #ffffff8e;
+    --black: #2e2e2e; 
+}
+
+body { background: whitesmoke; }
+#regBody { background: #f6ecc8; }
 
 /* Header */
 /* Navigation bar */
-.navbar { background-color: #842440; }
-
+.navbar { background: var(--red3); }
 .navbar-brand { font-family: 'Newsreader', sans-serif; }
 
 /* Search bar */
 header input[type='search'] {
-    background-color: #691b31;
-    border-color: #ffffff63;
+    background: var(--red2);
+    border-color: var(--white1);
 }
 header input[type='search']::placeholder {
     color: whitesmoke;
     font-weight: bold;
 }
 header input[type='search']:focus {
-    background-color: #18080c52;
+    background: #18080c52;
     box-shadow: none;
-    border-color: whitesmoke;
+    border-color: var(--white2);
 }
 
 /* Button of search bar */
 header .input-group button {
-    background-color: #af2f53;
-    border: 1px solid #ffffff63;
+    background: #af2f53;
+    border-color: var(--white1);
 }
 header .input-group button:hover {
-    background-color: #a12a4c;
-    border: 1px solid #ffffff63;
+    background: #a12a4c;
+    border-color: var(--white2);
 }
 
 /* header li */
-li .form-select {
+header li .form-select {
     cursor: pointer;
-    border-color: #ffffff63;
-    background-color: #7a1e38;
+    border-color: var(--white1);
+    background: var(--red1);
     transition: all .3s;
 }
-li .form-select:hover {
-    background-color: #6b132c;
-    border-color: #ffffff8e;
+header li .form-select:hover {
+    background: var(--red2);
+    border-color: var(--white2);
 }
-
-li option { background-color: whitesmoke; }
+header li option { background: whitesmoke; }
 
 /* Login button */
-li .btn {
-    background-color: #7a1e38;
+header li .btn {
+    background: var(--red1);
+    border: 1px solid var(--white1);
     color: whitesmoke;
-    border: 1px solid #ffffff63;
 }
-li .btn:hover {
-    background-color: #6b132c;
-    border-color: #ffffff8e;
+header li .btn:hover {
+    background: var(--red2);
+    border-color: var(--white2);
     color: whitesmoke
 }
 
 /* User menu button */
-li #btnUserMenu {
-    background-color: #a02347;
+header li #btnUserMenu {
+    background: #a02347;
     border: 1px solid #d8d8d877;
     transition: all .3s;
 }
-li #btnUserMenu:hover { background-color: #7a1e38; }
-li #btnUserMenu i { padding: 5px 4px; }
+header li #btnUserMenu:hover { background: var(--red1); }
+header li #btnUserMenu i { padding: 5px 4px; }
 
 /* User Menu */
-#userMenu { background-color: #5c1529; }
-#userPhoto .fa-user { background-color: #7a1e38; }
+#userMenu { background: #5c1529; }
+#userPhoto .fa-user { background: var(--red1); }
 #userPhoto button {
-    background-color: #b83056;
+    background: #b83056;
     top: 80%; right: 32%;
     transition: .3s;
 }
-#userPhoto button:hover { background-color: #7a1e38; }
-#userMenu nav a:hover { background-color: #18080c52; }
+#userPhoto button:hover { background: var(--red1); }
+#userMenu nav a:hover { background: #18080c52; }
 
 /* Edit user data screen */
-#editProfile .fa-user { background-color: whitesmoke; }
+#editProfile .fa-user { background: whitesmoke; }
 
 /* Responsive button */
-.navbar-toggler { background-color: #6b132c; }
+.navbar-toggler { background: var(--red2); }
 
 /* ============================ INDEX page ============================ */
 
 /* Banner */
 #banner {
-    border-bottom: 5px solid #842440;
-    background-color: #fb7d6f;
+    border-bottom: 5px solid var(--red3);
+    background: #fb7d6f;
 }
-
-#carousel_1 { background-image: url('https://picsum.photos/1920/520?random=1'); }
-#carousel_2 { background-image: url('https://picsum.photos/1920/520?random=2'); }
-#carousel_3 { background-image: url('https://picsum.photos/1920/520?random=3'); }
+#carousel_1 { background: url('https://picsum.photos/1920/400?random=1'); }
+#carousel_2 { background: url('https://picsum.photos/1920/400?random=2'); }
+#carousel_3 { background: url('https://picsum.photos/1920/400?random=3'); }
 /* Big text in index page */
 .carousel h1 {
     font-family: 'Roboto', sans-serif;
@@ -111,50 +117,56 @@ li #btnUserMenu i { padding: 5px 4px; }
 /* Email button */
 .carousel .btn {
     box-shadow: 0px 0px 10px 0px black;
-    background-color: #842440;
+    background-color: var(--red3);
     transition: .3s;
 }
-.carousel .btn:hover { background-color: #701f36; }
+.carousel .btn:hover { background: var(--red1); }
 
 .carousel button span,
-.carousel-indicators [data-bs-target] { background-color: #842440; }
+.carousel-indicators [data-bs-target] { background-color: var(--red3); }
 
 /* News */
 .news { margin: 0 auto; }
-
 .card {
-    background-color: transparent;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.card a { color: var(--black); }
+.card .news-img { border-radius: 8px; }
+.card-body { padding-bottom: 0; }
+.card .card-footer {
+    background: transparent;
     border: none;
 }
 
-.card a { color: #2e2e2e; }
-.card .news-img { border-radius: .3vw; }
-.card .card-footer { background-color: whitesmoke; }
-
-#news_1 .news-img { background-image: url('https://picsum.photos/1?random=1'); }
-#news_2 .news-img { background-image: url('https://picsum.photos/1?random=2'); }
-#news_3 .news-img { background-image: url('https://picsum.photos/1?random=3'); }
-#news_4 .news-img { background-image: url('https://picsum.photos/1?random=4'); }
-#news_5 .news-img { background-image: url('https://picsum.photos/1?random=5'); }
-#news_6 .news-img { background-image: url('https://picsum.photos/1?random=6'); }
-#news_7 .news-img { background-image: url('https://picsum.photos/1?random=7'); }
-#news_8 .news-img { background-image: url('https://picsum.photos/1?random=8'); }
-#news_9 .news-img { background-image: url('https://picsum.photos/1?random=9'); }
-#news_10 .news-img { background-image: url('https://picsum.photos/1?random=10'); }
-#news_11 .news-img { background-image: url('https://picsum.photos/1?random=11'); }
-#news_12 .news-img { background-image: url('https://picsum.photos/1?random=12'); }
-#news_13 .news-img { background-image: url('https://picsum.photos/1?random=13'); }
-#news_14 .news-img { background-image: url('https://picsum.photos/1?random=14'); }
-#news_15 .news-img { background-image: url('https://picsum.photos/1?random=15'); }
-#news_16 .news-img { background-image: url('https://picsum.photos/1?random=16'); }
+#news_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
+#news_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
+#news_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
+#news_4 .news-img { background: url('https://picsum.photos/1?random=4'); }
+#news_5 .news-img { background: url('https://picsum.photos/1?random=5'); }
+#news_6 .news-img { background: url('https://picsum.photos/1?random=6'); }
+#news_7 .news-img { background: url('https://picsum.photos/1?random=7'); }
+#news_8 .news-img { background: url('https://picsum.photos/1?random=8'); }
+#news_9 .news-img { background: url('https://picsum.photos/1?random=9'); }
+#news_10 .news-img { background: url('https://picsum.photos/1?random=10'); }
+#news_11 .news-img { background: url('https://picsum.photos/1?random=11'); }
+#news_12 .news-img { background: url('https://picsum.photos/1?random=12'); }
+#news_13 .news-img { background: url('https://picsum.photos/1?random=13'); }
+#news_14 .news-img { background: url('https://picsum.photos/1?random=14'); }
+#news_15 .news-img { background: url('https://picsum.photos/1?random=15'); }
+#news_16 .news-img { background: url('https://picsum.photos/1?random=16'); }
 
 /* =========================== NEWS page =========================== */
-#newsHeadline { font-family: 'Lora', serif; }
+#newsHeadline {
+    font-family: 'Lora', serif;
+    color: var(--black);
+}
 
 #newsText {
     font-family: 'Open Sans', sans-serif;
-    color: #2e2e2e;
-    letter-spacing: .5px;
+    color: var(--black);
+    letter-spacing: .2px;
 }
 
 /* Related news */
@@ -165,7 +177,7 @@ li #btnUserMenu i { padding: 5px 4px; }
 
 /* =========================== REGISTER page =========================== */
 
-#regLeft { background-color: #fc4450; }
+#regLeft { background: #fc4450; }
 #regLeft h5 {
     text-align: justify;
     text-align-last: center;
@@ -183,6 +195,6 @@ li #btnUserMenu i { padding: 5px 4px; }
 }
 
 footer {
-    background-color: #ad1c45;
+    background: #ad1c45;
     font-size: 20pt;
 }
