@@ -29,24 +29,25 @@
 
                 <form role="search" action="" method="get" id="searchSmall" class="d-sm-none"> <!-- Search bar -->
                     <div class="input-group">
-                        <input type="search" name="search" placeholder="Search" class="form-control text-light rounded-start-pill py-2" aria-label="Search" aria-describedby="searchIcon">
+                        <input type="search" name="search" placeholder="Search" class="form-control text-light rounded-start-pill" aria-label="Search" aria-describedby="searchIcon">
 
-                        <button type="submit" class="input-group-text rounded-end-pill px-4 text-light">
+                        <button type="submit" class="input-group-text rounded-end-pill text-light">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
                     </div>
                 </form> <!-- /end Search bar -->
 
                 <div id="headerMenu" class="collapse navbar-collapse show"> <!-- Menu options -->
-                    <form role="search" action="" method="get" id="searchLarge" class="ms-md-auto py-3"> <!-- Search bar -->
+                    <form role="search" action="" method="get" id="searchLarge" class="ms-md-auto py-3"> <!-- Search form -->
                         <div class="input-group">
-                            <input type="search" name="search" placeholder="Search" class="form-control text-light rounded-start-pill py-2" aria-label="Search" aria-describedby="searchIcon">
-    
-                            <button type="submit" class="input-group-text rounded-end-pill px-4 text-light">
+                            <!-- Search field -->
+                            <input type="search" name="search" placeholder="Search" class="form-control text-light rounded-start-pill" aria-label="Search" aria-describedby="searchIcon">
+                            <!-- Search button -->
+                            <button type="submit" class="input-group-text rounded-end-pill text-light">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
                         </div>
-                    </form> <!-- /end Search bar -->
+                    </form> <!-- /end Search form -->
 
                     <ul class="navbar-nav text-capitalize ms-auto flex-sm-row justify-content-sm-between">
                         <li class="nav-item me-md-3"> <!-- Select language -->
@@ -63,7 +64,7 @@
 
                             <!-- Button to user menu -->
                             <!-- <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
-                                <i class="fa-user fa-solid text-light"></i>
+                                <img src="../src/icons/user-icon-white.svg" alt="User Photo">
                             </button> -->
                         </li>
                     </ul>
@@ -117,9 +118,11 @@
             <div id="userPhoto" class="text-center mb-5">
                 <div class="position-relative mb-4">
                     <!-- User Photo -->
-                    <i class="fa-user fa-solid border rounded-circle text-light"></i>
+                    <div class="rounded-circle d-inline-block user-icon-white">
+                        <img src="../src/icons/user-icon-white.svg" alt="User Photo">
+                    </div>
                     <!-- Edit user data button -->
-                    <button type="button" class="position-absolute border rounded-circle" data-bs-toggle="modal" data-bs-target="#editProfile">
+                    <button type="button" class="position-absolute rounded-circle" data-bs-toggle="modal" data-bs-target="#editProfile">
                         <i class="fa-pen-to-square fa-solid text-light"></i>
                     </button>
                 </div>
@@ -155,10 +158,12 @@
                     <form action="" method="post">
                         <div class="mb-3 text-center">
                             <!-- User photo -->
-                            <i class="fa-user fa-solid border border-black rounded-circle text-dark mb-3"></i>
+                            <div class="rounded-circle d-inline-block mb-4 user-icon-black">
+                                <img src="../src/icons/user-icon-black.svg" alt="User Photo">
+                            </div>
 
                             <div> <!-- Choose image profile -->
-                                <label for="photo" class="btn btn-primary rounded-pill">Selecione uma imagem</label>
+                                <label for="photo" class="btn btn-primary rounded-pill">Select Image</label>
                                 <input type="file" name="photo" id="photo" accept=".png,.jpg,.gif" class="d-none">
                             </div> <!-- /end Choose image profile -->
                         </div>
@@ -183,7 +188,6 @@
                 <h1 class="mb-3">Headline - Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                 <h3 class="mb-4 h5 fw-normal text-secondary lh-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, deserunt cumque aperiam nemo eum ipsum, sit nostrum dolore quibusdam culpa velit natus obcaecati excepturi molestiae suscipit veritatis animi quia quae?</h3>
                 
-                <!-- <div id="headlineImg" class="rounded mb-2"></div> -->
                 <figure class="figure"> <!-- News image -->
                     <img src="https://picsum.photos/1000/450" alt="News Figure" class="w-100 figure-img border border-black rounded">
                     <figcaption class="figure-img">

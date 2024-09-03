@@ -13,27 +13,26 @@
 body { background: whitesmoke; }
 #regBody { background: #f6ecc8; }
 
-/* Header */
-/* Navigation bar */
+/* HEADER - navbar */
 .navbar { background: var(--red3); }
 .navbar-brand { font-family: 'Newsreader', sans-serif; }
 
-/* Search bar */
-header input[type='search'] {
+/* HEADER - search field */
+input[type='search'] {
     background: var(--red2);
     border-color: var(--white1);
 }
-header input[type='search']::placeholder {
+input[type='search']::placeholder {
     color: whitesmoke;
     font-weight: bold;
 }
-header input[type='search']:focus {
+input[type='search']:focus {
     background: #18080c52;
     box-shadow: none;
     border-color: var(--white2);
 }
 
-/* Button of search bar */
+/* HEADER - search button */
 header .input-group button {
     background: #af2f53;
     border-color: var(--white1);
@@ -69,27 +68,33 @@ header li .btn:hover {
 }
 
 /* User menu button */
-header li #btnUserMenu {
+#btnUserMenu {
     background: #a02347;
     border: 1px solid #d8d8d877;
     transition: all .3s;
 }
-header li #btnUserMenu:hover { background: var(--red1); }
-header li #btnUserMenu i { padding: 5px 4px; }
+#btnUserMenu:hover { background: var(--red1); }
 
 /* User Menu */
 #userMenu { background: #5c1529; }
-#userPhoto .fa-user { background: var(--red1); }
 #userPhoto button {
     background: #b83056;
+    border: 1px solid var(--white2);
     top: 80%; right: 32%;
     transition: .3s;
 }
 #userPhoto button:hover { background: var(--red1); }
 #userMenu nav a:hover { background: #18080c52; }
+.user-icon-white {
+    background: var(--red3);
+    border: 1px solid var(--white1);
+}
 
 /* Edit user data screen */
-#editProfile .fa-user { background: whitesmoke; }
+.user-icon-black {
+    background: whitesmoke;
+    border: 1px solid var(--black);
+}
 
 /* Responsive button */
 .navbar-toggler { background: var(--red2); }
