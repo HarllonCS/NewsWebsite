@@ -20,7 +20,7 @@
     }
 
     /* HEADER - user menu button */
-    #btnUserMenu > img {
+    .btn-user-menu > img {
         width: 20pt;
         padding: 5px 3px;
     }
@@ -60,12 +60,12 @@
     /* ========================== INDEX page ========================== */
 
     /* BANNER */
-    #banner { display: none; }
+    .carousel { display: none; }
 
     /* ========================== NEWS page ========================== */
 
-    /* HEADELINE - text */
-    #newsHeadline > h1 { font-size: 18pt; }
+    /* HEADLINE - text */
+    .headline > h1 { font-size: 18pt; }
 
     /* ========================== REGISTER page ========================== */
 
@@ -99,7 +99,7 @@
     .fa-magnifying-glass { font-size: 14pt; }
 
     /* HEADER - user menu button */
-    #btnUserMenu > img {
+    .btn-user-menu > img {
         width: 20pt;
         padding: 5px 3px;
     }
@@ -163,7 +163,7 @@
     .fa-magnifying-glass { font-size: 11pt; }
 
     /* HEADER - user menu button */
-    #btnUserMenu > img {
+    .btn-user-menu > img {
         width: 17pt;
         padding: 5px 3px;
     }
@@ -206,14 +206,14 @@
         line-height: 6vh;
     }
     /* BANNER > CAROUSEL 1 - field */
-    #carousel_1 input {
+    .carousel-1 input {
         width: 35vw;
         font-size: 10pt;
     }
     /* BANNER > CAROUSEL 1 - button */
-    #carousel_1 button { font-size: 12pt; }
+    .carousel-1 button { font-size: 12pt; }
     /* BANNER > CAROUSEL 2 - text */
-    #carousel_2 h1 { padding: 0 15vw; }
+    .carousel-2 h1 { padding: 0 15vw; }
 
     /* Image cards width */
     .inews-md-w { width: 45.5vw; }
@@ -251,7 +251,7 @@
     .fa-magnifying-glass { font-size: 12pt; }
 
     /* HEADER - user menu button */
-    #btnUserMenu > img {
+    .btn-user-menu > img {
         width: 19pt;
         padding: 5px 4px;
     }
@@ -294,14 +294,14 @@
         line-height: 6vh;
     }
     /* BANNER > CAROUSEL 1 - field */
-    #carousel_1 input {
+    .carousel-1 input {
         width: 35vw;
         font-size: 12pt;
     }
     /* BANNER > CARPUSEL 2 - button */
-    #carousel_1 button { font-size: 12pt; }
+    .carousel-1 button { font-size: 12pt; }
     /* BANNER > CAROUSEL 2 - text */
-    #carousel_2 h1 { padding: 0 12vw; }
+    .carousel-2 h1 { padding: 0 12vw; }
     
     /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
@@ -311,10 +311,10 @@
     /* ========================== NEWS page ========================== */
 
     /* HEADLINE */
-    #newsHeadline > h1 { font-size: 20pt; }
+    .headline > h1 { font-size: 20pt; }
 
     /* NEWS TEXT - paragraph */
-    #newsText > p { font-size: 12pt; }
+    .news-text > p { font-size: 12pt; }
 
     /* RELATED NEWS - headline */
     aside > h4 { font-size: 15pt; }
@@ -345,7 +345,7 @@
     .fa-magnifying-glass { font-size: 12pt; }
 
     /* HEADER - user menu button */
-    #btnUserMenu > img {
+    .btn-user-menu > img {
         width: 19pt;
         padding: 5px 4px;
     }
@@ -388,17 +388,17 @@
         line-height: 8vh;
     }
     /* BANNER > CAROUSEL 1 - email field */
-    #carousel_1 input {
+    .carousel-1 input {
         width: 35vw;
         font-size: 12pt;
     }
     /* BANNER > CAROUSEL 1 - send email button */
-    #carousel_1 button {
+    .carousel-1 button {
         font-size: 12pt;
         margin-bottom: 2vw;
     }
     /* BANNER > CAROUSEL 2 - text */
-    #carousel_2 h1 { padding: 0 15vw; }
+    .carousel-2 h1 { padding: 0 15vw; }
 
     /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
@@ -408,10 +408,10 @@
     /* ========================== NEWS page ========================== */
 
     /* HEADLINE */
-    #newsHeadline > h1 { font-size: 24pt; }
+    .headline > h1 { font-size: 24pt; }
 
     /* NEWS TEXT - paragraph */
-    #newsText > p { font-size: 13pt; }
+    .news-text > p { font-size: 13pt; }
 
     /* RELATED NEWS - headlines */
     aside > h4 { font-size: 16pt; }
@@ -448,7 +448,7 @@
     .fa-magnifying-glass { font-size: 14pt; }
 
     /* HEADER - user menu button */
-    #btnUserMenu > img {
+    .btn-user-menu > img {
         width: 22pt;
         padding: 5px 4px;
     }
@@ -488,14 +488,14 @@
         line-height: 8vh;
     }
     /* BANNER > CAROUSEL 1 - input */
-    #carousel_1 input {
+    .carousel-1 input {
         width: 35vw;
         font-size: 16pt;
     }
     /* BANNER > CAROUSEL 1 - button */
-    #carousel_1 button { font-size: 16pt; }
+    .carousel-1 button { font-size: 16pt; }
     /* BANNER > CAROUSEL 2 - text */
-    #carousel_2 h1 { padding: 0 15vw; }
+    .carousel-2 h1 { padding: 0 15vw; }
 
     /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
@@ -505,7 +505,7 @@
     /* ========================== NEWS page ========================== */
     
     /* NEWS TEXT - paragraph */
-    #newsText > p { font-size: 14pt; }
+    .news-text > p { font-size: 14pt; }
 
     /* RELATED NEWS */
     .rnews-w { width: 25vw; }

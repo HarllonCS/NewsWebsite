@@ -7,7 +7,8 @@
     --red3: #842440;
     --white1: #ffffff63;
     --white2: #ffffff8e;
-    --black: #2e2e2e; 
+    --black1: #2e2e2e;
+    --black2: #18080c52;
 }
 
 body { background: whitesmoke; }
@@ -15,132 +16,150 @@ body { background: whitesmoke; }
 
 /* HEADER - navbar */
 .navbar { background: var(--red3); }
+/* HEADER - logo */
 .navbar-brand { font-family: 'Newsreader', sans-serif; }
 
 /* HEADER - search field */
-input[type='search'] {
+.navbar input[type='search'] {
     background: var(--red2);
     border-color: var(--white1);
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
-input[type='search']::placeholder {
+.navbar input[type='search']::placeholder {
     color: whitesmoke;
     font-weight: bold;
 }
-input[type='search']:focus {
-    background: #18080c52;
+.navbar input[type='search']:focus {
+    background: var(--black2);
     box-shadow: none;
     border-color: var(--white2);
 }
 
 /* HEADER - search button */
-header .input-group button {
+.navbar .input-group > button {
     background: #af2f53;
     border-color: var(--white1);
 }
-header .input-group button:hover {
+.navbar .input-group > button:hover {
     background: #a12a4c;
     border-color: var(--white2);
 }
 
-/* header li */
-header li .form-select {
+/* HEADER - language selection */
+.navbar .form-select {
     cursor: pointer;
-    border-color: var(--white1);
     background: var(--red1);
+    border-color: var(--white1);
     transition: all .3s;
 }
-header li .form-select:hover {
+.navbar .form-select:hover {
     background: var(--red2);
     border-color: var(--white2);
 }
-header li option { background: whitesmoke; }
+/* HEADER > LANGUAGE SELECTIONS - options */
+.navbar .form-select > option { background: whitesmoke; }
 
-/* Login button */
-header li .btn {
+/* HEADER - login button */
+.login-btn {
     background: var(--red1);
-    border: 1px solid var(--white1);
+    border-color: var(--white1);
     color: whitesmoke;
 }
-header li .btn:hover {
+.login-btn:hover {
     background: var(--red2);
     border-color: var(--white2);
     color: whitesmoke
 }
 
-/* User menu button */
-#btnUserMenu {
+/* HEADER - user menu button */
+.btn-user-menu {
     background: #a02347;
     border: 1px solid #d8d8d877;
     transition: all .3s;
 }
-#btnUserMenu:hover { background: var(--red1); }
+.btn-user-menu:hover { background: var(--red1); }
 
-/* User Menu */
+/* HEADER - Responsive button */
+.navbar-toggler { background: var(--red2); }
+
+/* USER MENU */
 #userMenu { background: #5c1529; }
-#userPhoto button {
+/* USER MENU - edit profile button */
+#userMenu > .offcanvas-body button {
     background: #b83056;
     border: 1px solid var(--white2);
     top: 80%; right: 32%;
     transition: .3s;
 }
-#userPhoto button:hover { background: var(--red1); }
-#userMenu nav a:hover { background: #18080c52; }
+#userMenu > .offcanvas-body button:hover { background: var(--red1); }
+/* USER MENU - user default icon */
 .user-icon-white {
     background: var(--red3);
     border: 1px solid var(--white1);
 }
+/* USER MENU - options */
+#userMenu a:hover { background: var(--black2); }
 
-/* Edit user data screen */
+/* EDIT PROFILE - user default icon */
 .user-icon-black {
     background: whitesmoke;
-    border: 1px solid var(--black);
+    border: 1px solid var(--black1);
 }
-
-/* Responsive button */
-.navbar-toggler { background: var(--red2); }
 
 /* ============================ INDEX page ============================ */
 
-/* Banner */
-#banner {
-    border-bottom: 5px solid var(--red3);
+/* BANNER */
+#carouselBanner {
     background: #fb7d6f;
+    border-bottom: 5px solid var(--red3);
 }
-#carousel_1 { background: url('https://picsum.photos/1920/400?random=1'); }
-#carousel_2 { background: url('https://picsum.photos/1920/400?random=2'); }
-#carousel_3 { background: url('https://picsum.photos/1920/400?random=3'); }
-/* Big text in index page */
-.carousel h1 {
-    font-family: 'Roboto', sans-serif;
-    color: whitesmoke;
-    text-shadow: 0px 0px 10px black;
-}
-/* email field in index */
-.carousel input[type='email'] { border-color: lightgray; }
-.carousel input[type='email']:hover,
-.carousel input[type='email']:focus { box-shadow: 0 0 0 4px #adcce685; }
-/* Email button */
-.carousel .btn {
+/* BANNER - slide 1 */
+.carousel-1 { background-image: url('../src/imgs/carousel/1.jpg'); }
+/* BANNER - SLIDE 1 - email field */
+.carousel-1 input[type='email'] { border-color: lightgray; }
+.carousel-1 input[type='email']:hover,
+.carousel-1 input[type='email']:focus { box-shadow: 0 0 0 4px #adcce685; }
+/* BANNER - SLIDE 1 - button */
+.carousel-1 .btn {
     box-shadow: 0px 0px 10px 0px black;
     background-color: var(--red3);
     transition: .3s;
 }
-.carousel .btn:hover { background: var(--red1); }
+.carousel-1 .btn:hover { background: var(--red1); }
+/* BANNER - slide 2 */
+.carousel-2 { background-image: url('../src/imgs/carousel/2.jpg'); }
+/* BANNER - slide 3 */
+.carousel-3 { background-image: url('../src/imgs/carousel/3.jpg'); }
+.carousel-item { background-size: 100% 100%; }
 
-.carousel button span,
+/* BANNER - text */
+.carousel-item h1 {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+}
+
+/* BANNER - control buttons */
+.carousel-control-prev-icon, .carousel-control-next-icon,
 .carousel-indicators [data-bs-target] { background-color: var(--red3); }
 
-/* News */
+/* NEWS */
 .news { margin: 0 auto; }
+/* NEWS - cards */
 .card {
     background: transparent;
     border: none;
     padding: 0;
 }
-.card a { color: var(--black); }
-.card .news-img { border-radius: 8px; }
+/* NEWS > CARDS - image */
+.news-img { border-radius: 8px; }
+/* NEWS > CARDS - header */
+.card-title { color: var(--black1); }
+/* NEWS > CARDS - body */
 .card-body { padding-bottom: 0; }
-.card .card-footer {
+/* NEWS > CARDS - footer */
+.card-footer {
     background: transparent;
     border: none;
 }
@@ -163,18 +182,19 @@ header li .btn:hover {
 #news_16 .news-img { background: url('https://picsum.photos/1?random=16'); }
 
 /* =========================== NEWS page =========================== */
-#newsHeadline {
+/* HEADLINE */
+.headline {
     font-family: 'Lora', serif;
     color: var(--black);
 }
-
-#newsText {
+/* TEXT */
+.news-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--black);
     letter-spacing: .2px;
 }
 
-/* Related news */
+/* RELATED NEWS - images */
 #relNews_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
 #relNews_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
 #relNews_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
@@ -182,23 +202,29 @@ header li .btn:hover {
 
 /* =========================== REGISTER page =========================== */
 
+/* LEFT SIDE */
 #regLeft { background: #fc4450; }
+/* LEFT SIDE - text */
 #regLeft h5 {
     text-align: justify;
     text-align-last: center;
 }
 
+/* RIGHT SIDE - register form */
 #create_acc { width: 25vw; }
+/* RIGHT SIDE - login form */
 #login {
     width: 20vw;
     display: none;
 }
 
+/* fields shadows */
 .yellow-shadow:hover, .yellow-shadow:focus {
     border-color: #eed57c;
     box-shadow: 0px 0px 0px 0.25rem #ddc26240;
 }
 
+/* FOOTER */
 footer {
     background: #ad1c45;
     font-size: 20pt;

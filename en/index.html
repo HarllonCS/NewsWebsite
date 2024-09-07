@@ -40,7 +40,7 @@
                     </div>
                 </form> <!-- /end Search form -->
 
-                <div id="headerMenu" class="collapse navbar-collapse show"> <!-- Menu options -->
+                <div class="collapse navbar-collapse show"> <!-- Menu options -->
                     <form role="search" action="" method="get" id="searchLarge" class="ms-md-auto py-3"> <!-- Search form (larger screens) -->
                         <div class="input-group">
                             <!-- Search field -->
@@ -63,10 +63,10 @@
 
                         <li class="nav-item">
                             <!-- Login button -->
-                            <button class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <button class="btn fw-bold login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
 
                             <!-- Button to user menu -->
-                            <!-- <button type="button" id="btnUserMenu" class="rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
+                            <!-- <button type="button" class="rounded-circle btn-user-menu" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-controls="userMenu" aria-label="Toggle navigation">
                                 <img src="../src/icons/user-icon-white.svg" alt="User Photo">
                             </button> -->
                         </li>
@@ -118,7 +118,7 @@
         </div> <!-- /end User menu header -->
 
         <div class="offcanvas-body"> <!-- User menu body -->
-            <div id="userPhoto" class="text-center mb-5">
+            <div class="text-center mb-5">
                 <div class="position-relative mb-4">
                     <!-- User Photo -->
                     <div class="rounded-circle d-inline-block user-icon-white">
@@ -186,8 +186,8 @@
     </div>
 
     <main role="main"> <!-- Main content -->
-        <section id="banner" class="d-sm-none d-md-block"> <!-- Banner -->
-            <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"> <!-- Carousel banner -->
+        <section class="d-sm-none d-md-block"> <!-- Banner -->
+            <div id="carouselBanner" class="carousel slide" data-bs-touch="true"> <!-- Carousel banner -->
                 <div class="carousel-indicators d-sm-none d-xl-flex"> <!-- Carousel indicator -->
                     <!-- Button slide 1 -->
                     <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -198,7 +198,7 @@
                 </div> <!-- Carousel indicator -->
 
                 <div class="carousel-inner"> <!-- Carousel -->
-                    <div id="carousel_1" class="carousel-item active"> <!-- Slide 1 -->
+                    <div class="carousel-item carousel-1 active"> <!-- Slide 1 -->
                         <div class="d-flex h-100">
                             <div class="align-self-center mx-auto">
                                 <h1 class="text-uppercase text-center fw-bold">Receive the news and <br> stay updated</h1>
@@ -212,7 +212,7 @@
                         </div>
                     </div> <!-- /end Slide -->
 
-                    <div id="carousel_2" class="carousel-item"> <!-- Slide 2 -->
+                    <div class="carousel-item carousel-2"> <!-- Slide 2 -->
                         <div class="d-flex h-100">
                             <div class="align-self-center mx-auto">
                                 <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -220,7 +220,7 @@
                         </div>
                     </div> <!-- /end Slide 2 -->
 
-                    <div id="carousel_3" class="carousel-item"> <!-- Slide 3 -->
+                    <div class="carousel-item carousel-3"> <!-- Slide 3 -->
                         <div class="d-flex h-100">
                             <div class="align-self-center mx-auto">
                                 <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
