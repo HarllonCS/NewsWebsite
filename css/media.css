@@ -1,49 +1,51 @@
 /* =========================== MEDIA QUERIES =========================== */
 
-/* For Extra Small (portrait phones, less than 576px) devices */
+/* For Extra Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    /* ========================== INDEX page ========================== */
-
-    /* Header */
-    .navbar-brand { font-size: 4vw; }
-
+    /* HEADER - logo */
+    .navbar-brand { font-size: 14pt; }
+    /* HEADER - search field (larger screens) */
     #searchLarge { display: none; }
+    /* HEADER - search field (smaller screens) */
     #searchSmall {
         margin: 3vw auto;
         width: 85vw;
     }
-
-    .fa-magnifying-glass { font-size: 13pt; }
-
-    li #btnUserMenu { font-size: 18pt; }
-
-    /* User menu */
-    #userPhoto .user-icon {
-        width: 14vw;
-        padding: 8vw 0;
-    }
-    #userPhoto .fa-pen-to-square {
-        font-size: 13.5pt;
-        padding: 1vw .2vw;
-    }
-    #userPhoto h5 { font-size: 14pt; }
-    .offcanvas nav, .offcanvas span { font-size: 13pt; }
-    .offcanvas .fa-arrow-right-from-bracket { font-size: 16pt; }
-
-    /* Edit profile */
-    #editProfile .user-icon {
-        width: 25vw;
-        padding: 8vw 1vw;
-    }
-
+    /* HEADER - search icon */
+    .fa-magnifying-glass { font-size: 14pt; }
+    /* HEADER - language options, login button, user menu button */
     .navbar-nav {
         flex-direction: row;
-        justify-content: space-between;
-        padding: 0 12vw;
+        justify-content: space-around;
     }
 
-    /* Banner */
-    #banner { display: none; }
+    /* HEADER - user menu button */
+    .btn-user-menu > img {
+        width: 20pt;
+        padding: 5px 3px;
+    }
+
+    /* USER MENU - user white icon */
+    .user-icon-white > img {
+        width: 65pt;
+        margin: 30px 40px;
+    }
+    /* USER MENU - edit profile button */
+    .fa-pen-to-square {
+        font-size: 17pt;
+        margin: 5px 0;
+    }
+    /* USER MENU - menu options */
+    #userMenu nav,
+    #userMenu span { font-size: 14pt; }
+    /* USER MENU - log out icon */
+    .fa-arrow-right-from-bracket { font-size: 16pt; }
+
+    /* EDIT PROFILE - user black icon */
+    .user-icon-black > img {
+        width: 65pt;
+        margin: 30px 40px;
+    }
 
     /* News cards */
     .news { margin-top: 6vw; }
@@ -51,62 +53,78 @@
         width: 90vw;
         margin: 0 auto 6vw auto;
     }
-    .card .news-img { height: 50vw; }
+    .news-img { height: 28vh; }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 9pt; }
 
+    /* ========================== INDEX page ========================== */
+
+    /* BANNER */
+    .carousel { display: none; }
+
     /* ========================== NEWS page ========================== */
 
-    #newsHeadline h1 { font-size: 18pt; }
+    /* HEADLINE - text */
+    .headline > h1 { font-size: 18pt; }
 
     /* ========================== REGISTER page ========================== */
 
-    /* Left side (image) */
+    /* LEFT SIDE */
     #regLeft { display: none; }
 
-    /* Right side (register/login screen) */
+    /* RIGHT SIDE */
     #regRight { width: 100%; }
-    #regRight #create_acc { width: 85vw; }
-    #regRight #login { width: 70vw; }
-    #regRight form, #regRight input, #regRight .btn { font-size: 10pt; }
+    /* RIGHT SIDE - register screen */
+    #create_acc { width: 85vw; }
+    /* RGIHT SIDE - login screen */
+    #login { width: 70vw; }
+    /* RIGHT SIDE - form, fields, button */
+    #regRight > form,
+    #regRight input,
+    #regRight .btn { font-size: 10pt; }
 }
 
-/* For Small (landscape phones, less than 768px) devices */
+/* For Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    /* ========================== INDEX page ========================== */
-
-    /* Header */    
-    .navbar-brand { font-size: 3.3vw; }
-
+    /* HEADER - navbar */
+    .navbar-nav { padding: 0 12vw; }
+    /* HEADER - logo */
+    .navbar-brand { font-size: 18pt; }
+    /* HEADER - search field */
     #searchLarge {
         width: 80vw;
         margin: 0 auto;
     }
+    /* HEADER - search icon */
+    .fa-magnifying-glass { font-size: 14pt; }
 
-    .fa-magnifying-glass { font-size: 13pt; }
-
-    li #btnUserMenu { font-size: 18pt; }
-
-    /* User menu */
-    #userPhoto .user-icon {
-        width: 12vw;
-        padding: 6vw 0;
-    }
-    #userPhoto .fa-pen-to-square {
-        font-size: 13.5pt;
-        padding: 1vw .2vw;
-    }
-    #userPhoto h5 { font-size: 13pt; }
-    .offcanvas nav, .offcanvas span { font-size: 13pt; }
-    .offcanvas .fa-arrow-right-from-bracket { font-size: 16pt; }
-
-    /* Edit profile */
-    #editProfile .user-icon {
-        width: 18vw;
-        padding: 6vw 1vw;
+    /* HEADER - user menu button */
+    .btn-user-menu > img {
+        width: 20pt;
+        padding: 5px 3px;
     }
 
-    .navbar-nav {padding: 0 12vw;}
+    /* USER MENU - user white icon */
+    .user-icon-white > img {
+        width: 65pt;
+        margin: 30px 40px;
+    }
+    /* USER MENU - edit profile button */
+    .fa-pen-to-square {
+        font-size: 17pt;
+        margin: 5px 0;
+    }
+    /* USER MENU - menu options */
+    #userMenu nav,
+    #userMenu span { font-size: 14pt; }
+    /* USER MENU - log out icon */
+    .fa-arrow-right-from-bracket { font-size: 16pt; }
+
+    /* EDIT PROFILE - user black icon */
+    .user-icon-black > img {
+        width: 65pt;
+        margin: 30px 40px;
+    }
 
     /* News cards */
     .news { margin-top: 4vw; }
@@ -114,76 +132,90 @@
         width: 90vw;
         margin: 0 auto 6vw auto;
     }
-    .card .news-img { height: 50vw; }
+    .news-img { height: 45vh; }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 9.5pt; }
 
     /* ========================== REGISTER page ========================== */
 
-    /* Right side (image) */
+    /* RIGHT SIDE */
     #regRight { width: 100%; }
-    #regRight #create_acc { width: 60vw; }
-    #regRight #login { width: 40vw; }
-    #regRight form, #regRight input, #regRight .btn { font-size: 10.5pt; }
+    /* RIGHT SIDE - register screen */
+    #create_acc { width: 60vw; }
+    /* RIGHT SIDE - login screen */
+    #login { width: 40vw; }
+    /* RIGHT SIDE - form, fields, button */
+    #regRight > form,
+    #regRight input,
+    #regRight .btn { font-size: 10.5pt; }
 }
 
-/* For Medium (tablets, less than 992px) devices */
+/* For Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /* ========================== INDEX page ========================== */
-
-    /* Header */
-    .navbar-brand { font-size: 2.4vw; }
-
+    /* HEADER - logo */
+    .navbar-brand { font-size: 14pt; }
+    /* HEADER - search field */
     #searchLarge { width: 40vw; }
-    #searchLarge input { font-size: 9.5pt; }
-
-    .nav-item .form-select,
-    .nav-item button { font-size: 9pt; }
-
+    #searchLarge input,
+    /* HEADER - language options, login button */
+    .nav-item > * { font-size: 9.5pt; }
+    /* HEADER - search icon */
     .fa-magnifying-glass { font-size: 11pt; }
 
-    li #btnUserMenu { font-size: 13pt; }
-
-    /* User menu */
-    #userPhoto .user-icon {
-        width: 11vw;
-        padding: 4vw 1vw;
-    }
-    
-    #userPhoto .fa-pen-to-square {
-        font-size: 12pt;
-        padding: .7vw .1vw;
-    }
-    #userPhoto h5 { font-size: 13pt; }
-    .offcanvas nav, .offcanvas span { font-size: 10pt; }
-    .offcanvas .fa-arrow-right-from-bracket { font-size: 12pt; }
-
-    /* Edit profile */
-    #editProfile .user-icon {
-        width: 15vw;
-        padding: 4vw 1vw;
+    /* HEADER - user menu button */
+    .btn-user-menu > img {
+        width: 17pt;
+        padding: 5px 3px;
     }
 
-    /* Banner */
-    .carousel-item { height: 25vw; }
-    .carousel-item h1 {
-        font-size: 2.5vw;
-        line-height: 3.5vw;
+    /* USER MENU - user white icon */
+    .user-icon-white > img {
+        width: 65pt;
+        margin: 30px 40px;
     }
-    #carousel_1 input {
-        width: 35vw;
-        font-size: 9.3pt;
+    /* USER MENU - edit profile button */
+    .fa-pen-to-square {
+        font-size: 17pt;
+        margin: 5px 0;
     }
-    #carousel_1 button { font-size: 1.4vw; }
+    /* USER MENU - menu options */
+    #userMenu nav,
+    #userMenu span { font-size: 14pt; }
+    /* USER MENU - log out icon */
+    .fa-arrow-right-from-bracket { font-size: 16pt; }
 
-    #carousel_2 h1 { padding: 0 15vw; }
+    /* EDIT PROFILE - user black icon */
+    .user-icon-black > img {
+        width: 65pt;
+        margin: 30px 40px;
+    }
 
     /* News cards */
     .news { width: 90vw; }
     .card { margin-bottom: 4vw; }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 10pt; }
-    
+
+    /* ========================== INDEX page ========================== */
+
+    /* BANNER */
+    .carousel-item { height: 35vh; }
+    /* BANNER - text */
+    .carousel-item h1 {
+        font-size: 20pt;
+        line-height: 6vh;
+    }
+    /* BANNER > CAROUSEL 1 - field */
+    .carousel-1 input {
+        width: 35vw;
+        font-size: 10pt;
+    }
+    /* BANNER > CAROUSEL 1 - button */
+    .carousel-1 button { font-size: 12pt; }
+    /* BANNER > CAROUSEL 2 - text */
+    .carousel-2 h1 { padding: 0 15vw; }
+
+    /* Image cards width */
     .inews-md-w { width: 45.5vw; }
     .inews-md-h { height: 23vw; }
 
@@ -194,62 +226,57 @@
     
     /* ========================== REGISTER page ========================== */
 
-    /* Right side (image) */
+    /* RIGHT SIDE */
     #regRight { width: 100%; }
-    #regRight #create_acc { width: 55vw; }
-    #regRight #login { width: 35vw; }
-    #regRight form, #regRight input, #regRight .btn { font-size: 11pt; }
+    /* RIGHT SIDE - register screen */
+    #create_acc { width: 55vw; }
+    /* RIGHT SIDE - login screen */
+    #login { width: 35vw; }
+    /* RIGHT SIDE - form, fields, button */
+    #regRight > form,
+    #regRight input,
+    #regRight .btn { font-size: 11pt; }
 }
 
-/* For Large (desktops, less than 1200px) devices */
+/* For Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* ========================== INDEX page ========================== */
-
-    /* Header */
-    .navbar-brand { font-size: 2.2vw; }
-
+    /* HEADER - logo */
+    .navbar-brand { font-size: 18pt; }
+    /* HEADER - search field */
     #searchLarge { width: 35vw; }
-    #searchLarge input,
+    #searchLarge > input,
+    /* HEADER - language options, login button */
+    .nav-item > * { font-size: 10pt; }
+    /* HEADER - search icon */
+    .fa-magnifying-glass { font-size: 12pt; }
 
-    .nav-item .form-select,
-    .nav-item button { font-size: 10pt; }
-
-    .fa-magnifying-glass { font-size: 11.5pt; }
-
-    li #btnUserMenu { font-size: 14.5pt; }
-
-    /* User menu */
-    #userPhoto .user-icon {
-        width: 9vw;
-        padding: 3vw 1vw;
-    }
-    #userPhoto .fa-pen-to-square {
-        font-size: 13pt;
-        padding: .48vw .1vw;
-    }
-    #userPhoto h5 { font-size: 14pt; }
-    .offcanvas nav, .offcanvas span { font-size: 10pt; }
-    .offcanvas .fa-arrow-right-from-bracket { font-size: 12pt; }
-
-    /* Edit profile */
-    #editProfile .user-icon {
-        width: 12vw;
-        padding: 4vw 1vw;
+    /* HEADER - user menu button */
+    .btn-user-menu > img {
+        width: 19pt;
+        padding: 5px 4px;
     }
 
-    /* Banner */
-    .carousel-item { height: 20vw; }
-    .carousel-item h1 {
-        font-size: 2.5vw;
-        line-height: 3.5vw;
+    /* USER MENU - user white icon */
+    .user-icon-white > img {
+        width: 60pt;
+        margin: 30px 40px;
     }
-    #carousel_1 input {
-        width: 35vw;
-        font-size: 1vw;
+    /* USER MENU - edit profile button */
+    .fa-pen-to-square {
+        font-size: 12pt;
+        margin: 5px 0;
     }
-    #carousel_1 button { font-size: 1.2vw; }
+    /* USER MENU - menu options */
+    #userMenu nav,
+    #userMenu span { font-size: 12pt; }
+    /* USER MENU - log out icon */
+    .fa-arrow-right-from-bracket { font-size: 13pt; }
 
-    #carousel_2 h1 { padding: 0 15vw; }
+    /* EDIT PROFILE - user black icon */
+    .user-icon-black > img {
+        width: 65pt;
+        margin: 30px 40px;
+    }
 
     /* News cards */
     .news { width: 90vw; }
@@ -257,85 +284,93 @@
     .card-title { font-size: 11pt; }
     .card-footer { font-size: 8.5pt; }
 
+    /* ========================== INDEX page ========================== */
+
+    /* BANNER */
+    .carousel-item { height: 40vh; }
+    /* BANNER - text */
+    .carousel-item h1 {
+        font-size: 20pt;
+        line-height: 6vh;
+    }
+    /* BANNER > CAROUSEL 1 - field */
+    .carousel-1 input {
+        width: 35vw;
+        font-size: 12pt;
+    }
+    /* BANNER > CARPUSEL 2 - button */
+    .carousel-1 button { font-size: 12pt; }
+    /* BANNER > CAROUSEL 2 - text */
+    .carousel-2 h1 { padding: 0 12vw; }
+    
+    /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
     .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
     .inews-lg-h { height: 10.5vw; }
 
     /* ========================== NEWS page ========================== */
 
-    /* Headline */
-    #newsHeadline h1 { font-size: 20pt; }
+    /* HEADLINE */
+    .headline > h1 { font-size: 20pt; }
 
-    /* Text of the news */
-    #newsText h2 { font-size: 16pt; }
-    #newsText h3 { font-size: 14pt; }
-    #newsText p { font-size: 12pt; }
+    /* NEWS TEXT - paragraph */
+    .news-text > p { font-size: 12pt; }
 
-    /* Related News */
-    aside h4 { font-size: 15pt; }
+    /* RELATED NEWS - headline */
+    aside > h4 { font-size: 15pt; }
 
     .rnews-w { width: 25vw; }
     .rnews-h { height: 15vw; }
 
     /* ========================== REGISTER page ========================== */
 
-    /* Right side (image) */
+    /* RIGHT SIDE */
     #regRight { width: 100%; }
-    #regRight #create_acc { width: 45vw; }
-    #regRight #login { width: 30vw; }
+    /* RIGHT SIDE - register screen */
+    #create_acc { width: 45vw; }
+    /* RIGHT SIDE - login screen */
+    #login { width: 30vw; }
 }
 
 /* For Extra Large devices (>= 1200px) size screens */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    /* ========================== INDEX page ========================== */
-
-    /* Header */
-    .navbar-brand { font-size: 2vw; }
-
+    /* HEADER - logo */
+    .navbar-brand { font-size: 18pt; }
+    /* HEADER - search field */
     #searchLarge { width: 30vw; }
     #searchLarge input,
-
-    .nav-item .form-select,
-    .nav-item button { font-size: 10pt; }
-
+    /* HEADER - language options, login button */
+    .nav-item > * { font-size: 10pt; }
+    /* HEADER - search icon */
     .fa-magnifying-glass { font-size: 12pt; }
 
-    li #btnUserMenu { font-size: 14pt; }
-
-    /* User menu */
-    #userPhoto .user-icon  {
-        width: 10vw;
-        padding: 1.9vw 1.2vw;
-    }
-    #userPhoto .fa-pen-to-square {
-        font-size: 13.5pt;
-        padding: .42vw .1vw;
-    }
-    #userPhoto h5 { font-size: 16pt; }
-    .offcanvas nav, .offcanvas span { font-size: 12pt; }
-    .offcanvas .fa-arrow-right-from-bracket { font-size: 14pt; }
-    
-    /* Edit profile */
-    #editProfile .user-icon {
-        width: 9vw;
-        padding: 3vw 0;
-    }
-    /* Banner */
-    .carousel-item { height: 20vw; }
-    .carousel-item h1 {
-        font-size: 2.5vw;
-        line-height: 3.5vw;
-    }
-    #carousel_1 input {
-        width: 35vw;
-        font-size: 1vw;
-    }
-    #carousel_1 button {
-        font-size: 1.2vw;
-        margin-bottom: 2vw;
+    /* HEADER - user menu button */
+    .btn-user-menu > img {
+        width: 19pt;
+        padding: 5px 4px;
     }
 
-    #carousel_2 h1 { padding: 0 15vw; }
+    /* USER MENU - user white icon */
+    .user-icon-white > img {
+        width: 65pt;
+        margin: 30px 45px;
+    }
+    /* USER MENU - edit profile button */
+    .fa-pen-to-square {
+        font-size: 13pt;
+        margin: 5px 0;
+    }
+    /* USER MENU - menu options */
+    #userMenu nav,
+    #userMenu span { font-size: 13pt; }
+    /* USER MENU - log out icon */
+    .fa-arrow-right-from-bracket { font-size: 14pt; }
+
+    /* EDIT PROFILE - user black icon */
+    .user-icon-black > img {
+        width: 50pt;
+        margin: 30px 40px;
+    }
 
     /* News cards */
     .news { width: 90vw; }
@@ -343,108 +378,146 @@
     .card-title { font-size: 13pt; }
     .card-footer { font-size: 9pt; }
 
+    /* ========================== INDEX page ========================== */
+
+    /* BANNER */
+    .carousel-item { height: 40vh; }
+    /* BANNER - text */
+    .carousel-item h1 {
+        font-size: 30pt;
+        line-height: 8vh;
+    }
+    /* BANNER > CAROUSEL 1 - email field */
+    .carousel-1 input {
+        width: 35vw;
+        font-size: 12pt;
+    }
+    /* BANNER > CAROUSEL 1 - send email button */
+    .carousel-1 button {
+        font-size: 12pt;
+        margin-bottom: 2vw;
+    }
+    /* BANNER > CAROUSEL 2 - text */
+    .carousel-2 h1 { padding: 0 15vw; }
+
+    /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
     .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
     .inews-lg-h { height: 10.5vw; }
 
     /* ========================== NEWS page ========================== */
 
-    /* Headline */
-    #newsHeadline h1 { font-size: 24pt; }
+    /* HEADLINE */
+    .headline > h1 { font-size: 24pt; }
 
-    /* Text of the news */
-    #newsText h2 { font-size: 18pt; }
-    #newsText h3 { font-size: 16pt; }
-    #newsText p { font-size: 13pt; }
+    /* NEWS TEXT - paragraph */
+    .news-text > p { font-size: 13pt; }
 
-    /* Related News */
-    aside h4 { font-size: 16pt; }
+    /* RELATED NEWS - headlines */
+    aside > h4 { font-size: 16pt; }
 
     .rnews-w { width: 25vw; }
     .rnews-h { height: 15vw; }
 
     /* ========================== REGISTER page ========================== */
 
-    /* Left side (image) */
+    /* LEFT SIDE */
     #regLeft { width: 60%; }
+    /* LEFT SIDE - text */
     #regLeft h5 { font-size: 12pt; }
 
-    /* Right side (register/login screen) */
+    /* RIGHT SIDE */
     #regRight { width: 40%; }
-    #regRight #create_acc { width: 32vw; }
-    #regRight #login { width: 25vw; }
-    #regRight form, #regRight input, #regRight .btn { font-size: 10pt; }
+    /* RIGHT SIDE - register screen */
+    #create_acc { width: 32vw; }
+    /* RIGHT SIDE - login screen */
+    #login { width: 25vw; }
+    /* RIGHT SIDE - form, fields, button */
+    #regRight > form,
+    #regRight input,
+    #regRight .btn { font-size: 10pt; }
 }
 
 /* For Extra Extra Large devices (>= 1400px) size screens */
 @media (min-width: 1400px) {
-    /* ========================== INDEX page ========================== */
-
-    /* Header */
-    .navbar-brand { font-size: 2vw; }
-
+    /* HEADER - logo */
+    .navbar-brand { font-size: 20pt; }
+    /* HEADER > SEARCH FIELD - search field */
     #searchLarge { width: 30vw; }
-
+    /* HEADER > SEARCH FIELD - search icon */
     .fa-magnifying-glass { font-size: 14pt; }
 
-    li #btnUserMenu { font-size: 16pt; }
-
-    /* User menu */
-    #userPhoto .user-icon {
-        width: 7vw;
-        padding: 1.2vw .5vw;
+    /* HEADER - user menu button */
+    .btn-user-menu > img {
+        width: 22pt;
+        padding: 5px 4px;
     }
-    #userPhoto .fa-pen-to-square {
+
+    /* USER MENU - user white icon */
+    .user-icon-white > img {
+        width: 75pt;
+        margin: 35px 50px;
+    }
+    /* USER MENU - edit profile button */
+    .fa-pen-to-square {
         font-size: 14pt;
-        padding: .35vw .1vw;
+        margin: 5px 0;
     }
-    .offcanvas nav, .offcanvas span { font-size: 14pt; }
-    .offcanvas .fa-arrow-right-from-bracket { font-size: 16pt; }
-    
-    /* Edit profile */
-    #editProfile .user-icon {
-        width: 7vw;
-        padding: 2vw 0;
-    }
-    
-    /* Banner */
-    .carousel-item { height: 20vw; }
-    .carousel-item h1 {
-        font-size: 2.5vw;
-        line-height: 3.5vw;
-    }
-    #carousel_1 input {
-        width: 35vw;
-        font-size: 1vw;
-    }
-    #carousel_1 button { font-size: 1.2vw; }
+    /* USER MENU - menu options */
+    #userMenu nav,
+    #userMenu span { font-size: 14pt; }
+    /* USER MENU - log out icon */
+    .fa-arrow-right-from-bracket { font-size: 16pt; }
 
-    #carousel_2 h1 { padding: 0 15vw; }
+    /* EDIT PROFILE - user black icon */
+    .user-icon-black > img {
+        width: 60pt;
+        margin: 30px 42px;
+    }
 
     /* News cards */
-    .card { margin-bottom: 3vw;}
     .news { width: 90vw; }
+    .card { margin-bottom: 3vw; }
+
+    /* ========================== INDEX page ========================== */
+
+    /* BANNER */
+    .carousel-item { height: 40vh; }
+    .carousel-item h1 {
+        font-size: 35pt;
+        line-height: 8vh;
+    }
+    /* BANNER > CAROUSEL 1 - input */
+    .carousel-1 input {
+        width: 35vw;
+        font-size: 16pt;
+    }
+    /* BANNER > CAROUSEL 1 - button */
+    .carousel-1 button { font-size: 16pt; }
+    /* BANNER > CAROUSEL 2 - text */
+    .carousel-2 h1 { padding: 0 15vw; }
+
+    /* Image cards width */
     .inews-lg-w { width: 17.5vw; } /* news_1 -> news_6, news_8 -> news_12, news_14 */
     .inews-lg-w2 { width: 36vw; } /* news_7, news_13, news_15, news_16 */
     .inews-lg-h { height: 10.5vw; }
 
     /* ========================== NEWS page ========================== */
     
-    /* Text of the news */
-    #newsText h2 { font-size: 20pt; }
-    #newsText h3 { font-size: 18pt; }
-    #newsText p { font-size: 14pt; }
+    /* NEWS TEXT - paragraph */
+    .news-text > p { font-size: 14pt; }
 
-    /* Related News */
+    /* RELATED NEWS */
     .rnews-w { width: 25vw; }
     .rnews-h { height: 15vw; }
 
     /* ========================== REGISTER page ========================== */
 
-    /* Left side (image) */
+    /* LEFT SIDE */
     #regLeft { width: 65%; }
+    /* LEST SIDE - text */
     #regLeft h5 { font-size: 14pt; }
 
-    /* Right side (register/login screen) */
+    /* RIGHT SIDE */
     #regRight { width: 35%; }
 }
