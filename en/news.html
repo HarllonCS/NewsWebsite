@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-md px-lg-5"> <!-- Navigation menu -->
             <div class="container-fluid">
                 <!-- Title of the site -->
-                <a href="./index.html" class="navbar-brand text-capitalize fw-bold text-white">news website</a>
+                <a href="./index.html" class="navbar-brand fw-bold text-white">News Website</a>
                                 
                 <button type="button" class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Responsive button -->
                     <span class="navbar-toggler-icon"></span>
@@ -29,9 +29,10 @@
 
                 <form role="search" action="" method="get" id="searchSmall" class="d-sm-none"> <!-- Search bar -->
                     <div class="input-group">
+                        <!-- Search field -->
                         <input type="search" name="search" placeholder="Search" class="form-control text-light rounded-start-pill" aria-label="Search" aria-describedby="searchIcon">
-
-                        <button type="submit" class="input-group-text rounded-end-pill text-light">
+                        <!-- Search button -->
+                        <button type="submit" class="input-group-text rounded-end-pill text-light px-4">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
                     </div>
@@ -43,18 +44,18 @@
                             <!-- Search field -->
                             <input type="search" name="search" placeholder="Search" class="form-control text-light rounded-start-pill" aria-label="Search" aria-describedby="searchIcon">
                             <!-- Search button -->
-                            <button type="submit" class="input-group-text rounded-end-pill text-light">
+                            <button type="submit" class="input-group-text rounded-end-pill text-light px-4">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
                         </div>
                     </form> <!-- /end Search form -->
 
-                    <ul class="navbar-nav text-capitalize ms-auto flex-sm-row justify-content-sm-between">
+                    <ul class="navbar-nav ms-auto flex-sm-row justify-content-sm-between">
                         <li class="nav-item me-md-3"> <!-- Select language -->
                             <select onchange="changeLang(this.value, './news')" class="form-select text-white fw-bold">
-                                <option class="text-black" value="pt-br">Português (BR)</option>
-                                <option class="text-black" value="en" selected>English</option>
-                                <option class="text-black" value="es">Español</option>
+                                <option value="pt-br">Português (BR)</option>
+                                <option value="en" selected>English</option>
+                                <option value="es">Español</option>
                             </select>
                         </li> <!-- /end Select language -->
 

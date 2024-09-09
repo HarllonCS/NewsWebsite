@@ -58,7 +58,10 @@ body { background: whitesmoke; }
     border-color: var(--white2);
 }
 /* HEADER > LANGUAGE SELECTIONS - options */
-.navbar .form-select > option { background: whitesmoke; }
+.navbar .form-select > option {
+    background: whitesmoke;
+    color: #2e2e2e;
+}
 
 /* HEADER - login button */
 .login-btn {
