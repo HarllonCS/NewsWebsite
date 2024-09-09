@@ -86,20 +86,28 @@ body { background: whitesmoke; }
 /* USER MENU */
 #userMenu { background: #5c1529; }
 /* USER MENU - edit profile button */
-#userMenu > .offcanvas-body button {
+.offcanvas-body button {
     background: #b83056;
     border: 1px solid var(--white2);
     top: 80%; right: 32%;
     transition: .3s;
 }
-#userMenu > .offcanvas-body button:hover { background: var(--red1); }
+.offcanvas-body button:hover { background: var(--red1); }
 /* USER MENU - user default icon */
 .user-icon-white {
     background: var(--red3);
     border: 1px solid var(--white1);
 }
 /* USER MENU - options */
-#userMenu a:hover { background: var(--black2); }
+#userMenu .nav-link {
+    color: whitesmoke;
+    border-radius: 50px;
+}
+#userMenu .nav-link:hover { background: var(--black2); }
+#userMenu div > .nav-link {
+    padding: 10px 0 10px 15px;
+    margin-bottom: 6px;
+}
 
 /* EDIT PROFILE - user default icon */
 .user-icon-black {

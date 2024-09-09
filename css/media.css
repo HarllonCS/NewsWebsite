@@ -16,7 +16,7 @@
     /* HEADER - language options, login button, user menu button */
     .navbar-nav {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     /* HEADER - user menu button */
@@ -36,8 +36,7 @@
         margin: 5px 0;
     }
     /* USER MENU - menu options */
-    #userMenu nav,
-    #userMenu span { font-size: 14pt; }
+    #userMenu :where(nav, span) { font-size: 14pt; }
     /* USER MENU - log out icon */
     .fa-arrow-right-from-bracket { font-size: 16pt; }
 
@@ -115,8 +114,7 @@
         margin: 5px 0;
     }
     /* USER MENU - menu options */
-    #userMenu nav,
-    #userMenu span { font-size: 14pt; }
+    #userMenu :where(nav, span) { font-size: 14pt; }
     /* USER MENU - log out icon */
     .fa-arrow-right-from-bracket { font-size: 16pt; }
 
@@ -179,8 +177,7 @@
         margin: 5px 0;
     }
     /* USER MENU - menu options */
-    #userMenu nav,
-    #userMenu span { font-size: 14pt; }
+    #userMenu :where(nav, span) { font-size: 14pt; }
     /* USER MENU - log out icon */
     .fa-arrow-right-from-bracket { font-size: 16pt; }
 
@@ -267,8 +264,7 @@
         margin: 5px 0;
     }
     /* USER MENU - menu options */
-    #userMenu nav,
-    #userMenu span { font-size: 12pt; }
+    #userMenu :where(nav, span) { font-size: 12pt; }
     /* USER MENU - log out icon */
     .fa-arrow-right-from-bracket { font-size: 13pt; }
 
@@ -361,8 +357,7 @@
         margin: 5px 0;
     }
     /* USER MENU - menu options */
-    #userMenu nav,
-    #userMenu span { font-size: 13pt; }
+    #userMenu :where(nav, span) { font-size: 13pt; }
     /* USER MENU - log out icon */
     .fa-arrow-right-from-bracket { font-size: 14pt; }
 
@@ -464,8 +459,7 @@
         margin: 5px 0;
     }
     /* USER MENU - menu options */
-    #userMenu nav,
-    #userMenu span { font-size: 14pt; }
+    #userMenu :where(nav, span) { font-size: 14pt; }
     /* USER MENU - log out icon */
     .fa-arrow-right-from-bracket { font-size: 16pt; }
 

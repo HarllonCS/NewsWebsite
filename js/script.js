@@ -1,4 +1,4 @@
-let register = document.querySelector('#register')
+let register = document.querySelector('#create_acc')
 let login =  document.querySelector('#login')
 let reg_p = document.querySelector('#regP')
 let log_p = document.querySelector('#loginP')
