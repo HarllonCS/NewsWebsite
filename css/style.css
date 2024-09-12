@@ -153,7 +153,11 @@ body { background: whitesmoke; }
     padding: 0;
 }
 /* NEWS > CARDS - image */
-.news-img { border-radius: 8px; }
+.card img {
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #dadada;
+}
 /* NEWS > CARDS - header */
 .card-title { color: var(--black1); }
 /* NEWS > CARDS - body */
