@@ -154,8 +154,9 @@ body { background: whitesmoke; }
 }
 /* NEWS > CARDS - image */
 .card img {
-    border-radius: 8px;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border: 1px solid #dadada;
 }
 /* NEWS > CARDS - header */
@@ -167,23 +168,6 @@ body { background: whitesmoke; }
     background: transparent;
     border: none;
 }
-
-#news_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
-#news_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
-#news_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
-#news_4 .news-img { background: url('https://picsum.photos/1?random=4'); }
-#news_5 .news-img { background: url('https://picsum.photos/1?random=5'); }
-#news_6 .news-img { background: url('https://picsum.photos/1?random=6'); }
-#news_7 .news-img { background: url('https://picsum.photos/1?random=7'); }
-#news_8 .news-img { background: url('https://picsum.photos/1?random=8'); }
-#news_9 .news-img { background: url('https://picsum.photos/1?random=9'); }
-#news_10 .news-img { background: url('https://picsum.photos/1?random=10'); }
-#news_11 .news-img { background: url('https://picsum.photos/1?random=11'); }
-#news_12 .news-img { background: url('https://picsum.photos/1?random=12'); }
-#news_13 .news-img { background: url('https://picsum.photos/1?random=13'); }
-#news_14 .news-img { background: url('https://picsum.photos/1?random=14'); }
-#news_15 .news-img { background: url('https://picsum.photos/1?random=15'); }
-#news_16 .news-img { background: url('https://picsum.photos/1?random=16'); }
 
 /* =========================== NEWS page =========================== */
 /* HEADLINE */
@@ -199,10 +183,10 @@ body { background: whitesmoke; }
 }
 
 /* RELATED NEWS - images */
-#relNews_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
+/* #relNews_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
 #relNews_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
 #relNews_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
-#relNews_4 .news-img { background: url('https://picsum.photos/1?random=4'); }
+#relNews_4 .news-img { background: url('https://picsum.photos/1?random=4'); } */
 
 /* =========================== REGISTER page =========================== */
 
