@@ -34,10 +34,16 @@ function getCards(superArray, elemNum, classNum) {
         cardTitle = superArray[3],
         cardFooter = superArray[4]
 
+    let cardsAOS = 0
     for (let j = 0; j < elemNum; j++) {
         // Create cards
         card[j] = document.createElement('div')
         card[j].classList.add('card')
+        // Data AOS configs
+        cardsAOS += 300
+        card[j].setAttribute('data-aos', 'fade-up')
+        card[j].setAttribute('data-aos-delay', cardsAOS)
+        card[j].setAttribute('data-aos-duration', '1000')
 
         // Create images
         cardNum++

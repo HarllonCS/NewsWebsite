@@ -163,7 +163,7 @@ body { background: whitesmoke; }
     object-fit: cover;
     border: 1px solid #dadada;
     border-radius: 12px;
-    transition: .3s;
+    transition: .3s border-radius;
 }
 .card:hover > img {
     border-radius: 0;
