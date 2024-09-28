@@ -128,10 +128,9 @@ body { background: whitesmoke; }
 }
 .carousel-1 .btn:hover { background: var(--red1); }
 /* BANNER - slide 2 */
-.carousel-2 h1 { padding: 0 15vw; border: 1px solid black; }
+.carousel-2 h1 { padding: 0 15vw; }
 .carousel-2 { background-image: url('../src/imgs/carousel/2.jpg'); }
 /* BANNER - slide 3 */
-.carousel-3 h1 { border: 1px solid black; }
 .carousel-3 { background-image: url('../src/imgs/carousel/3.jpg'); }
 .carousel-item { background-size: 100% 100%; }
 
