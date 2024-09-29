@@ -26,7 +26,7 @@ function randomInt(min, max) {
 
 // Function to get cards for the first function
 let cardNum = 0
-function getCards(superArray, elemNum, classNum) {
+const getCards = (superArray, elemNum, classNum) => {
     // Array constants that are inside another array
     const card = superArray[0],
         cardImg = superArray[1],
@@ -112,28 +112,31 @@ function generateCards() {
     // Generate rows for the cards
     for (let i = 0; i < 300; i++) {
         cardRow[i] = document.createElement('div')
-        cardRow[i].classList.add('d-flex', 'justify-content-md-between')
+        cardRow[i].classList.add('d-md-flex', 'justify-content-md-between')
 
         // Get a pseudorandom number to generate cards in each row
         const cardsQtd = randomInt(3, 5)
-        let funcNews = null
+        let funcNews = null,
+            classNumber = null
 
-        // Get the function result according to the number
+        //Get the number of bigger cards in each row
         switch (cardsQtd) {
             case 3:
-                funcNews = getCards(cardStuff, cardsQtd, 2)
+                classNumber = 2
                 break
             case 4:
-                funcNews = getCards(cardStuff, cardsQtd, 1)
+                classNumber = 1
                 break
             default:
-                funcNews = getCards(cardStuff, cardsQtd, 0)
+                classNumber = 0
                 break
-        } // Set function results (cards) in row
+        }
+        funcNews = getCards(cardStuff, cardsQtd, classNumber)
+        // Set cards in row
         for (let j = 0; j < cardsQtd; j++) {
             cardRow[i].appendChild(funcNews[j])
         }
-        // Set the each row in the div
+        // Set rows in div
         divNews.appendChild(cardRow[i])
     }
     section.appendChild(divNews)
