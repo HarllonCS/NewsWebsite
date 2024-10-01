@@ -43,8 +43,7 @@ const generateNews = (callback) => {
 
         // Get a pseudorandom number to generate cards in each row
         const cardsQtd = randomInt(3, 5)
-        let funcNews = null,
-            classNumber = null
+        let classNumber = null
 
         //Get the number of bigger cards in each row
         switch (cardsQtd) {
@@ -58,7 +57,7 @@ const generateNews = (callback) => {
                 classNumber = 0
                 break
         }
-        funcNews = callback(cardStuff, cardsQtd, classNumber)
+        let funcNews = callback(cardStuff, cardsQtd, classNumber)
         // Set cards in row
         for (let j = 0; j < cardsQtd; j++) {
             cardRow[i].appendChild(funcNews[j])
