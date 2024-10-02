@@ -139,6 +139,7 @@ body { background: whitesmoke; }
 }
 .carousel-1 .btn:hover { background: var(--red1); }
 /* BANNER - slide 2 */
+.carousel-2 h1 { padding: 0 15vw; }
 .carousel-2 { background-image: url('../src/imgs/carousel/2.jpg'); }
 /* BANNER - slide 3 */
 .carousel-3 { background-image: url('../src/imgs/carousel/3.jpg'); }
@@ -158,13 +159,26 @@ body { background: whitesmoke; }
 /* NEWS */
 .news { margin: 0 auto; }
 /* NEWS - cards */
+.news > div { column-gap: 15px; }
 .card {
     background: transparent;
     border: none;
     padding: 0;
+    width: 50%;
+    cursor: pointer;
 }
 /* NEWS > CARDS - image */
-.news-img { border-radius: 8px; }
+.card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #dadada;
+    border-radius: 12px;
+    transition: .3s border-radius;
+}
+.card:hover > img {
+    border-radius: 0;
+}
 /* NEWS > CARDS - header */
 .card-title { color: var(--black1); }
 /* NEWS > CARDS - body */
@@ -174,25 +188,10 @@ body { background: whitesmoke; }
     background: transparent;
     border: none;
 }
-
-#news_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
-#news_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
-#news_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
-#news_4 .news-img { background: url('https://picsum.photos/1?random=4'); }
-#news_5 .news-img { background: url('https://picsum.photos/1?random=5'); }
-#news_6 .news-img { background: url('https://picsum.photos/1?random=6'); }
-#news_7 .news-img { background: url('https://picsum.photos/1?random=7'); }
-#news_8 .news-img { background: url('https://picsum.photos/1?random=8'); }
-#news_9 .news-img { background: url('https://picsum.photos/1?random=9'); }
-#news_10 .news-img { background: url('https://picsum.photos/1?random=10'); }
-#news_11 .news-img { background: url('https://picsum.photos/1?random=11'); }
-#news_12 .news-img { background: url('https://picsum.photos/1?random=12'); }
-#news_13 .news-img { background: url('https://picsum.photos/1?random=13'); }
-#news_14 .news-img { background: url('https://picsum.photos/1?random=14'); }
-#news_15 .news-img { background: url('https://picsum.photos/1?random=15'); }
-#news_16 .news-img { background: url('https://picsum.photos/1?random=16'); }
+.card-w { width: 100%; }
 
 /* =========================== NEWS page =========================== */
+aside > div { margin: 0 auto; }
 /* HEADLINE */
 .headline {
     font-family: 'Lora', serif;
@@ -206,10 +205,10 @@ body { background: whitesmoke; }
 }
 
 /* RELATED NEWS - images */
-#relNews_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
+/* #relNews_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
 #relNews_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
 #relNews_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
-#relNews_4 .news-img { background: url('https://picsum.photos/1?random=4'); }
+#relNews_4 .news-img { background: url('https://picsum.photos/1?random=4'); } */
 
 /* =========================== REGISTER page =========================== */
 
