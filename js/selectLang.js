@@ -1,0 +1,1 @@
+function changeLang(value, file) {location.assign(`../${value}/${file}.html`)}

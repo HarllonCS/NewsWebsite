@@ -5,16 +5,6 @@ const screenMD = matchMedia('(min-width: 768px) and (max-width: 991.98px)')
 // Large screen
 const screenLG = matchMedia('(min-width: 992px)')
 
-// Get <main> element
-const main = document.getElementsByTagName('main')[0]
-
-// Create a section
-const section = document.createElement('section')
-section.className = 'mt-md-5'
-// Create a space for breaking news
-const divNews = document.createElement('div')
-divNews.className = 'news'
-
 // Function to get a pseudorandom integer number
 const randomInt = (min, max) => {
     const rand = Math.random()
@@ -25,9 +15,19 @@ const randomInt = (min, max) => {
 }
 
 // Function to generate the cards of the news
-const generateNews = (callback) => {
+function generateNews(callback) {
+    // Get <main> element
+    const main = document.getElementsByTagName('main')[0]
+    
+    // Create a section
+    const section = document.createElement('section')
+    section.className = 'mt-md-5'
+    // Create a space for breaking news
+    const divNews = document.createElement('div')
+    divNews.className = 'news'
+    
     const cardRow = []
-    // Set arrays inside of another array
+    
     const cardStuff = [
         card = [],
         cardImg = [],
@@ -84,11 +84,13 @@ generateNews((superArray, elemNum, classNum) => {
         // Create cards
         card[j] = document.createElement('div')
         card[j].classList.add('card')
+
         // Data AOS configs
         cardsAOS += 300
         card[j].setAttribute('data-aos', 'fade-up')
         card[j].setAttribute('data-aos-delay', cardsAOS)
         card[j].setAttribute('data-aos-duration', '1000')
+        
 
         // Create images
         cardNum++
@@ -110,6 +112,8 @@ generateNews((superArray, elemNum, classNum) => {
         cardFooter[j] = document.createElement('div')
         cardFooter[j].classList.add('card-footer', 'text-secondary')
         cardFooter[j].innerText = 'Update - MM/DD/YYYY'
+
+        card[j].addEventListener('click', () => location.href = './news.html')
 
         // Set titles to bodies 
         cardBody[j].appendChild(cardTitle[j])
@@ -138,6 +142,7 @@ generateNews((superArray, elemNum, classNum) => {
             }
         }
     }
+
     // Return card as object
     return card
 })
