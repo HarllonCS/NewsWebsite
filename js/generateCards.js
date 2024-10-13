@@ -1,6 +1,8 @@
 let cardNum = 0
 // Function to generate cards
-export default function generateCards (callback, elements) {
+export default function generateCards(callback, elements) {
+    let dataAOSDelay = 0
+    
     const card = []
     const cardImg = []
     const cardBody = []
@@ -11,6 +13,12 @@ export default function generateCards (callback, elements) {
         // Create cards
         card[i] = document.createElement('div')
         card[i].classList.add('card')
+
+        dataAOSDelay += 300
+        // Data AOS
+        card[i].setAttribute('data-aos', 'fade-up')
+        card[i].setAttribute('data-aos-delay', dataAOSDelay)
+        card[i].setAttribute('data-aos-duration', '1000')
 
         cardNum++
         // Create images for cards
