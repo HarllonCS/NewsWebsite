@@ -310,9 +310,6 @@
     /* RELATED NEWS - headline */
     aside > h4 { font-size: 15pt; }
 
-    .rnews-w { width: 25vw; }
-    .rnews-h { height: 15vw; }
-
     /* ========================== REGISTER page ========================== */
 
     /* RIGHT SIDE */
@@ -400,9 +397,6 @@
     /* RELATED NEWS - headlines */
     aside > h4 { font-size: 16pt; }
 
-    .rnews-w { width: 25vw; }
-    .rnews-h { height: 15vw; }
-
     /* ========================== REGISTER page ========================== */
 
     /* LEFT SIDE */
@@ -483,10 +477,6 @@
     
     /* NEWS TEXT - paragraph */
     .news-text > p { font-size: 14pt; }
-
-    /* RELATED NEWS */
-    .rnews-w { width: 25vw; }
-    .rnews-h { height: 15vw; }
 
     /* ========================== REGISTER page ========================== */
 

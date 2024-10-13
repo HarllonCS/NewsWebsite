@@ -20,6 +20,9 @@ export default function generateCards(callback, elements) {
         card[i].setAttribute('data-aos-delay', dataAOSDelay)
         card[i].setAttribute('data-aos-duration', '1000')
 
+        // Click event
+        card[i].addEventListener('click',  () => location.href = './newsPage.html')
+
         cardNum++
         // Create images for cards
         cardImg[i] = document.createElement('img')
