@@ -277,6 +277,7 @@
 
     /* News cards */
     .news { width: 90vw; }
+    .container-news > div { column-gap: 15px; }
     .card { margin-bottom: 8vh; }
     .card img { height: 18vh; }
     .card-title { font-size: 11pt; }
@@ -360,7 +361,8 @@
     }
 
     /* News cards */
-    .news { width: 90vw; }
+    .container-news { width: 90vw; }
+    .container-news > div { column-gap: 15px; }
     .card { margin-bottom: 8vh; }
     .card img { height: 20vh; }
     .card-title { font-size: 13pt; }
@@ -453,7 +455,8 @@
     }
 
     /* News cards */
-    .news { width: 90vw; }
+    .container-news { width: 90vw; }
+    .container-news > div { column-gap: 15px; }
     .card { margin-bottom: 8vh; }
     .card img { height: 23vh; }
 
@@ -475,8 +478,11 @@
 
     /* ========================== NEWS page ========================== */
     
+    article { width: 65%; }
     /* NEWS TEXT - paragraph */
     .news-text > p { font-size: 14pt; }
+
+    aside { width: 28%; }
 
     /* ========================== REGISTER page ========================== */
 

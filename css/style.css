@@ -157,7 +157,7 @@ body { background: whitesmoke; }
 .carousel-indicators [data-bs-target] { background-color: var(--red3); }
 
 /* NEWS */
-.news { margin: 0 auto; }
+.container-news { margin: 0 auto; }
 /* NEWS - cards */
 .card {
     background: transparent;
@@ -188,6 +188,7 @@ body { background: whitesmoke; }
 .card-w { width: 100%; }
 
 /* =========================== NEWS page =========================== */
+
 aside > .card { width: 100%; }
 /* HEADLINE */
 .headline {
@@ -200,12 +201,6 @@ aside > .card { width: 100%; }
     color: var(--black);
     letter-spacing: .2px;
 }
-
-/* RELATED NEWS - images */
-/* #relNews_1 .news-img { background: url('https://picsum.photos/1?random=1'); }
-#relNews_2 .news-img { background: url('https://picsum.photos/1?random=2'); }
-#relNews_3 .news-img { background: url('https://picsum.photos/1?random=3'); }
-#relNews_4 .news-img { background: url('https://picsum.photos/1?random=4'); } */
 
 /* =========================== REGISTER page =========================== */
 

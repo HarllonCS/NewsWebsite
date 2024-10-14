@@ -13,7 +13,7 @@ const section = document.createElement('section')
 section.classList.add('mt-md-5')
 // Create a space for breaking news
 const divNews = document.createElement('div')
-divNews.classList.add('news')
+divNews.classList.add('container-news')
 // Create array for rows
 const row = []
 // Function to generate bigger cards
