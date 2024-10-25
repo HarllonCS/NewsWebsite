@@ -14,38 +14,16 @@ section.classList.add('mt-md-5')
 // Create a space for breaking news
 const divNews = document.createElement('div')
 divNews.classList.add('container-news')
+
+// Rows amount
+const newsRows = 15
 // Create array for rows
 const row = []
-// Function to generate bigger cards
-const genBiggerCards = (card, classNum) => {
-    // Array for cards indexes
-    const cardsIndexes = []
-
-    // Repeat loop according to the "classNum"
-    for (let i = 0; i < classNum; i++) {
-        
-        let run = true
-
-        while (run) {
-            const classRand = randInt(0, (card.length - 1))
-
-            // Condition to not repeat the index
-            if (cardsIndexes.indexOf(classRand) == -1) {
-                card[classRand].classList.add('card-w')
-
-                // Set the number to array "cardsIndexes"
-                cardsIndexes.push(classRand)
-
-                run = false
-            }
-        }
-    }
-}
-
-for (let i = 0; i < 15; i++) {
+// Loop to create rows for cards
+for (let i = 0; i < newsRows; i++) {
     // Create rows
     row[i] = document.createElement('div')
-    row[i].classList.add('d-md-flex', 'justify-content-between')
+    row[i].classList.add('d-md-flex', 'justify-content-md-between')
     
     // Get a amount of cards
     const cardsAmount = randInt(3, 5)
@@ -77,6 +55,32 @@ for (let i = 0; i < 15; i++) {
         divNews.appendChild(row[i])
 
     }, cardsAmount)
+}
+
+// Function to generate bigger cards
+function genBiggerCards(card, classNum) {
+    // Array for cards indexes
+    const cardsIndexes = []
+
+    // Repeat loop according to the "classNum"
+    for (let i = 0; i < classNum; i++) {
+        
+        let run = true
+
+        while (run) {
+            const classRand = randInt(0, (card.length - 1))
+
+            // Condition to not repeat the index
+            if (cardsIndexes.indexOf(classRand) == -1) {
+                card[classRand].classList.add('card-w')
+
+                // Set the number to array "cardsIndexes"
+                cardsIndexes.push(classRand)
+
+                run = false
+            }
+        }
+    }
 }
 
 section.appendChild(divNews)
