@@ -50,7 +50,7 @@ for (let i = 0; i < newsRows; i++) {
         // Set the amount of cards in each row
         card.forEach(cd => row[i].appendChild(cd))
 
-        genBiggerCards(card, classNum)
+        getBiggerCards(card, classNum)
 
         divNews.appendChild(row[i])
 
@@ -58,7 +58,7 @@ for (let i = 0; i < newsRows; i++) {
 }
 
 // Function to generate bigger cards
-function genBiggerCards(card, classNum) {
+function getBiggerCards(card, classNum) {
     // Array for cards indexes
     const cardsIndexes = []
 
