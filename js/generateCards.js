@@ -2,52 +2,52 @@ let cardNum = 0
 // Function to generate cards
 export default function generateCards(callback, elements) {
     let dataAOSDelay = 0
-    
+
     const card = []
     const cardImg = []
     const cardBody = []
     const cardTitle = []
     const cardFooter = []
 
-    for (let i = 0; i < elements; i++) {
+    for (let y = 0; y < elements; y++) {
         // Create cards
-        card[i] = document.createElement('div')
-        card[i].classList.add('card')
+        card[y] = document.createElement('div')
+        card[y].classList.add('card')
 
         dataAOSDelay += 300
         // Data AOS
-        card[i].setAttribute('data-aos', 'fade-up')
-        card[i].setAttribute('data-aos-delay', dataAOSDelay)
-        card[i].setAttribute('data-aos-duration', '1000')
+        card[y].setAttribute('data-aos', 'fade-up')
+        card[y].setAttribute('data-aos-delay', dataAOSDelay)
+        card[y].setAttribute('data-aos-duration', '1000')
 
         // Click event
-        card[i].addEventListener('click',  () => location.href = './newsPage.html')
+        card[y].addEventListener('click', () => location.href = './newsPage.html')
 
         cardNum++
         // Create images for cards
-        cardImg[i] = document.createElement('img')
-        cardImg[i].src = `https://picsum.photos/1?random=${cardNum}`
-        cardImg[i].alt = `Image news ${cardNum}`
+        cardImg[y] = document.createElement('img')
+        cardImg[y].src = `https://picsum.photos/1?random=${cardNum}`
+        cardImg[y].alt = `Image news ${cardNum}`
 
         // Create bodies for cards
-        cardBody[i] = document.createElement('div')
-        cardBody[i].classList.add('card-body')
+        cardBody[y] = document.createElement('div')
+        cardBody[y].classList.add('card-body')
 
         // Create titles for cards
-        cardTitle[i] = document.createElement('h5')
-        cardTitle[i].classList.add('card-title')
-        cardTitle[i].innerText = `Headline - News ${cardNum}`
+        cardTitle[y] = document.createElement('h5')
+        cardTitle[y].classList.add('card-title')
+        cardTitle[y].innerText = `Headline - News ${cardNum}`
 
         // Create footers for bodies of the cards
-        cardFooter[i] = document.createElement('div')
-        cardFooter[i].classList.add('card-footer', 'text-secondary')
-        cardFooter[i].innerText = 'Update - MM/DD/YYYY'
+        cardFooter[y] = document.createElement('div')
+        cardFooter[y].classList.add('card-footer', 'text-secondary')
+        cardFooter[y].innerText = 'Update - MM/DD/YYYY'
 
         // Set titles to bodies
-        cardBody[i].appendChild(cardTitle[i])
+        cardBody[y].appendChild(cardTitle[y])
         // Set images, bodies and footers to cards
-        card[i].append(cardImg[i], cardBody[i], cardFooter[i])
+        card[y].append(cardImg[y], cardBody[y], cardFooter[y])
     }
-    
+
     callback(card)
 }
