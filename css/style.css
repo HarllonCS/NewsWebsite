@@ -134,19 +134,19 @@ body { background: whitesmoke; }
 /* BANNER - SLIDE 1 - button */
 .carousel-1 .btn {
     box-shadow: 0px 0px 10px 0px black;
-    background-color: var(--red3);
+    background-color: var(--red1);
     transition: .3s;
 }
-.carousel-1 .btn:hover { background: var(--red1); }
+.carousel-1 .btn:hover { background: var(--red3); }
 /* BANNER - slide 2 */
 .carousel-2 { background-image: url('../src/imgs/carousel/2.jpg'); }
-.carousel-2 h1 { padding: 0 15vw; }
+.carousel-2 h2 { padding: 0 15vw; }
 /* BANNER - slide 3 */
 .carousel-3 { background-image: url('../src/imgs/carousel/3.jpg'); }
 .carousel-item { background-size: 100% 100%; }
 
 /* BANNER - text */
-.carousel-item h1 {
+.carousel-item h2 {
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     text-shadow: 0px 0px 10px black;
@@ -158,6 +158,7 @@ body { background: whitesmoke; }
 
 /* NEWS */
 .container-news { margin: 0 auto; }
+.container-news > div { column-gap: 15px; }
 /* NEWS - cards */
 .card {
     background: transparent;

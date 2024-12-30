@@ -11,6 +11,7 @@
         margin: 3vw auto;
         width: 85vw;
     }
+    #searchSmall button {padding: 0 15pt;}
     /* HEADER - search icon */
     .fa-magnifying-glass { font-size: 14pt; }
     /* HEADER - language options, login button, user menu button */
@@ -47,12 +48,11 @@
     }
 
     /* News cards */
-    .news { margin-top: 6vw; }
     .card {
         width: 90vw;
         margin: 0 auto 6vw auto;
     }
-    .card img { height: 35vh; }
+    .card img { height: 30vh; }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 9pt; }
 
@@ -125,12 +125,11 @@
     }
 
     /* News cards */
-    .news { margin-top: 4vw; }
     .card {
         width: 90vw;
         margin: 0 auto 6vw auto;
     }
-    .card img { height: 45vh; }
+    .card img { height: 30vh; }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 9.5pt; }
 
@@ -188,9 +187,9 @@
     }
 
     /* News cards */
-    .news { width: 90vw; }
+    .container-news { width: 95vw; }
     .card { margin-bottom: 4vw; }
-    .card img { height: 35vh; }
+    .card img { height: 28vh; }
     .card-title { font-size: 14pt; }
     .card-footer { font-size: 10pt; }
 
@@ -199,7 +198,7 @@
     /* BANNER */
     .carousel-item { height: 35vh; }
     /* BANNER - text */
-    .carousel-item h1 {
+    .carousel-item h2 {
         font-size: 20pt;
         line-height: 6vh;
     }
@@ -211,11 +210,7 @@
     /* BANNER > CAROUSEL 1 - button */
     .carousel-1 button { font-size: 12pt; }
     /* BANNER > CAROUSEL 2 - text */
-    .carousel-2 h1 { padding: 0 15vw; }
-
-    /* Image cards width */
-    .inews-md-w { width: 45.5vw; }
-    .inews-md-h { height: 23vw; }
+    .carousel-2 h2 { padding: 0 15vw; }
 
     /* ========================== MEWS page ========================== */
 
@@ -276,8 +271,7 @@
     }
 
     /* News cards */
-    .news { width: 90vw; }
-    .container-news > div { column-gap: 15px; }
+    .container-news { width: 90vw; }
     .card { margin-bottom: 8vh; }
     .card img { height: 18vh; }
     .card-title { font-size: 11pt; }
@@ -288,7 +282,7 @@
     /* BANNER */
     .carousel-item { height: 40vh; }
     /* BANNER - text */
-    .carousel-item h1 {
+    .carousel-item h2 {
         font-size: 20pt;
         line-height: 6vh;
     }
@@ -362,7 +356,6 @@
 
     /* News cards */
     .container-news { width: 90vw; }
-    .container-news > div { column-gap: 15px; }
     .card { margin-bottom: 8vh; }
     .card img { height: 20vh; }
     .card-title { font-size: 13pt; }
@@ -373,7 +366,7 @@
     /* BANNER */
     .carousel-item { height: 40vh; }
     /* BANNER - text */
-    .carousel-item h1 {
+    .carousel-item h2 {
         font-size: 30pt;
         line-height: 8vh;
     }
@@ -456,7 +449,6 @@
 
     /* News cards */
     .container-news { width: 90vw; }
-    .container-news > div { column-gap: 15px; }
     .card { margin-bottom: 8vh; }
     .card img { height: 23vh; }
 
@@ -464,8 +456,8 @@
 
     /* BANNER */
     .carousel-item { height: 40vh; }
-    .carousel-item h1 {
-        font-size: 35pt;
+    .carousel-item h2 {
+        font-size: 32pt;
         line-height: 8vh;
     }
     /* BANNER > CAROUSEL 1 - input */

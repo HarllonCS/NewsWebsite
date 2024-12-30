@@ -26,7 +26,7 @@ export default function generateCards(callback, elements) {
         cardNum++
         // Create images for cards
         cardImg[y] = document.createElement('img')
-        cardImg[y].src = `https://picsum.photos/1?random=${cardNum}`
+        cardImg[y].src = `https://picsum.photos/300?random=${cardNum}`
         cardImg[y].alt = `Image news ${cardNum}`
 
         // Create bodies for cards
